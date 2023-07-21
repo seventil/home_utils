@@ -1,0 +1,63 @@
+ScreenManager:
+    id: screen_manager
+    #transition: FadeTransition()
+    MainScreen:
+        id: main_screen
+        name: 'main_screen'
+        manager: 'screen_manager'
+    MenuScreen:
+        id: menu_screen
+        name: 'MenuScreen'
+        manager: 'screen_manager'
+
+<MenuScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'ASCII Life'
+            font_size: 50
+        Button:
+            text: 'New Game'
+            font_size: 30
+            on_release: app.root.current = 'newgame'
+        Button:
+            text: 'Load Game'
+            font_size: 30
+            on_release: app.root.current = 'loadgame'
+        Button:
+            text: 'Settings'
+            font_size: 30
+            on_release: app.root.current = 'something'
+<MainScreen>
+    BoxLayout:
+        orientation: 'vertical'
+        BoxLayout:
+            ToggleButton:
+                id: btn1
+                group: 'a'
+                text: 'Start_client'
+                allow_no_selection: False
+                on_state: if self.state == 'down': root.sleeping_callback()
+            ToggleButton:
+                id: btn2
+                group: 'a'
+                text: 'Stop_client'
+                allow_no_selection: False
+                on_state: if self.state == 'down': root.stop_client()
+            ToggleButton:
+                id: btn3
+                group: 'a'
+                text: 'Scan_devices'
+                allow_no_selection: False
+                on_state: if self.state == 'down': root.start_scan()
+        Label:
+            id: label
+            text: ''
+
+        Label:
+            id: blt_message
+            #text: 'Bluetooth message'
+        Label:
+            id: label_print
+            font_size: 32
+            #text: 'Huge counter for screen manager'
