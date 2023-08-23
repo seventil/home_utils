@@ -5,58 +5,37 @@ import asyncio
 
 from kivy.app import App
 from kivy.lang.builder import Builder
-from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.clock import Clock
-
 from blt_message_processor import BltMessageProcessorSimulation, STOP_BLT_COMMUNICATION_MESSAGE, BltMessageProcessorBleak
+from kivy.uix.screenmanager import ScreenManager, Screen
+from screens import MainScreen, MenuScreen
+from kivy.garden.matplotlib import FigureCanvasKivyAgg
+import matplotlib.pyplot as plt
+import numpy as np
 
 
 ASYNC_APP_UI_TEMPLATE_FILE = "async_app.kv"
 COMMAND_QUEUE_CHECKUP_INTERVAL = 0.2
+BLT_PROCESSOR = BltMessageProcessorSimulation
 
 
+class HardnessTesterData:
+    """Class containing curent data received form ht"""
+    def __init__(self):
+        self.who = None
+        self.b = None
+        self.scale = None
+        self.calib = None
+        self.k = None
+        self.h = None
+        self.e = None
+        self.name = None
 
-class MenuScreen(Screen):
-    pass
+        self.data = []
 
-class MainScreen(Screen):
-    def __init__(self, **kwargs):
-        super(MainScreen, self).__init__()
-        self.loop_thread = None
-
-    def on_enter(self):
-        self.loop_thread = Clock.schedule_interval(self.callback_to_loop, 1)
-
-    def on_leave(self):  
-        Clock.unschedule(self.loop_thread)
-
-    def callback_to_loop(self, dt):
-        try:
-            current = int(self.ids.label_print.text)
-        except:
-            current = 0
-
-        self.ids.label_print.text = str(current+1)
-
-    def start_scan(self):
-        self.ids.label.text = "Scanning blt"
-        scan_devices = App.get_running_app().blt_processor.scan_tpc_devices
-        App.get_running_app().command_queue.append((scan_devices,[]))
-
-    def stop_client(self):
-        print("pressed to stop client")
-        self.ids.label.text = "Stopping client"
-        stop_client = App.get_running_app().blt_processor.stop_client_for_device
-        App.get_running_app().command_queue.append((stop_client,[]))
-        print("stop client command added to queue")
-        print(App.get_running_app().command_queue)
-
-        
-    def sleeping_callback(self):
-        self.ids.label.text = "Connecting client"
-        command_to_send = App.get_running_app().blt_processor.run_client_for_device
-        args = ["TPC-7 #89"] # TODO delete hardcode, implement choice from UI
-        App.get_running_app().command_queue.append((command_to_send, args))
+    def update_data(self, data: dict):
+        for key, value in data.items():
+            setattr(self, key.lower(), value)
 
 
 class AsyncApp(App):
@@ -64,6 +43,8 @@ class AsyncApp(App):
 
     def build(self): # used to build interface, but also i use it as a substitute for init. Every method is init method if you're brave enough
         self.lte_tasks = []
+        self.hardness_tester = HardnessTesterData()
+        self.plt_obj = None
         return Builder.load_file(ASYNC_APP_UI_TEMPLATE_FILE)
 
     async def app_run_with_externals(self):
@@ -72,7 +53,7 @@ class AsyncApp(App):
         '''
         self.command_queue = []
         blt_messages_queue = asyncio.Queue()
-        self.blt_processor = BltMessageProcessorBleak(blt_messages_queue)
+        self.blt_processor = BLT_PROCESSOR(blt_messages_queue)
 
         self.blt_message_consumer_task = asyncio.ensure_future(
             self.process_lte_messages(blt_messages_queue) # TODO should not end with the end message, should always work, connecting/disconnecting to devices should be inside
@@ -84,7 +65,9 @@ class AsyncApp(App):
 
         async def run_wrapper():
             await self.async_run(async_lib='asyncio')
-            self.stop_lte_client()
+            for task in self.lte_tasks:
+                task.cancel()
+            self.lte_tasks = []
             self.command_q_processor.cancel()
             self.blt_message_consumer_task.cancel()
         try:
@@ -112,14 +95,6 @@ class AsyncApp(App):
 
             await asyncio.sleep(COMMAND_QUEUE_CHECKUP_INTERVAL)
 
-    def stop_lte_client(self,):
-        for task in self.lte_tasks:
-            task.cancel()
-        self.lte_tasks = []
-
-
-
-
     async def process_lte_messages(self, blt_messages_queue):
         while True:
             data = await blt_messages_queue.get() # TODO implement health check - if nothing comes ping
@@ -130,12 +105,27 @@ class AsyncApp(App):
                 break
             print("Received callback data via async queue: ",  data)
             if self.root is not None: #Self root is ScreenManager object
-                current_screen = self.root.get_screen(self.root.current)
-                current_screen.ids.blt_message.text = str(data)
+                self.hardness_tester.update_data(data)
+                self.redraw_hardness_tester_data()
+
+    def redraw_hardness_tester_data(self):
+        current_screen = self.root.get_screen(self.root.current)
+
+        current_screen.ids.blt_message.text = str(self.hardness_tester.data)
+        current_screen.ids.blt_b.text = str(self.hardness_tester.b)
+        current_screen.ids.blt_e.text = str(self.hardness_tester.e)
+
+        if self.hardness_tester.e: #subscribe to updates
+            plt.plot(self.hardness_tester.e)
+            if  self.plt_obj:
+                current_screen.ids.pltbox.remove_widget(self.plt_obj)
+            self.plt_obj = FigureCanvasKivyAgg(plt.gcf())
+            current_screen.ids.pltbox.add_widget(self.plt_obj)
+
+        
 
 
 if __name__ == '__main__':
-    
     asyncio.run(
         AsyncApp().app_run_with_externals()
     )

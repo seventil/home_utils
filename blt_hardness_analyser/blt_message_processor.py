@@ -36,6 +36,11 @@ TBluetoothUUID = "49535343-FE7D-4AE5-8FA9-9FAFD205E455"
 
 # TODO normalize interfacess
 
+class BltMessageProcessor:
+    def process_received_message(self,):
+        pass
+
+
 
 
 
@@ -46,7 +51,7 @@ class BltMessageProcessorSimulation:
             b'WHO=TPC-7PRO #91\rK0Text=CT\rK1Text=Al\rK2Text=Ni\rK3Text=--\r',
             b'B=N_CHRG\r', b'SCALE=HRc\r', b'CALIB=CT\r', b'B=72\r',
             b'B=N_CHRG\r', b'SCALE=HB\r', b'CALIB=CT\r', b'B=72\r',
-            b'RECALC\r', b'K=0.531\r', b'H= 345\r',
+            b'RECALC\r', b'K=0.531\r', b'H=345\r',
             b'E=01845\rE=01845\rE=01845\rE=01845\rE=01845\rE=01845\rE=01845\rE=01846\rE=01846\rE=01846\rE=01847\rE=01847\rE=01847\rE=01848\rE=01848\rE=01848\rE=01848\rE=01848\rE=01848\rE=0',
             b'1849\rE=01849\rE=01849\rE=01849\rE=01849\rE=01849\rE=01849\rE=01849\rE=01849\rE=01849\rE=01849\rE=01848\rE=01848\rE=01848\rE=01848\rE=01848\rE=01848\rE=01848\rE=01848\rE=01848\r',
             b'R=0.000600\r', b'V=0.629000\r', b'EMF_DATA_SENT\r',
@@ -70,11 +75,11 @@ class BltMessageProcessorSimulation:
 
     async def scan_tpc_devices(self):
         await asyncio.sleep(1)
-        self._tpc_devices = [{"name": "test_tpc"}]
+        self._tpc_devices = {"name": "test_tpc"}
         await self.command_queue.put(self._tpc_devices)
 
     async def run_client_for_device(self, device_name: str):
-        print(f"connect to device {self._tpc_devices[0]}")
+        print(f"connect to device {self._tpc_devices}")
         print(f"requested for {device_name}")
         await self.simulate_callback_handler()
 

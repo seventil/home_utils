@@ -7,30 +7,33 @@ ScreenManager:
         manager: 'screen_manager'
     MenuScreen:
         id: menu_screen
-        name: 'MenuScreen'
+        name: 'menu_screen'
         manager: 'screen_manager'
 
 <MenuScreen>:
+    color: "black"
     BoxLayout:
         orientation: 'vertical'
         Label:
             text: 'ASCII Life'
             font_size: 50
         Button:
-            text: 'New Game'
-            font_size: 30
-            on_release: app.root.current = 'newgame'
-        Button:
-            text: 'Load Game'
-            font_size: 30
-            on_release: app.root.current = 'loadgame'
-        Button:
-            text: 'Settings'
-            font_size: 30
-            on_release: app.root.current = 'something'
+            text_color: "white"
+            text: 'Oh no go back'
+            font_size: 24
+            on_release: app.root.current = 'main_screen'
+        Label:
+            text: 'Menu label'
+
 <MainScreen>
+    color: "black"
     BoxLayout:
         orientation: 'vertical'
+        color: "black"
+        BoxLayout:
+            id: pltbox
+            size_hint_y: 1
+            pos_hint: {"top":1}
         BoxLayout:
             ToggleButton:
                 id: btn1
@@ -58,6 +61,17 @@ ScreenManager:
             id: blt_message
             #text: 'Bluetooth message'
         Label:
+            id: blt_b
+            #text: 'Bluetooth B message'
+        Label:
+            id: blt_e
+            #text: 'Bluetooth E message'
+        Label:
             id: label_print
             font_size: 32
             #text: 'Huge counter for screen manager'
+        Button:
+            text: 'Goto settings'
+            on_press:
+                app.root.transition.direction = 'left'
+                app.root.current = 'menu_screen'

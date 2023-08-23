@@ -7,6 +7,7 @@ requires kivy, pybluez
 Если установщик выдает ошибку "не подходит для типа процессора", на сайте найдите версию для ARM64.
 При установке поставьте галочку "добавить python.exe в PATH"
 
+open cmd
 2. python -m pip install bleak
 
 3. python -m pip install "kivy[base]"
@@ -16,3 +17,9 @@ requires kivy, pybluez
 4a.3 git clone https://github.com/seventil/device_data_analyzer.git
 ИЛИ
 4d. скопируйте файлы проекта вручную на девайс
+
+
+# TO instal on linux
+1. Скачайте последнюю версию питона
+отркыть терминал
+sudo apt-get install python3
