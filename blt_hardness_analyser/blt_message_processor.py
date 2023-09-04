@@ -185,6 +185,20 @@ class BltMessageProcessorBleak(BltMessageProcessor):
             print("Implement healthcheck already") 
 
 
+class BltMessageProcessorPDBUS(BltMessageProcessor):
+    def __init__(self, command_queue):
+        super().__init__(command_queue)
+        self._tpc_devices = None
+        self._device_client = None
+        self._health_check_task = None
+
+    async def scan_tpc_devices(self):
+        pass
+
+    async def run_client_for_device(self, device_name: str):
+        pass
+
+
 class BLT_interface:
     """ It should scan until stop. If scan is required - scan and get devices back.
     if device is selected - select device and connect to IT automatically.
