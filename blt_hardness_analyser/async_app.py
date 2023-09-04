@@ -16,7 +16,7 @@ import numpy as np
 
 ASYNC_APP_UI_TEMPLATE_FILE = "async_app.kv"
 COMMAND_QUEUE_CHECKUP_INTERVAL = 0.2
-BLT_PROCESSOR = BltMessageProcessorSimulation
+BLT_PROCESSOR = BltMessageProcessorBleak
 
 
 class HardnessTesterData:
@@ -106,6 +106,8 @@ class AsyncApp(App):
             print("Received callback data via async queue: ",  data)
             if self.root is not None: #Self root is ScreenManager object
                 self.hardness_tester.update_data(data)
+                with open("datalog.txt", "a") as fstream:
+                    fstream.write(str(data))
                 self.redraw_hardness_tester_data()
 
     def redraw_hardness_tester_data(self):
@@ -116,7 +118,9 @@ class AsyncApp(App):
         current_screen.ids.blt_e.text = str(self.hardness_tester.e)
 
         if self.hardness_tester.e: #subscribe to updates
-            plt.plot(self.hardness_tester.e)
+            e = self.hardness_tester.e[::4]
+            e = list(map(int,e))
+            plt.plot(e)
             if  self.plt_obj:
                 current_screen.ids.pltbox.remove_widget(self.plt_obj)
             self.plt_obj = FigureCanvasKivyAgg(plt.gcf())

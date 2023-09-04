@@ -21,10 +21,10 @@ import asyncio
 from bleak import BleakScanner, BleakClient
 
 STOP_BLT_COMMUNICATION_MESSAGE = "Connection Stopped"
-EMF_MESSAGE_START = b"RECALC"
+EMF_MESSAGE_START = b"E="
 EMF_MESSAGE_END = b"EMF_DATA_SENT"
 TPC_NAME_PREFIX = "TPC-7"
-HEALTH_CHECK_INTERVAL = 12
+HEALTH_CHECK_INTERVAL = 32
 
 TPC_7_89_MAC = "04:91:62:A5:0B:43"
 TPC_NAMES = ["TPC-7 #89", "TPC-7PRO #91"]
@@ -32,21 +32,48 @@ TPC_RTX = "49535343-1e4d-4bd9-ba61-23c647249616"
 TPC_TX = "49535343-8841-43f4-a8d4-ecbe34729bb3"
 TBluetoothUUID = "49535343-FE7D-4AE5-8FA9-9FAFD205E455"
 
-# Add ABS class with interface
-
-# TODO normalize interfacess
 
 class BltMessageProcessor:
-    def process_received_message(self,):
-        pass
-
-
-
-
-
-class BltMessageProcessorSimulation:
     def __init__(self, command_queue: asyncio.Queue):
         self.command_queue = command_queue
+        self.total_message = None
+
+    async def process_received_message(self, received_message) -> None: 
+        # TODO make sure that health check does not spoil emf gathering
+        if EMF_MESSAGE_START in received_message and self.total_message is None:
+            print(f"received emf message start E= in data {received_message}")
+            self.total_message = []
+
+        elif EMF_MESSAGE_END in received_message:
+            total_command_message = "".join(self.total_message)
+            command = self.process_command(total_command_message)
+            await self.command_queue.put(command)
+            self.total_message = None
+
+        elif self.total_message is None: # this spoils emf
+            command = self.process_command(received_message.decode("utf-8"))
+            await self.command_queue.put(command)
+
+        elif self.total_message is not None:
+            self.total_message.append(received_message.decode("utf-8"))
+            print("gathering emf")
+
+    def process_command(self, command: str) -> dict:
+        processed_command = {}
+        for message in command.split("\r"):
+            if "=" not in message: # and if = is not in message, the command is lost?
+                continue
+
+            key, value = message.split("=")
+            if processed_command.get(key) is None:
+                processed_command[key] = []
+            processed_command[key].append(value)
+        return processed_command
+
+
+class BltMessageProcessorSimulation(BltMessageProcessor):
+    def __init__(self, command_queue: asyncio.Queue):
+        super().__init__(command_queue)
         self.message = [
             b'WHO=TPC-7PRO #91\rK0Text=CT\rK1Text=Al\rK2Text=Ni\rK3Text=--\r',
             b'B=N_CHRG\r', b'SCALE=HRc\r', b'CALIB=CT\r', b'B=72\r',
@@ -61,18 +88,6 @@ class BltMessageProcessorSimulation:
         for bit in self.message:
             yield bit
 
-    def process_command(self, command: str) -> dict:
-        processed_command = {}
-        for message in command.split("\r"):
-            if "=" not in message:
-                continue
-
-            key, value = message.split("=")
-            if processed_command.get(key) is None:
-                processed_command[key] = []
-            processed_command[key].append(value)
-        return processed_command
-
     async def scan_tpc_devices(self):
         await asyncio.sleep(1)
         self._tpc_devices = {"name": "test_tpc"}
@@ -85,27 +100,11 @@ class BltMessageProcessorSimulation:
 
     async def simulate_callback_handler(self):
         message_gen = self.message_generator()
-        total_message = None
-        while True: # TODO make sure that health check does not spoil emf gathering
+        while True:
             try:
                 received_message = next(message_gen)
-
-                if EMF_MESSAGE_START in received_message and total_message is None:
-                    total_message = []
-
-                elif EMF_MESSAGE_END in received_message:
-                    total_command_message = "".join(total_message)
-                    command = self.process_command(total_command_message)
-                    await self.command_queue.put(command)
-                    total_message = None
-
-                elif total_message is None: # this spoils emf
-                    command = self.process_command(received_message.decode("utf-8"))
-                    await self.command_queue.put(command)
-
-                elif total_message is not None:
-                    total_message.append(received_message.decode("utf-8"))
-                    print("gathering emf")
+                
+                await self.process_received_message(received_message)
 
             except StopIteration as e:
                 print('Stopped receiving messages from LTE device', e)
@@ -114,16 +113,15 @@ class BltMessageProcessorSimulation:
             await asyncio.sleep(0.35)
 
 
-class BltMessageProcessorBleak:
-    
+class BltMessageProcessorBleak(BltMessageProcessor):
+
     def __init__(self, command_queue):
+        super().__init__(command_queue)
         self._tpc_devices = None
         self._device_client = None
-        self.command_queue = command_queue
         self._health_check_task = None
     
     async def scan_tpc_devices(self): # TODO crashes when no devices, should just send command with empty list of devices
-
         nearby_lte_devices = await BleakScanner().discover()
         if nearby_lte_devices is None:
             raise LookupError(f"No LTE devices were not found")
@@ -163,7 +161,9 @@ class BltMessageProcessorBleak:
 
     async def callback_handler(self, _, data): # TODO rewrite using simulation callback
         # TODO add healthcheck reset
-        await self.command_queue.put(data)
+        with open("inputdatalog.txt", "a") as fstream:
+            fstream.write(str(data))
+        await self.process_received_message(data)
 
     async def stop_client_for_device(self):
         print("stopping client")
