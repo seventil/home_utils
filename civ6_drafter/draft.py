@@ -24,8 +24,10 @@ LEADER_PASS = [
 
 def main():
     players = ["Алесь", "Мишаня", "Саман", "Елизавета"]
+    leaders = LEADER_PASS[:]
     for legend in players:
-        nation = random.choice(LEADER_PASS)
+        nation = random.choice(leaders)
+        leaders.remove(nation)
         print(f"{legend} will play {nation}")
 
 
