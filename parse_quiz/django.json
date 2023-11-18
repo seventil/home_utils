@@ -1,0 +1,1240 @@
+{
+  "Which is Fictional HTTP request method?": {
+    "POST": "worng",
+    "PUT": "worng",
+    "PAUSE": "right",
+    "PATCH": "worng"
+  },
+  "Which function in the django.urls package can help you avoid hardcoding URLS by generating a URL given the name of a view?": {
+    "Get_script_prefix()": "worng",
+    "Redirect()": "worng",
+    "Reverse()": "right",
+    "Resolve()": "worng"
+  },
+  "Which is not a third-party package commonly used for authentication?": {
+    "Django-guardian": "worng",
+    "Django-rest-auth": "worng",
+    "Authtoken": "worng",
+    "Django-rest-framework-jwt": "right"
+  },
+  "To add a new app to an existing Django project, you must edit the _ section of the _ file.": {
+    "ALLOWED_HOSTS; settings.py": "worng",
+    "APPS; manage.py": "worng",
+    "INSTALLED_APPS; settings.py": "right",
+    "TEMPLATES; urls.py": "worng"
+  },
+  "What python module might be used to store the current state of a Django model in a file?": {
+    "Pickle": "right",
+    "Struct": "worng",
+    "Marshal": "worng",
+    "Serialize": "worng"
+  },
+  "You are uploading a file to Django from a form and you want to save the received file as a field on a model object. You can simply assign the file object from**_to a field of type__**in the model.": {
+    "Request.META; FileField": "worng",
+    "Request.FILES; BLOBField": "worng",
+    "Request.FILES; FileField": "right",
+    "Request.META.Files; CLOBField": "worng"
+  },
+  "What is a callable that takes a value and raises an error if the value fails to meet some criteria?": {
+    "Mediator": "worng",
+    "Validator": "right",
+    "Regular expression": "worng",
+    "Deodorizer": "worng"
+  },
+  "When should you employ the POST method over the GET method for submitting data from a form?": {
+    "When the data in the form may be sensitive": "right",
+    "When you want the data to be cached": "worng",
+    "When you want to use your browser to help with debugging": "worng",
+    "When efficiency is important": "worng"
+  },
+  "In Django, what are used to customize the data that is sent to the templates?": {
+    "Models": "worng",
+    "Views": "right",
+    "Forms": "worng",
+    "Serializers": "worng"
+  },
+  "Why might you want to write a custom model Manager?": {
+    "To perform database queries": "worng",
+    "To set up a database for testing": "worng",
+    "To modify the initial QuerySet that the Manager returns": "right",
+    "To filter the results that a database query returns": "worng"
+  },
+  "Which statement is most accurate, regarding using the default SQLite database on your local/development machine but Postgres in production": {
+    "There's less chance of introducing bugs since SQLite already works out the box": "right",
+    "It's fine, you just need to keep both instances synchronized": "worng",
+    "It's a bad idea and could lead to issues down the road": "worng",
+    "It's the most efficient way to build a project": "worng"
+  },
+  "Which generic view should be used for displaying the tittles of all Django Reinhardt's songs?": {
+    "DetailView": "worng",
+    "TittleView": "worng",
+    "SongView": "worng",
+    "ListView": "right"
+  },
+  "What is WSGI?": {
+    "A server": "right",
+    "An interface specification": "worng",
+    "A Python module": "worng",
+    "A framework": "worng"
+  },
+  "What method can you use to check if form data has changed when using a form instance?": {
+    "Has_changed()": "right",
+    "Its_changed()": "worng",
+    "Has_updated()": "worng",
+    "None of This": "worng"
+  },
+  "How would you stop Django from performing database table creation or deletion operations via migrations for a particular model?**": {
+    "Run the migrate command with --exclude=[model_name].": "worng",
+    "Move the model definition from models.py into its own file.": "worng",
+    "Set managed=False inside the model.": "right",
+    "Don't run the migrate command.": "worng"
+  },
+  "To expose an existing model via an API endpoint, what do you need to implement?**": {
+    "An HTTP request": "worng",
+    "A JSON object": "worng",
+    "A query": "worng",
+    "A serializer": "right"
+  },
+  "What is the result of this template code?       {{\"live long and prosper\"|truncate:3}}": {
+    "Live long and ...": "right",
+    "Live long and": "worng",
+    "A compilation error": "worng",
+    "Liv": "worng"
+  },
+  "Which is not part of Django's design philosophy?": {
+    "Loose Coupling": "worng",
+    "Less Code": "worng",
+    "Fast Development": "worng",
+    "Implicit over explicit": "right"
+  },
+  "What do Django best practice suggest should be \"fat\"?": {
+    "Models": "right",
+    "Controllers": "worng",
+    "Programmers": "worng",
+    "Clients": "worng"
+  },
+  "What executes various Django commands such as running a webserver or creating an app?": {
+    "Migrate.py": "worng",
+    "Wsgi.py": "worng",
+    "Manage.py": "right",
+    "Runserver": "worng"
+  },
+  "Virtual environments are for managing dependencies. Which granularity works best?": {
+    "You should set up a new virtualenv for each Django project": "right",
+    "They should not be used": "worng",
+    "Use the same venv for all your Django work": "worng",
+    "Use a new venv for each Django app": "worng"
+  },
+  "Which command to access the built-in admin tool for the first time?": {
+    "Django-admin setup": "worng",
+    "Django-admin runserver": "worng",
+    "Python manage.py createuser": "worng",
+    "Python manage.py createsuperuser": "right"
+  },
+  "Which class allows you to automatically create a Serializer class with fields and validators that correspond to your model's fields?": {
+    "ModelSerializer": "right",
+    "Model": "worng",
+    "DataSerializer": "worng",
+    "ModelToSerializer": "worng"
+  },
+  "Which type of class allows QuerySets and model instances to be converted to native Python data types for use in APIs?": {
+    "Objectwriters": "worng",
+    "Serializers": "right",
+    "Picklers": "worng",
+    "Viewsets": "worng"
+  },
+  "Which command would you use to apply a migration?": {
+    "Makemigration": "worng",
+    "Update_db": "worng",
+    "Applymigration": "worng",
+    "Migrate": "right"
+  },
+  "To secure an API endpoint, making it accessible to registered users only, you can replace the rest_framework.permissions.allowAny value in the default_permissions section of your settings.py to": {
+    "Rest_framework.permissions.IsAdminUser": "worng",
+    "Rest_framework.permissions.IsAuthenticated": "right",
+    "Rest_framework.permissions.IsAuthorized": "worng",
+    "Rest_framework.permissions.IsRegistered": "worng"
+  },
+  "What is a callable that takes a value and raises an error if the value fails?": {
+    "Validator": "right",
+    "Deodorizer": "worng",
+    "Mediator": "worng",
+    "Regular expression": "worng"
+  },
+  "What decorator is used to require that a view accepts only the get and head methods?": {
+    "Require_safe()": "right",
+    "Require_put()": "worng",
+    "Require_post()": "worng",
+    "Require_get()": "worng"
+  },
+  "Which infrastructure do you need:       title=models.charfield(max_length=100, validators=[validate_spelling])": {
+    "Inizialized array called validators": "worng",
+    "A validators file containing a function called validate_spelling imported at the top of model": "right",
+    "A validators file containing a function called validate imported at the top of model": "worng",
+    "Spelling package imported at the top of model": "worng"
+  },
+  "When to use the Django sites framework?": {
+    "If your single installation powers more than one site": "right",
+    "If you need to serve static as well as dynamic content": "worng",
+    "If you want your app have a fully qualified domain name": "worng",
+    "If you are expecting more than 10.000 users": "worng"
+  },
+  "When should you employ the POST method over GET for submitting data?": {
+    "When efficiency is important": "worng",
+    "When you want the data to be cached": "worng",
+    "When you want to use your browser to help with debugging": "worng",
+    "When the data in the form may be sensitive": "right"
+  },
+  "You should use the http method ___ to read data and ___ to update or create data": {
+    "READ; WRITE": "worng",
+    "GET; POST": "right",
+    "POST; GET": "worng",
+    "GET; PATCH": "worng"
+  },
+  "Which will show the currently installed version?": {
+    "Print (django.version)": "worng",
+    "Import django django.getVersion()": "worng",
+    "Import django django.get_version()": "right",
+    "Python -c django --version": "worng"
+  },
+  "Which is not a Django filed type for integers?": {
+    "SmallIntegerField": "worng",
+    "NegativeIntegerField": "right",
+    "BigAutoField": "worng",
+    "PositiveIntegerField": "worng"
+  },
+  "What does an F() object allow you when dealing with models?": {
+    "Perform db operations without fetching a model object": "right",
+    "Define db transaction isolation levels": "worng",
+    "Use aggregate functions more easily": "worng",
+    "Build reusable QuerySets": "worng"
+  },
+  "A project has accumulated 500 migrations. Which course of action would you pursue?": {
+    "Manually merge your migration files to reduce the number": "worng",
+    "Don't worry about the number": "worng",
+    "Try to minimize the number of migrations": "worng",
+    "Use squashmigrations to reduce the number": "right"
+  },
+  "Which variable name is best according to PEP 8 guidelines?": {
+    "NumFingers": "worng",
+    "Number-of-Fingers": "worng",
+    "Number_of_fingers": "right",
+    "Finger_num": "worng"
+  },
+  "Django supplies sensible default values for settings. In which Python module can you find these settings?": {
+    "Django.utils.default_settings.py": "worng",
+    "Django.utils.global_settings.py": "worng",
+    "Django.conf.default_settings.py": "worng",
+    "Django.conf.global_settings.py": "right"
+  },
+  "You have found a bug in Django and you want to submit a patch. Which is the correct procedure?": {
+    "Fork the Django repository GitHub.": "worng",
+    "Submit a pull request.": "worng",
+    "All of these answers.": "right",
+    "Run Django's test suite.": "worng"
+  },
+  "Which function of Django's Form class will render a form's fields as a series of tags?": {
+    "Show_fields()": "worng",
+    "As_p()": "right",
+    "As_table()": "worng",
+    "Fields()": "worng"
+  },
+  "You receive a MultiValueDictKeyError when trying to access a request parameter with the following code: request.GET['search_term']. Which solution will NOT help you in this scenario?": {
+    "Switch to using POST instead of GET as the request method.": "right",
+    "Make sure the input field in your form is also named ": "worng",
+    "Use MultiValueDict's GET method instead of hitting the dictionary directly like this: request.GET.get('search_term', '').": "worng",
+    "Check if the search_term parameter is present in the request before attempting to access it.": "worng"
+  },
+  "Why are QuerySets considered \"lazy\"?": {
+    "The results of a QuerySet are not ordered.": "worng",
+    "QuerySets do not create any database activity until they are evaluated.": "right",
+    "QuerySets do not load objects into memory until they are needed.": "worng",
+    "Using QuerySets, you cannot execute more complex queries.": "worng"
+  },
+  "You want to create a page that allows editing of two classes connected by a foreign key (e.g., a question and answer that reside in separate tables). What Django feature can you use?": {
+    "Actions": "right",
+    "Admin": "worng",
+    "Mezcal": "worng",
+    "Inlines": "worng"
+  },
+  "Should you create a custom user model for new projects?": {
+    "No. Using a custom user model could break the admin interface and some third-party apps.": "worng",
+    "Yes. It is easier to make changes once it goes into production.": "worng",
+    "No. Django's built-in models.User class has been tried and tested\u2014no point in reinventing the wheel.": "right",
+    "Yes, as there is no other option.": "worng"
+  },
+  "What is the correct way to make a variable available to all of your templates?": {
+    "Set a session variable.": "worng",
+    "Use a global variable.": "worng",
+    "Add a dictionary to the template context.": "worng",
+    "Use RequestContext.": "right"
+  },
+  "Which is NOT a valid step in configuring your Django 2.x instance to serve up static files such as images or CSS?": {
+    "In your urls file, add a pattern that includes the name of your static directory.": "right",
+    "Create a directory named static inside your app directory.": "worng",
+    "Create a directory named after the app under the static directory, and place static files inside.": "worng",
+    "Use the template tag {percentage mark load static percentage mark}.": "worng"
+  },
+  "Which skills do you need to maintain a set of Django templates?": {
+    "Template syntax": "worng",
+    "HTML and template syntax": "right",
+    "Python, HTML, and template syntax": "worng",
+    "Python and template syntax": "worng"
+  },
+  "Django's class-based generic views provide which classes that implement common web development tasks?": {
+    "Concrete": "worng",
+    "Thread-safe": "worng",
+    "Abstract": "right",
+    "Dynamic": "worng"
+  },
+  "What is the typical order of an HTTP request/response cycle in Django?": {
+    "URL > view > template": "right",
+    "Form > model > view": "worng",
+    "Template > view > model": "worng",
+    "URL > template > view > model": "worng"
+  },
+  "What will this URL pattern match? url(r'^$', views.hello)": {
+    "A string beginning with the letter Ra string beginning with the letter R": "worng",
+    "An empty string at the server root": "right",
+    "A string containing ^ and $a string containing ^ and $": "worng",
+    "An empty string anywhere in the URLan empty string anywhere in the URL": "worng"
+  },
+  "Which best practice is NOT relevant to migrations?": {
+    "To make sure that your migrations are up to date, you should run updatemigrations before running your tests.": "right",
+    "You should back up your production database before running a migration.": "worng",
+    "Your migration code should be under source control.": "worng",
+    "If a project has a lot of data, you should test against a staging copy before running the migration on production.": "worng"
+  },
+  "You have inherited a Django project and need to get it running locally. It comes with a requirements.txt file containing all its dependencies. Which command should you use?": {
+    "Django-admin startproject requirements.txt": "worng",
+    "Python install -r requirements.txt": "worng",
+    "Pip install -r requirements.txt": "right",
+    "Pip install Django": "worng"
+  },
+  "What is the correct way to begin a class called \"Rainbow\" in Python?": {
+    "Rainbow {}": "worng",
+    "Export Rainbow:": "worng",
+    "Class Rainbow:": "right",
+    "Def Rainbow:": "worng"
+  },
+  "Every time a user is saved, their quiz_score needs to be recalculated. Where might be an ideal place to add this logic?": {
+    "Template": "worng",
+    "Model": "right",
+    "Database": "worng",
+    "View": "worng"
+  },
+  "Which step would NOT help you troubleshoot the error \"django-admin: command not found\"?": {
+    "Check that the bin folder inside your Django directory is on your system path.": "worng",
+    "Make sure you have activated the virtual environment you have set up containing Django.": "worng",
+    "Check that you have installed Django.": "worng",
+    "Make sure that you have created a Django project.": "right"
+  },
+  "How do you turn off Django\u2019s automatic HTML escaping for part of a web page?": {
+    "Place that section between paragraph tags containing the autoescape=off switch.": "worng",
+    "Wrap that section between { percentage mark autoescape off percentage mark} and {percentage mark endautoescape percentage mark} tags.": "worng",
+    "Wrap that section between {percentage mark autoescapeoff percentage mark} and {percentage mark endautoescapeoff percentage mark} tags.": "worng",
+    "You don't need to do anything\u2014autoescaping is off by default.": "right"
+  },
+  "How do you determine at startup time if a piece of middleware should be used?": {
+    "Raise MiddlewareNotUsed in the init function of your middleware.": "right",
+    "Implement the not_used method in your middleware class.": "worng",
+    "List the middleware beneath an entry of django.middleware.IgnoredMiddleware.": "worng",
+    "Write code to remove the middleware from the settings in [app]/init.py.": "worng"
+  },
+  "To automatically provide a value for a field, or to do validation that requires access to more than a single field, you should override the ___ method in the ___ class.": {
+    "Validate(); Model": "worng",
+    "Group(); Model": "worng",
+    "Validate(); Form": "worng",
+    "Clean(); Field": "right"
+  },
+  "In which programming language is Django written?": {
+    "C++": "worng",
+    "Java": "worng",
+    "Python": "right",
+    "Ruby": "worng"
+  },
+  "To cache your entire site for an application in Django, you add all except which of these settings?": {
+    "Django.middleware.common.CommonMiddleware": "worng",
+    "Django.middleware.cache.UpdateCacheMiddleware": "worng",
+    "Django.middleware.cache.FetchFromCacheMiddleware": "worng",
+    "Django.middleware.cache.AcceleratedCacheMiddleware": "right"
+  },
+  "A circuit has an output that is determined by the present input as well as the previous output states. The circuit is known as _____.": {
+    "a mealy machine": "worng",
+    "a moore machine": "worng",
+    "a sequential circuit  ": "right",
+    "None of above": "worng"
+  },
+  "Which is not a predefined log level in Django?": {
+    "DEBUG ": "worng",
+    "INFO ": "worng",
+    "WARNING ": "worng",
+    "FATAL ": "right"
+  },
+  "Which statement is true about the ImageField class?  Note: There may be more than one right answer.": {
+    "It inherits all attributes and methods from the FileField class.": "right",
+    "It validates that the uploaded object is a valid image.": "right",
+    "Its instances are created as varchar(200) columns in the database.": "worng",
+    "It's default form widget is a ClearableFileInput.": "right"
+  },
+  "Check all True facts about Django.  Note: There may be more than one right answer.": {
+    "Written in Python": "right",
+    "Desktop Application Framework": "worng",
+    "Web Application Framework": "right",
+    "All of the above": "worng"
+  },
+  "Best way to extend the Django user model with extra custom fields in addition to the fields already provided?": {
+    "Use a  a proxy model based on django.contrib.auth.models.User.": "worng",
+    "Subclass django.contrib.auth.models.AbstractUser and add the extra fields.": "right",
+    "Subclass django.contrib.auth.models.AbstractBaseUser and add the extra fields.": "worng",
+    "Use a one-to-one relationship to a model containing the extra fields.": "worng"
+  },
+  "Which statement is true about the django.template.RequestContext class?": {
+    "It takes a Context object as its first argument.": "worng",
+    "It takes an HttpRequest as its first argument.": "right",
+    "It does not automatically the context with variables.": "worng",
+    "It can only be given one context processor.": "worng"
+  },
+  "What is the default max_length value of a SlugField class in Django?": {
+    "50": "right",
+    "100": "worng",
+    "25": "worng",
+    "150": "worng"
+  },
+  "Which command will make changes in the database tables schema?": {
+    "python manage.py makemigrations": "worng",
+    "python manage.py migrate": "right",
+    "python manage.py shell": "worng",
+    "None of the mentioned": "worng"
+  },
+  "How can you access a variable in template which is passed from view? Suppose the variable name is object.": {
+    "{object}": "worng",
+    "{{object}}": "right",
+    "{% object %}": "worng",
+    "None of the mentioned": "worng"
+  },
+  "How do you inherit the A.html template in B.html template?": {
+    "In B template, use {% extends \"A.html\" %}": "right",
+    "In A template, use {% extends \"B.html\" %}": "worng",
+    "In B template, use {% extends \"B.html\" %}": "worng",
+    "None of the mentioned": "worng"
+  },
+  "If an instance of a form is named \u2018form\u2019, which attribute of form instance holds all validated form data?": {
+    "form.is_valid": "worng",
+    "form.cleaned_data": "right",
+    "form.clean_data": "worng",
+    "form.data": "worng"
+  },
+  "Assume a, b, c, d and e are variables which hold some random integer from 1 to 10. Which is NOT correct in django template?": {
+    "{% if a == b or c == d and e %}": "worng",
+    "{% if a > b > c %}": "right",
+    "{% if a > b and b > c %}": "worng",
+    "None of the mentioned": "worng"
+  },
+  "Which template command makes a custom template tag/filter available in template?": {
+    "{% load %}": "right",
+    "{% include %}": "worng",
+    "{% extend %}": "worng",
+    "None of the mentioned": "worng"
+  },
+  "Which form method binds the data in the URL and is passed to the view?": {
+    "GET": "right",
+    "POST": "worng",
+    "Both of the above": "worng",
+    "None of the above": "worng"
+  },
+  "Which database is not supported by Django ORM?": {
+    "Mysql": "worng",
+    "Postgresql": "worng",
+    "Mongodb": "right",
+    "Oracle": "worng"
+  },
+  "Django is written in": {
+    "Python": "right",
+    "C": "worng",
+    "C++": "worng",
+    "Python and C": "worng"
+  },
+  "Correct way to randomly order a queryset?": {
+    "order_by(\u2018\u2019)": "worng",
+    "order_by('?')": "right",
+    "order_by(None)": "worng",
+    "None of the mentioned": "worng"
+  },
+  "Correct way to Abstract Model class?": {
+    "Add abstract=True in Meta class": "right",
+    "Add field name abstract=True": "worng",
+    "Inherit from Abstract": "worng",
+    "Override the abstract method": "worng"
+  },
+  "Which is true for model field names?": {
+    "A field name cannot be a Python reserved word": "worng",
+    "A field name cannot contain more than one underscore in a row": "worng",
+    "Both of the above": "right",
+    "None of the above": "worng"
+  },
+  "Which get called when a view raises an exception?": {
+    "view_exception()": "worng",
+    "process_exception()": "right",
+    "execution_exception()": "worng",
+    "controller_exception()": "worng"
+  },
+  "Which is not a built-in Django template loader class?": {
+    "file.Loader": "right",
+    "cached.Loader": "worng",
+    "eggs.Loader": "worng",
+    "app_directories.Loader": "worng"
+  },
+  "Correct way to start a new app inside a django project? ": {
+    "python manage.py startapp myapp": "right",
+    "python manage.py start myapp": "worng",
+    "django-admin.py startapp myapp": "worng",
+    "python manage.py new myapp": "worng"
+  },
+  "Which statement is true to get a Queryset of all Entries which were published before 2006?": {
+    "Entry.objects.filter(pub_date__year__lte=2006)": "worng",
+    "Entry.objects.all().filter(pub_date__year__gte=2006)": "worng",
+    "Entry.objects.get(pub_date__year__lt=2006)": "worng",
+    "Entry.objects.get(pub_date__year__in=2006)": "right"
+  },
+  "How would you check if a list my_list is empty or not in template ?": {
+    "{% if my_list %} {% endif %}": "worng",
+    "{% if my_list|length > 0 %} {% endif %}": "worng",
+    "Both 1 and 2": "right",
+    "None of the mentioned": "worng"
+  },
+  "Which types of users are allowed to login to the django administration site?": {
+    "Staff users": "worng",
+    "Super users": "worng",
+    "Super users and staff users": "right",
+    "All users": "worng"
+  },
+  "Which query includes a shirt with size 40?": {
+    "Shirt.objects.filter(size__gt=40)": "worng",
+    "Shirt.objects.count(size__lte=40)": "worng",
+    "Shirt.objects.filter(size==40)": "worng",
+    "Both 1 and 2": "worng",
+    "Both 2 and 3": "right"
+  },
+  "Which one is valid built-in signal provided by django?  ": {
+    "request_started": "right",
+    "pre_saved": "worng",
+    "m2m_changed": "right",
+    "pre_modified": "worng"
+  },
+  "What command line can be used to load data into Django?": {
+    "Admin.py loaddata": "worng",
+    "Django-admin.py loaddata": "right",
+    "Djangoadmin loaddata": "worng",
+    "Django-admin load data": "worng"
+  },
+  "Which method is allowed in django Listview? ": {
+    "get_object": "worng",
+    "get_context_data": "right",
+    "get_queryset": "right",
+    "get\u00a0": "right"
+  },
+  "What is the table name for model named Choice in application question?": {
+    "choice_question": "worng",
+    "questionchoice": "worng",
+    "choicequestion": "worng",
+    "question_choice": "right"
+  },
+  "What is the exception raised for this query Entry.objects.filter(blog_id=4)?": {
+    "SyntaxError": "worng",
+    "MultipleObjectsReturned": "worng",
+    "MultipleModelReturned": "worng",
+    "TypeError": "right"
+  },
+  "What is the exception raised when the object is not found while performing the following query?": {
+    "Validation Error": "worng",
+    "Integrity Error": "worng",
+    "ObjectDoesNotExist": "right",
+    "FieldError": "worng"
+  },
+  "Which is NOT correct about Django Models?": {
+    "Each model is a Python class that subclasses django.db.models.Model.": "worng",
+    "Each attribute of the model represents a database field.": "worng",
+    "The name of the table is automatically derived from some model metadata and can not be overridden.": "right",
+    "None of the mentioned": "worng"
+  },
+  "Which will not register a model 'Test' to Django admin?": {
+    "admin.site.register(Test)": "worng",
+    "admin.site.register(Test, TestAdmin)": "worng",
+    "admin(Test)": "right",
+    "@admin.register(Test) class TestAdmin(admin.ModelAdmin): pass": "worng"
+  },
+  "Which is built-in signal provided by Django?": {
+    "request_started": "worng",
+    "pre_save": "worng",
+    "m2m_changed": "worng",
+    "pre_delete": "worng",
+    "All of the above": "right"
+  },
+  "Which is a possible usage of middlewares in Django?": {
+    "Session management": "worng",
+    "CSRF Protection": "worng",
+    "Content Gzipping": "worng",
+    "All of the above": "right"
+  },
+  "Correct way to allow empty value in CharField?": {
+    "models.CharField(max_length=10)": "worng",
+    "models.CharField(max_length=10, blank=True)": "worng",
+    "models.CharField(max_length=10, null=True)": "worng",
+    "models.CharField(max_length=10, blank=True, null=True)": "right"
+  },
+  "What is TRUE about django-admin.py makemessages command?": {
+    "Updates all messages in the database.": "worng",
+    "Pulls out all the strings marked for translation and makes a message file in the locale directory.": "right",
+    "Both of the above": "worng",
+    "None of the above": "worng"
+  },
+  "Which statement is true about the QuerySet select_related() method?": {
+    "Returns a QuerySet that will \u201cfollow\u201d foreign-key relationships, selecting additional related-object data when it executes its query.": "right",
+    "Returns a QuerySet that will automatically retrieve, in a single batch, related objects for each of the specified lookups.": "worng",
+    "Returns a new QuerySet containing objects that do not match the given lookup parameters.": "worng",
+    "None of the mentioned": "worng"
+  },
+  "Which is determined by Django using field class types?": {
+    "The database column type": "right",
+    "The default HTML widget to avail while rendering a form field": "right",
+    "Makemigrations": "worng",
+    "All of the above": "worng"
+  },
+  "Which url pattern is used to register admin url?": {
+    "url(r'^admin/', include(admin.site.urls))": "right",
+    "url(r'^admin/', include(admin.urls))": "worng",
+    "url(r'^admin/', include(admin))": "worng",
+    "url(r'^admin/', include(site.urls))": "worng"
+  },
+  "What is true about the management command collectstatic?": {
+    "Takes all of the static files of your project and puts them in the folder specified in STATIC_ROOT so they can be served in production.": "right",
+    "Collect all static files and display the count.": "worng",
+    "Both 1 and 2": "worng",
+    "None of the mentioned": "worng"
+  },
+  "Name of the command line tool that Django provides for managing a newly created project and its applications?": {
+    "pip": "worng",
+    "manage.py": "right",
+    "django\u00acadmin.py": "worng",
+    "easy_install": "worng"
+  },
+  "Which is not true about testing?": {
+    "Separate, blank databases are created for tests.": "worng",
+    "The command used to run all unit tests is ./manage.py test --all": "right",
+    "Django\u2019s unit tests use a Python standard library module called unittest": "worng",
+    "We can use a custom name for the test database by specifying NAME in the TEST dictionary in settings.": "worng"
+  },
+  "Which command runs all test in a django project?": {
+    "python manage.py runalltests": "worng",
+    "python manage.py test": "right",
+    "python manage.py test --all": "worng",
+    "None of the mentioned": "worng"
+  },
+  "What kind of relation is defined between models A and B by invoking ForeignKey(A) in the class definition for model B?": {
+    "Many to one: Many instances of B can have one instance of A": "right",
+    "One to many: One instance of B can have many instances of A": "worng",
+    "One to one: One instance of B must have a unique instance of A and vice versa": "worng",
+    "All of the above": "worng"
+  },
+  "Which is not True?": {
+    "The contenttypes application in django can track all of the models installed in your Django-powered project.": "worng",
+    "The flatpages application in django lets you store simple \u201cflat\u201d HTML content in a database.": "worng",
+    "The sites framework is a holding place for the domain names and \u201cverbose\u201d names of your Django-powered sites.": "worng",
+    "Django does not support Unicode data everywhere.": "right"
+  },
+  "Which is not a layer in Django?": {
+    "Models": "worng",
+    "Views": "worng",
+    "Templates": "worng",
+    "Controller": "worng",
+    "None of the above": "right"
+  },
+  "Which class uses an HTTP 304 status code?": {
+    "HttpResponseNotModified": "right",
+    "HttpResponseRedirect": "worng",
+    "HttpResponseForbidden": "worng",
+    "HttpResponseServerError": "worng"
+  },
+  "Which template tag is used to add another template to the current one?": {
+    "base": "worng",
+    "lower": "worng",
+    "join": "worng",
+    "extend": "worng",
+    "include": "right"
+  },
+  "How would you iterate through a list called my_list in template ?": {
+    "{% for x in my_list %} {% endfor %}": "right",
+    "{% items in my_list %} {% items %}": "worng",
+    "{% iterate my_list as item %} {% enditerate %}": "worng",
+    "{% while my_list %} {% endwhile %}": "worng",
+    "{% cycle my_list as item %}": "worng"
+  },
+  "Which data structure is used to pass context values from views to template?": {
+    "List": "worng",
+    "Tuple": "worng",
+    "Dictionary": "right",
+    "Set": "worng",
+    "String": "worng"
+  },
+  "Which query gives the count of vehicles that are private?": {
+    "Vehicle.objects.filter(private=True).count()": "worng",
+    "Vehicle.objects.count(private=True)": "worng",
+    "Vehicle.objects.filter(private=True).aggregate(Count(\u2018id\u2019))": "worng",
+    "Both 1 and 2": "worng",
+    "Both 1 and 3": "right"
+  },
+  "Which attribute is used to order the objects in django admin?": {
+    "order": "worng",
+    "order_by": "worng",
+    "ordering": "right",
+    "ordered": "worng"
+  },
+  "Which method is not used in django ListView?": {
+    "get_object": "right",
+    "get_context_data": "worng",
+    "get_queryset": "worng",
+    "get": "worng"
+  },
+  "Correct way to create a superuser from command line?": {
+    "python manage.py create superuser": "worng",
+    "python manage.py createsuperuser": "right",
+    "python manage.py superuser create": "worng",
+    "None of the mentioned": "worng"
+  },
+  "Which decorators are used to restrict authentication of users?  Note: There may be more than one right answer.": {
+    "@permission_required": "right",
+    "@is_authenticated": "worng",
+    "@user_passes_test": "right",
+    "@permissions": "worng",
+    "@login_required\u00a0": "right"
+  },
+  "Which is true about generators?": {
+    "Generators must contain a previous statement": "worng",
+    "Generators must contain a yield statement": "right",
+    "Generators must contain a next statement": "worng",
+    "All of the above": "worng"
+  },
+  "Which is NOT used as a server for django in production?": {
+    "Mod_WSGI": "worng",
+    "uWSGI": "worng",
+    "Ansible": "right",
+    "Gunicorn": "worng"
+  },
+  "What is the full form of FBV and CBV?": {
+    "Function Based Views & Class Based Views": "right",
+    "Function Behind Views & Class Behind Views": "worng",
+    "Function Before Views & Class Before Views": "worng",
+    "None of the mentioned": "worng"
+  },
+  "Which caching strategies are supported in Django? ": {
+    "File sytem caching": "right",
+    "Proxy models": "worng",
+    "Makemigrations": "worng",
+    "In-memory caching\u00a0": "right"
+  },
+  "Which caching strategies can be implemented in Django?": {
+    "File system caching": "worng",
+    "Local-memory caching": "worng",
+    "Using Memcached": "worng",
+    "Database caching": "worng",
+    "All of the above": "right"
+  },
+  "Correct way to specify a translation string?": {
+    "by using the function ugettext()": "worng",
+    "by using the function ugettext_lazy()": "worng",
+    "Both of the above": "right",
+    "None of the above": "worng"
+  },
+  "Which feature is supported by Django?": {
+    "Development Environment": "worng",
+    "Administration GUI": "worng",
+    "Multilingual system": "worng",
+    "Object Relational Mapping (ORM)": "worng",
+    "All of the above\u00a0": "right"
+  },
+  "What is the exception raised when a duplicate value is used in unique field while inserting a record?": {
+    "ValidationError": "worng",
+    "IntegrityError": "right",
+    "ObjectDoesNotExist": "worng",
+    "FieldError": "worng"
+  },
+  "Correct way to allow empty value in Integer Field?": {
+    "models.IntegerField()": "worng",
+    "models.IntegerField(blank=True)": "worng",
+    "models.IntegerField(null=True)": "worng",
+    "models.IntegerField(blank=True, null=True)": "right"
+  },
+  "How can you set up static files in Django?": {
+    "set STATIC_ROOT in settings.py": "worng",
+    "run manage.py collectsatic": "worng",
+    "set up a Static Files entry on the PythonAnywhere web tab": "worng",
+    "All of the above": "right"
+  },
+  "Django is a web __ in Python to develop a web application.": {
+    "Programming": "worng",
+    "Framework": "right",
+    "API": "worng",
+    "Library": "worng"
+  },
+  "What does setting SESSION_COOKIE_SECURE = True do?": {
+    "Ensures cookie can be sent on HTTP connection only": "worng",
+    "Ensures cookie can be sent on HTTPS connection only": "right",
+    "Ensures cookie can be sent on any connection": "worng",
+    "Disables cookie": "worng"
+  },
+  "Correct ways to add a message?": {
+    "messages.add_message(request, messages.INFO, 'Hello world.')": "right",
+    "messages.add(request, messages.INFO, 'Hello world.')": "worng",
+    "messages.info(request, 'Hello world.')": "right",
+    "messages.success(request, 'Hello world.')\u00a0": "right"
+  },
+  "Using a template tag you tried to load a templatetag as in {% load poll_extras %} and it failed, what could be the problem ?": {
+    "You used the load in the wrong place of the page": "worng",
+    "You passed the limit of template tags": "worng",
+    "The app that contain the template tag is not in INSTALLED_APPS": "right",
+    "All of the above": "worng"
+  },
+  "Which Django core function can be used to send an email?": {
+    "django.core.mail.send_mail": "right",
+    "django.core.email.send_mail": "worng",
+    "django.core.mail.send_email": "worng",
+    "None of the mentioned": "worng"
+  },
+  "Correct way to insert csrf token for forms in django template?": {
+    "form action=\"\" method=\"post\">{% csrf_token %}": "right",
+    "{% csrf_token %}": "worng",
+    "": "worng"
+  },
+  "What is the exception raised if you are using POST against this function?": {
+    "HttpResponseNotAllowed": "worng",
+    "HttpResponseForbidden": "worng",
+    "HttpResponseBadRequest": "worng",
+    "No exception will be raised": "right"
+  },
+  "Correct way to specify the fields to use in a Model Form?": {
+    "Using fields attribute that specifies list of model fields in the form\u2019s Meta class": "worng",
+    "Using exclude attribute in the form\u2019s Meta class": "worng",
+    "Either 1 or 2": "right",
+    "None of the mentioned": "worng"
+  },
+  "Which one is NOT used to represent ManyToManyField in django model form? ": {
+    "Charfield": "right",
+    "ModelChoiceField": "right",
+    "ModelMultipleChoiceField": "worng",
+    "Checkbox\u00a0": "worng"
+  },
+  "How is the ManyToManyField represented in Django model form?": {
+    "CharField": "worng",
+    "ModelChoiceField": "worng",
+    "ModelMultipleChoiceField": "right",
+    "Checkbox": "worng"
+  },
+  "By using django.contrib.humanize, you can use the following filter in your template to display the number 3 as three.": {
+    "intword": "worng",
+    "intcomma": "worng",
+    "apnumber": "right",
+    "naturaltime": "worng",
+    "ordinal": "worng"
+  },
+  "What is the name of the Django decorator that hides sensitive info from error reports?": {
+    "@secret_fields": "worng",
+    "@sensitive_variables": "right",
+    "@secret_variables": "worng",
+    "@sensitive_fields": "worng",
+    "@hide_fields": "worng"
+  },
+  "What datetime formatting would you apply in a template to display the following: 2013/03/20 8:00:06 AM  ?": {
+    "Y/m/d g:i:s A": "right",
+    "Y-m-d H:m:s": "worng",
+    "m/d/Y h:m:s": "worng",
+    "Y/m/d H:i": "worng",
+    "Y/m/d H:i:s A": "worng"
+  },
+  "How would you create a ForeignKey from a model named Transaction, to a model named Product, with no reverse relation?": {
+    "class Transaction(models.Model):     product = models.ForeignKey(Product, related_name=None)": "worng",
+    "class Transaction(models.Model):     product = models.ForeignKey(Product, related_name='+')": "right",
+    "class Transaction(models.Model):     product = models.ForeignKey(Product, related_name=False)": "worng",
+    "class Transaction(models.Model):     product = models.ForeignKey(Product, related_name='')": "worng"
+  },
+  "Which model field type does NOT exist in Django?": {
+    "CommaSeparatedIntegerField": "worng",
+    "IPAddressField": "worng",
+    "SmallIntegerField": "worng",
+    "SlugField": "worng",
+    "LargeIntegerField": "right"
+  },
+  "How would you perform a lookup on a model against a database aside from the default?": {
+    "Model.objects.using('other').all()": "right",
+    "Model.objects.all(using='other')": "worng",
+    "Model.objects.all(database='other')": "worng",
+    "Model.objects.database('other').all()": "worng"
+  },
+  "Given a model named 'User' that contains a CharField 'name', how do you query for users whose name starts with 'Fred' or 'Bob'?": {
+    "User.objects.filter( name__iregex=r'^(fred|bob)$' )": "worng",
+    "User.objects.filter( name__iregex=r'^(fred|bob).+' )": "right",
+    "User.objects.filter( name_iregex=r'^(fred|bob)+' )": "worng",
+    "User.objects.filter( name__like=r'^(fred|bob)*' )": "worng",
+    "User.objects.filter( name__regex=r'^(fred|bob)+' )": "worng"
+  },
+  "A model's \"full_clean()\" method is called automatically when you call your model's \"save()\" method.": {
+    "True": "worng",
+    "False": "right"
+  },
+  "How to set a default order by in your Django model ? YourModel.objects.all() will be ordered by default without calling order_by() method": {
+    "Using META default_order attribute": "worng",
+    "Using META order_by attribute": "worng",
+    "Using META default_order_by attribute": "worng",
+    "Using META order attribute": "worng",
+    "Using META ordering attribute": "right"
+  },
+  "Which type of custom template tag returns a string?": {
+    "assignment_tag": "worng",
+    "simple_tag": "right",
+    "inclusion_tag": "worng",
+    "string_tag": "worng"
+  },
+  "In your django template, if you need to get the content of the block from the django parent template, what do you need to add?  {% block my_block %} ___________ {% endblock %}": {
+    "{{ extends block }}": "worng",
+    "{{ block.super }}": "right",
+    "{% block.super %}": "worng",
+    "super (block, self)__init__()": "worng",
+    "{% super %}": "worng"
+  },
+  "The django.contrib.contenttypes application provides": {
+    "mimetypes used for returning http responses": "worng",
+    "a generic interface for working with models": "right",
+    "functionality for working with varied file formats": "worng",
+    "none of the others": "worng"
+  },
+  "The Benevolent Dictators for Life of the Django Project are:": {
+    "Guido van Rossum and Linus Torvalds": "worng",
+    "Ian Bicking and Jannis Leidel": "worng",
+    " and Armando De La Veloper": "worng",
+    "Eric S. Raymond and Larry Wall": "worng",
+    "Jacob Kaplan-Moss and Adrian Holovaty": "right"
+  },
+  "Which of these can be used to retrieve a setting from the settings module, and provide a default if the setting is not defined?": {
+    "settings.get(\"SETTING_NAME\", default_value)": "worng",
+    "getattr(\"SETTING_NAME\", settings, default=default_value)": "worng",
+    "get_setting(\"SETTING_NAME\", default=default_value)": "worng",
+    "getattr(settings, \"SETTING_NAME\", default_value)": "right"
+  },
+  "Which class is a model field representing a path to a server-based image file?": {
+    "django.db.models.fields.files.ImageFieldFile": "worng",
+    "django.db.models.fields.files.ImageFile": "worng",
+    "django.db.models.fields.files.ImageFileField": "worng",
+    "django.db.models.fields.files.ImageFileDescriptor": "worng",
+    "django.db.models.fields.files.ImageField": "right"
+  },
+  "How do you create a recursive relationship in a model class named 'Company' in Django?": {
+    "models.ForeignKey('self')": "right",
+    "models.ForeignKey('Company')": "worng",
+    "models.ForeignKey('me')": "worng",
+    "models.ForeignKey(Company)": "worng"
+  },
+  "You have a Form defined with \"password\" and \"confirm_password\" fields. In what method of the \"form\" object would you validate that the values supplied in these fields match?": {
+    "form.clean_password": "worng",
+    "form.clean_confirm_password": "worng",
+    "form.sanitize_data": "worng",
+    "form.clean": "right",
+    "form.validate": "worng"
+  },
+  "In settings.py, when DEBUG is set to ________, Django will email unhandled exceptional conditions.": {
+    "True": "worng",
+    "Always": "worng",
+    "1": "worng",
+    "Never": "worng",
+    "False": "right"
+  },
+  "What is the command used to print the CREATE TABLE SQL statements for the given app name?": {
+    "django-admin.py dumpdata myapp": "worng",
+    "./manage.py schema myapp": "worng",
+    "./manage.py sql myapp": "right",
+    "./manage.py showschema myapp": "worng",
+    "./manage.py showsql myapp": "worng"
+  },
+  "What command do you use to alter the fields Django displays for a given model in the Django admin ListView?": {
+    "fields_display": "worng",
+    "list_filter": "worng",
+    "fields_list": "worng",
+    "auto_list_fields": "worng",
+    "list_display": "right"
+  },
+  "When customizing validation in a Form subclass named MyForm, how do you add an error message that is displayed as a form-wide error?": {
+    "Raise ValidationError in MyForm.clean_<fieldname>()": "worng",
+    "Raise ValidationError in MyForm.clean()": "right",
+    "Add the error to MyForm.errors in MyForm.clean()": "worng",
+    "Add the error to MyForm._errors in MyForm.clean()": "worng"
+  },
+  "You can handle multiple Django forms with what keyword argument when creating forms?": {
+    "suffix": "worng",
+    "prefix": "right",
+    "name": "worng",
+    "infix": "worng"
+  },
+  "How to create a DateTimeField named created and filled in only on the creation with the current time?": {
+    "created = models.DateTimeField(auto_now=True)": "worng",
+    "created = models.DateTimeField(default=datetime.datetime.now())": "worng",
+    "created = models.CreationTimeField()": "worng",
+    "created = models.DateTimeField(auto_now_add=True, auto_now=True)": "worng",
+    "created = models.DateTimeField(auto_now_add=True)": "right"
+  },
+  "What is the Django command to retrieve the first 10 'User' records from your database sorted by name descending?": {
+    "User.objects.all().order('-name')[:10]": "worng",
+    "User.all().order_by('-name')[10:]": "worng",
+    "User.objects.all().order('-name')[10:]": "worng",
+    "User.objects.all().order_by('-name')[:10]": "right",
+    "User.objects.all().order_by('name')[:10]": "worng"
+  },
+  "You have created a Form class and wish to provide custom logic for validating the input in the \"foo\" field. What would you name your custom validation method?": {
+    "foo_clean": "worng",
+    "clean_foo": "right",
+    "clean_foo_field": "worng",
+    "sanitize_foo": "worng",
+    "validate_foo": "worng"
+  },
+  "Given a form with field foo, what should the validation method for this field be called?": {
+    "foo_clean": "worng",
+    "validate_foo": "worng",
+    "clean_foo": "right",
+    "foo_is_valid": "worng"
+  },
+  "What command compile Django's translation files?": {
+    "./manage.py compilemessages": "right",
+    "./manage.py compiletranslation": "worng",
+    "./manage.py translate_files": "worng",
+    "./manage.py compilei18n": "worng",
+    "./manage.py i18n_update": "worng"
+  },
+  "Given a model named 'User' that contains a field named 'email', how do you perform a case-insensitive exact match for the email '[email\u00a0protected]'?": {
+    "User.objects.filter( email__iexact='[email\u00a0protected]' )": "right",
+    "User.objects.filter( email__matches='[email\u00a0protected]' )": "worng",
+    "User.objects.filter( email__exact='[email\u00a0protected]' )": "worng",
+    "User.objects.filter( email__contains='[email\u00a0protected]' )": "worng",
+    "User.objects.filter( email__icontains='[email\u00a0protected]' )": "worng"
+  },
+  "What is the Django command to view a database schema of an existing (or legacy) database?": {
+    "django-admin.py inspect": "worng",
+    "manage.py inspectdb": "right",
+    "manage.py inspect": "worng",
+    "manage.py legacydb": "worng",
+    "django-admin.py schemadump": "worng"
+  },
+  "Given a model named 'User' that contains a DateTime field named 'last_login', how do you query for users that have never logged in?": {
+    "User.objects.filter( last_login__isnull=True )": "right",
+    "User.objects.filter( last_login=Null )": "worng",
+    "User.objects.filter( last_login=Never )": "worng",
+    "User.objects.filter( last_login__null=True )": "worng",
+    "User.objects.filter( last_login__isnull=False )": "worng"
+  },
+  "Given an IntegerField named 'widgets' in the Django model 'User' , how do you calculate the average number of widgets per user?": {
+    "Widget.objects.all().aggregate( Avg( 'users' ) )": "worng",
+    "User.objects.all().aggregate( Avg( 'widgets' ) )": "right",
+    "User.objects.avg( 'widgets' )": "worng",
+    "User.objects.all().aggregate( Sum( 'widgets' ) )": "worng",
+    "User.all().aggregate( Avg( 'widgets' ) ).count()": "worng"
+  },
+  "Given the Python data:  mydata = [ [ 0, 'Fred' ], [ 1, 'Wilma' ] ]  How do you access the data in a Django template?": {
+    "{% for d in mydata -%} <p><a href=\"/users/{{ d.0 }}/\">{{ d.1 }}</a></p> {% end -%}": "worng",
+    "{% for d in mydata %} <p><a href=\"/users/{{ d.0 }}/\">{{ d.1 }}</a></p> {% endfor %}": "right",
+    "{% mydata.each |d| %} <p><a href=\"/users/{{ d.1 }}/\">{{ d.2 }}</a></p> {% end %}": "worng",
+    "{{ for d in mydata }} <p><a href=\"/users/{{ d[0] }}/\">{{ d[1] }}</a></p> {{ endfor }}": "worng",
+    "{% for d in mydata %} <p><a href=\"/users/{% d.0 %}/\">{% d.1 %}</a></p> {% endfor %}": "worng"
+  },
+  "What is the purpose of the STATIC_ROOT setting?": {
+    "Defines the URL prefix where static files will be served from .": "worng",
+    "Defines the location where all static files will be copied by the 'collectstatic' management command, to be served by the production webserver.": "right",
+    "Defines the location for serving user uploaded files.": "worng",
+    "A project's static assets should be stored here to be served by the development server.": "worng"
+  },
+  "What is the correct way to include django's admin urls?   from django.contrib import admin') from django.conf.urls import patterns, include, url  urlpatterns = patterns('',     ______________________ )": {
+    "url(r'^admin/', include(admin.site.urls) ),": "right",
+    "url(r'^admin/', admin.as_view(), name='admin ),": "worng",
+    "url(r'^admin/', include(admin) ),": "worng",
+    "url(r'^admin/', admin.urls ),": "worng",
+    "admin.autodiscover()": "worng"
+  },
+  "What does the Django command `manage.py validate` do?": {
+    "Checks for errors in your models.": "right",
+    "Checks for errors in your views.": "worng",
+    "Checks for errors in your settings.py file.": "worng",
+    "Checks for errors in your templates.": "worng",
+    "Checks for errors in your controllers.": "worng"
+  },
+  "What is Dijit?": {
+    "Dijit is Dojo's git interface.": "worng",
+    "Dijit is Dojo\u2019s UI Library.": "right",
+    "Dijit is Dojo's AMD loader.": "worng",
+    "Dijit is Dojo's interface to the jQuery effects functions.": "worng",
+    "Dijit is Dojo's math library.": "worng"
+  },
+  "Where is pre_save signal in Django": {
+    "There is no pre_save signal": "worng",
+    "from django.db.models import pre_save": "worng",
+    "from django.db.models.signal import pre_save": "worng",
+    "from django.db.models.signals import pre_save": "right"
+  },
+  "How can you define additional behavior and characteristics of a Django class?": {
+    "def __init__():": "worng",
+    "def Meta():": "worng",
+    "class Meta:": "right",
+    "def setUp():": "worng",
+    "class __init__:": "worng"
+  },
+  "What does the Django command `manage.py shell` do?": {
+    "Starts a command line in whatever $SHELL your environment uses.": "worng",
+    "Starts a Django command prompt with your Python environment pre-loaded.": "worng",
+    "Loads a Python command prompt you can use to sync your database schema remotely.": "worng",
+    "Loads a special Pythonic version of the Bash shell.": "worng",
+    "Starts a Python command prompt with your Django environment pre-loaded.": "right"
+  },
+  "A set of helpful applications to use within your Django projects is included in the official distribution. This module is called what?": {
+    "django.helpers": "worng",
+    "django.extras": "worng",
+    "django.contrib": "right",
+    "django.utilities": "worng",
+    "django.ponies": "worng"
+  },
+  "In Django how would you retrieve all the 'User' records from a given database?": {
+    "User.all_records()": "worng",
+    "Users.objects.all()": "worng",
+    "User.objects": "worng",
+    "User.object.all()": "worng",
+    "User.objects.all()": "right"
+  },
+  "What is the command to start a new Django project called 'myproject'?": {
+    "django-admin.py --start myproject": "worng",
+    "django.py --new myproject": "worng",
+    "django.py startproject myproject": "worng",
+    "django-admin.py startproject myproject": "right",
+    "django.py new myproject": "worng"
+  },
+  "How to make django timezone-aware?": {
+    "in views.py, import timezone": "worng",
+    "In settings.py: USE_TZ=True": "right",
+    "in views.py, import tz": "worng",
+    "In settings.py: USE_L10N=True": "worng",
+    "in urls.py, import timezone": "worng"
+  },
+  "What happens if MyObject.objects.get() is called with parameters that do not match an existing item in the database?": {
+    "The object is created and returned.": "worng",
+    "The Http404 exception is raised.": "worng",
+    "The DatabaseError exception is raised.": "worng",
+    "The MyObject.DoesNotExist exception is raised.": "right"
+  },
+  "Assuming you've imported the proper Django model file, how do you add a 'User' model to the Django admin?": {
+    "admin.site( self, User )": "worng",
+    "users.site.register( Admin )": "worng",
+    "admin.register( Users )": "worng",
+    "user.site.register( Admin )": "worng",
+    "admin.site.register( User )": "right"
+  },
+  "Assuming you have a Django model named 'User', how do you define a foreign key field for this model in another model?": {
+    "user = models.ForeignKey(User)": "right",
+    "models.ForeignKey( self, User )": "worng",
+    "user = models.IntegerKey(User)": "worng",
+    "model = new ForeignKey(User)": "worng"
+  },
+  "What is ModelForm used for?": {
+    "To define a form based on an existing model": "right",
+    "To model an input form for a template": "worng",
+    "To specify rules for correct form when writing Django code": "worng"
+  },
+  "How do you exclude a specific field from a ModelForm?": {
+    "Set the field to hidden": "worng",
+    "Create a new Form, don't use a ModelForm": "worng",
+    "You can not do this": "worng",
+    "Use the exclude parameter in the Meta class in your form": "right"
+  },
+  "What preferred method do you add to a Django model to get a better string representation of the model in the Django admin?": {
+    "to_s( self )": "worng",
+    "__utf_8__": "worng",
+    "__translate__": "worng",
+    "__unicode__": "right"
+  },
+  "How do you define a 'name' field in a Django model with a maximum length of 255 characters?": {
+    "model = CharField(max_length=255)": "worng",
+    "name = models.CharField(max_len=255)": "worng",
+    "name = models.CharField(max_length=255)": "right",
+    "name = model.StringField(max_length=auto)": "worng",
+    "model.CharField(max_length=255)": "worng"
+  },
+  "What is the most easiest, fastest, and most stable deployment choice in most cases with Django?": {
+    "AJP": "worng",
+    "FastCGI": "worng",
+    "SCGI": "worng",
+    "mod_wsgi": "right"
+  },
+  "What is the Django command to start a new app named 'users' in an existing project?": {
+    "manage.py startapp users": "right",
+    "manage.py --startapp users": "worng",
+    "manage.py --newapp users": "worng",
+    "manage.py newapp users": "worng",
+    "manage.py start users": "worng"
+  },
+  "After you make a new 'app' in your existing Django project, how do you get Django to notice it?": {
+    "In settings.py, add the app to the PROJECT_APPS variable.": "worng",
+    "In settings.py, add the new app to the INSTALLED_APPS variable.": "right",
+    "Run the `manage.py validate` command, and then start a new shell.": "worng",
+    "No additional action is required, Django notices new apps automatically.": "worng",
+    "Run the `manage.py syncdb` command.": "worng"
+  },
+  "What is the command to run Django's development server on port 8080 on IP address 12.34.56.78?": {
+    "manage.py --dev 12.34.56.78:8080": "worng",
+    "manage.py --run 12.34.56.78 8080": "worng",
+    "manage.py runserver 12.34.56.78:8000": "worng",
+    "manage.py run 12.34.56.78:8080": "worng",
+    "manage.py runserver 12.34.56.78:8080 ": "right"
+  },
+  "What does a urls.py file do in Django?": {
+    "This file contains site deployment data such as server names and ports.": "worng",
+    "It contains a site map of Django-approved URLs.": "worng",
+    "You run this file when you get obscure 404 Not Found errors in your server logs.": "worng",
+    "It contains URL matching patterns and their corresponding view methods.": "right",
+    "This file provides an up to date list of how-to URLs for learning Django more easily.": "worng"
+  },
+  "Django is written using what programming language?": {
+    "Python": "right",
+    "Ruby": "worng",
+    "PHP": "worng",
+    "Javascript": "worng",
+    "Java": "worng"
+  },
+  "What is the purpose of settings.py?": {
+    "To sync the database schema": "worng",
+    "To configure settings for an app": "worng",
+    "To set the date and time on the server": "worng",
+    "To configure settings for the Django project": "right"
+  },
+  "What is the definition of a good Django app?": {
+    "A good Django app is a fully functioning website that has 100% test coverage.": "worng",
+    "A good Django app provides a small, specific piece of functionality that can be used in any number of Django projects.": "right",
+    "A good Django app is highly customized and cannot be used in multiple projects.": "worng"
+  },
+  "What is the correct syntax for including a class based view in a URLconf?": {
+    "(r'^pattern/$', YourView.as_view()),": "right",
+    "(r'^pattern/$', YourView()),": "worng",
+    "(r'^pattern/$', YourView),": "worng",
+    "(r'^pattern/$', YourView.init()),": "worng"
+  },
+  "What is the Django shortcut method to more easily render an html response?": {
+    "render_to_html": "worng",
+    "response_render": "worng",
+    "render": "worng",
+    "render_to_response": "right"
+  },
+  "What is the definition of a Django Project?": {
+    "A collection of configuration files and individual apps that form a web site.": "right",
+    "A fork of the official Django repo.": "worng",
+    "A web site that uses the Django framework.": "worng",
+    "A specific piece of functionality that can be used in multiple Django apps.": "worng"
+  },
+  "What is the command to start Django's built-in development server?": {
+    "manage.py --start": "worng",
+    "manage.py startserver --dev": "worng",
+    "manage.py run": "worng",
+    "manage.py runserver": "right",
+    "manage.py --run": "worng"
+  }
+}
