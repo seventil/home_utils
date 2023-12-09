@@ -1,0 +1,351 @@
+[
+    {
+        "leader name": "Abraham Lincoln",
+        "civ": "American"
+    },
+    {
+        "leader name": "Alexander",
+        "civ": "Macedonian"
+    },
+    {
+        "leader name": "Amanitore",
+        "civ": "Nubian"
+    },
+    {
+        "leader name": "Ambiorix",
+        "civ": "Gallic"
+    },
+    {
+        "leader name": "Bà Triệu",
+        "civ": "Vietnamese"
+    },
+    {
+        "leader name": "Basil II",
+        "civ": "Byzantine"
+    },
+    {
+        "leader name": "Catherine de Medici",
+        "civ": "French"
+    },
+    {
+        "leader name": "Chandragupta",
+        "civ": "Indian",
+        "filter": "R&F-Only"
+    },
+    {
+        "leader name": "Cleopatra",
+        "civ": "Egyptian"
+    },
+    {
+        "leader name": "Cyrus",
+        "civ": "Persian"
+    },
+    {
+        "leader name": "Dido",
+        "civ": "Phoenician",
+        "filter": "GS-Only"
+    },
+    {
+        "leader name": "Eleanor of Aquitaine",
+        "civ": "English",
+        "filter": "GS-Only"
+    },
+    {
+        "leader name": "Elizabeth I",
+        "civ": "English"
+    },
+    {
+        "leader name": "Frederick Barbarossa",
+        "civ": "German"
+    },
+    {
+        "leader name": "Gandhi",
+        "civ": "Indian"
+    },
+    {
+        "leader name": "Gilgamesh",
+        "civ": "Sumerian"
+    },
+    {
+        "leader name": "Gitarja",
+        "civ": "Indonesian"
+    },
+    {
+        "leader name": "Gorgo",
+        "civ": "Greek"
+    },
+    {
+        "leader name": "Hammurabi",
+        "civ": "Babylonian"
+    },
+    {
+        "leader name": "Harald Hardrada",
+        "civ": "Norwegian"
+    },
+    {
+        "leader name": "Hojo Tokimune",
+        "civ": "Japanese"
+    },
+    {
+        "leader name": "Jadwiga",
+        "civ": "Polish"
+    },
+    {
+        "leader name": "Jayavarman VII",
+        "civ": "Khmer"
+    },
+    {
+        "leader name": "João III",
+        "civ": "Portuguese"
+    },
+    {
+        "leader name": "John Curtin",
+        "civ": "Australian"
+    },
+    {
+        "leader name": "Julius Caesar",
+        "civ": "Roman"
+    },
+    {
+        "leader name": "Kristina",
+        "civ": "Swedish",
+        "filter": "GS-Only"
+    },
+    {
+        "leader name": "Kublai Khan",
+        "civ": "Chinese"
+    },
+    {
+        "leader name": "Kublai Khan",
+        "civ": "Mongolian"
+    },
+    {
+        "leader name": "Kupe",
+        "civ": "Māori",
+        "filter": "GS-Only"
+    },
+    {
+        "leader name": "Lady Six Sky",
+        "civ": "Mayan"
+    },
+    {
+        "leader name": "Lautaro",
+        "civ": "Mapuche",
+        "filter": "R&F-Only"
+    },
+    {
+        "leader name": "Ludwig II",
+        "civ": "German"
+    },
+    {
+        "leader name": "Mansa Musa",
+        "civ": "Malian",
+        "filter": "GS-Only"
+    },
+    {
+        "leader name": "Matthias Corvinus",
+        "civ": "Hungarian",
+        "filter": "GS-Only"
+    },
+    {
+        "leader name": "Menelik II",
+        "civ": "Ethiopian"
+    },
+    {
+        "leader name": "Montezuma",
+        "civ": "Aztec"
+    },
+    {
+        "leader name": "Mvemba a Nzinga",
+        "civ": "Kongolese"
+    },
+    {
+        "leader name": "Nader Shah",
+        "civ": "Persian"
+    },
+    {
+        "leader name": "Nzinga Mbande",
+        "civ": "Kongolese"
+    },
+    {
+        "leader name": "Pachacuti",
+        "civ": "Incan",
+        "filter": "GS-Only"
+    },
+    {
+        "leader name": "Pedro II",
+        "civ": "Brazilian"
+    },
+    {
+        "leader name": "Pericles",
+        "civ": "Greek"
+    },
+    {
+        "leader name": "Peter",
+        "civ": "Russian"
+    },
+    {
+        "leader name": "Philip II",
+        "civ": "Spanish"
+    },
+    {
+        "leader name": "Poundmaker",
+        "civ": "Cree",
+        "filter": "R&F-Only"
+    },
+    {
+        "leader name": "Qin Shi Huang",
+        "civ": "Chinese"
+    },
+    {
+        "leader name": "Ramses II",
+        "civ": "Egyptian"
+    },
+    {
+        "leader name": "Robert the Bruce",
+        "civ": "Scottish",
+        "filter": "R&F-Only"
+    },
+    {
+        "leader name": "Saladin",
+        "civ": "Arabian"
+    },
+    {
+        "leader name": "Sejong",
+        "civ": "Korean"
+    },
+    {
+        "leader name": "Seondeok",
+        "civ": "Korean",
+        "filter": "R&F-Only"
+    },
+    {
+        "leader name": "Shaka",
+        "civ": "Zulu"
+    },
+    {
+        "leader name": "Simón Bolívar",
+        "civ": "Gran Colombian"
+    },
+    {
+        "leader name": "Suleiman",
+        "civ": "Ottoman",
+        "filter": "GS-Only"
+    },
+    {
+        "leader name": "Sundiata Keita",
+        "civ": "Malian"
+    },
+    {
+        "leader name": "Tamar",
+        "civ": "Georgian",
+        "filter": "R&F-Only"
+    },
+    {
+        "leader name": "Teddy Roosevelt",
+        "civ": "American"
+    },
+    {
+        "leader name": "Theodora",
+        "civ": "Byzantine"
+    },
+    {
+        "leader name": "Tokugawa",
+        "civ": "Japanese"
+    },
+    {
+        "leader name": "Tomyris",
+        "civ": "Scythian"
+    },
+    {
+        "leader name": "Trajan",
+        "civ": "Roman"
+    },
+    {
+        "leader name": "Victoria",
+        "civ": "English"
+    },
+    {
+        "leader name": "Wilfrid Laurier",
+        "civ": "Canadian",
+        "filter": "GS-Only"
+    },
+    {
+        "leader name": "Wilhelmina",
+        "civ": "Dutch",
+        "filter": "R&F-Only"
+    },
+    {
+        "leader name": "Wu Zetian",
+        "civ": "Chinese"
+    },
+    {
+        "leader name": "Yongle",
+        "civ": "Chinese"
+    },
+    {
+        "leader name": "Catherine de Medici (Black Queen)",
+        "civ": "French"
+    },
+    {
+        "leader name": "Catherine de Medici (Magnificence)",
+        "civ": "French"
+    },
+    {
+        "leader name": "Cleopatra (Egyptian)",
+        "civ": "Egyptian"
+    },
+    {
+        "leader name": "Cleopatra (Ptolemaic)",
+        "civ": "Egyptian"
+    },
+    {
+        "leader name": "Harald Hardrada (Konge)",
+        "civ": "Norwegian"
+    },
+    {
+        "leader name": "Harald Hardrada (Varangian)",
+        "civ": "Norwegian"
+    },
+    {
+        "leader name": "Qin Shi Huang (Mandate of Heaven)",
+        "civ": "Chinese"
+    },
+    {
+        "leader name": "Qin Shi Huang (Unifier)",
+        "civ": "Chinese"
+    },
+    {
+        "leader name": "Saladin (Sultan)",
+        "civ": "Arabian"
+    },
+    {
+        "leader name": "Saladin (Vizier)",
+        "civ": "Arabian"
+    },
+    {
+        "leader name": "Suleiman (Kanuni)",
+        "civ": "Ottoman",
+        "filter": "GS-Only"
+    },
+    {
+        "leader name": "Suleiman (Muhteşem)",
+        "civ": "Ottoman"
+    },
+    {
+        "leader name": "Teddy Roosevelt (Bull Moose)",
+        "civ": "American"
+    },
+    {
+        "leader name": "Teddy Roosevelt (Rough Rider)",
+        "civ": "American"
+    },
+    {
+        "leader name": "Victoria (Age of Empire)",
+        "civ": "English"
+    },
+    {
+        "leader name": "Victoria (Age of Steam)",
+        "civ": "English"
+    }
+]
