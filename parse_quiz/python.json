@@ -1,0 +1,2399 @@
+{
+  "Declare k as integer set k = ______ while names[k] != zzz write names[k] set k = k + 1 end while": {
+    "0": "right",
+    "1": "worng",
+    "2": "worng",
+    "3": "worng"
+  },
+  "Which statement about strings in Python is true?": {
+    "Strings can be enclosed by double quotes (": "right",
+    "Strings can only be enclosed in single quotes (').": "worng",
+    "Single character strings must be enclosed in single quotes ('), and the rest must be enclosed in double quotes (": "worng",
+    "Strings can only be enclosed in double quotes (": "worng"
+  },
+  "Given a list defined as numbers = [1,2,3,4], what is the value of numbers[-2]?": {
+    "1": "worng",
+    "3": "right",
+    "2": "worng",
+    "An IndexError exception is thrown.": "worng"
+  },
+  "What will be the output of this code? [1,2,3] * 3": {
+    "[3,2,3]": "worng",
+    "[1, 2, 3, 1, 2, 3, 1, 2, 3]": "right",
+    "You will get a type error.": "worng",
+    "[3,6,9]": "worng"
+  },
+  "Which choice is not a native numerical type in Python?": {
+    "Long": "worng",
+    "Int": "worng",
+    "Float": "worng",
+    "Double": "right"
+  },
+  "Choose the option below for which instance of the class cannot be created": {
+    "Anonymous Class": "worng",
+    "Parent Class": "worng",
+    "Nested Class": "worng",
+    "Abstract Class": "right"
+  },
+  "Which choice is an immutable data type?": {
+    "Dictionnary": "worng",
+    "List": "worng",
+    "Set": "worng",
+    "String": "right"
+  },
+  "Suppose you have a variale named vector of type np.array with 10,000 elements. How can you turn vector into a variable named matrix with dimensions 100x100?": {
+    "Matrix = (vector.shape = (100,100))": "worng",
+    "Matrix = vector.to_matrix(100,100)": "worng",
+    "Matrix = matrix(vector,100,100)": "worng",
+    "Matrix = vector.reshape(100, 100)": "right"
+  },
+  "What are the two main data structures in the Pandas library?": {
+    "Arrays and DataFrames": "worng",
+    "Series and Matrixes": "worng",
+    "Matrixes and DataFrames": "worng",
+    "Series and DataFrames": "right"
+  },
+  "What is the correct syntax for creating a vaiable that is bound to a list?": {
+    "My_list = (2, 'apple', 3.5)": "worng",
+    "My_list = [2, 'apple', 3.5]": "right",
+    "My_list = [2, 'apple', 3.5].to_list()": "worng",
+    "My_list = to_list(2, 'apple', 3.5)": "worng"
+  },
+  "What two functions within the NumPy library could you use to solve a system of linear equations?": {
+    "Linalg.eig() and .matmul()": "right",
+    "Linalg.inv() and .dot()": "worng",
+    "Linalg.det() and .dot()": "worng",
+    "Linalg.inv() and .eye()": "worng"
+  },
+  "How do you add a comment to existing Python script?": {
+    "// This is a comment": "worng",
+    "# This is a comment": "right",
+    "-- This is a comment": "worng",
+    "/* This is a comment *\\": "worng"
+  },
+  "What Python mechanism is best suited for telling a user they are using a deprecated function": {
+    "Sys.stdout": "worng",
+    "Traceback": "worng",
+    "Warnings": "right",
+    "Exceptions": "worng"
+  },
+  "In Python, how can the compiler identify the inner block of a for loop?": {
+    "Because of the level of indentation after the for loop": "right",
+    "Because of the end keyword at the end of the for loop": "worng",
+    "Because of the block is surrounded by brackets ({})": "worng",
+    "Because of the blank space at the end of the body of the for loop": "worng"
+  },
+  "When would you use a try/except block in code?": {
+    "You use try/except blocks when you want to run some code, but need a way to execute different code if an exception is raised.": "right",
+    "You use try/except blocks inside of unit tests so that the unit testes will always pass.": "worng",
+    "You use try/except blocks so that you can demonstrate to your code reviewers that you tried a new approach, but if the new approach is not what they were looking for, they can leave comments under the except keyword.": "worng",
+    "You use try/except blocks so that none of your functions or methods return None.": "worng"
+  },
+  "When an array is large, NumPy will not print the entire array when given the built-in print function. What function can you use within NumPy to force it to print the entire array?": {
+    "Set_printparams": "worng",
+    "Set_printoptions": "right",
+    "Set_fullprint": "worng",
+    "Setp_printwhole": "worng"
+  },
+  "Which Python function allows you to execute Linux shell commands in Python?": {
+    "Sys.exc_info()": "worng",
+    "Os.system()": "right",
+    "Os.getcwd()": "worng",
+    "Sys.executable": "worng"
+  },
+  "What built-in Python data type can be used as a hash table?": {
+    "Set": "worng",
+    "List": "worng",
+    "Tuple": "worng",
+    "Dictionary": "right"
+  },
+  "NumPy allows you to multiply two arrays without a for loop. This is an example of _.": {
+    "Vectorization": "right",
+    "Attributions": "worng",
+    "Accelaration": "worng",
+    "Functional programming": "worng"
+  },
+  "Which mode is not a valid way to access a file from within a Python script?": {
+    "Write('w')": "worng",
+    "Scan('s')": "right",
+    "Append('a')": "worng",
+    "Read('r')": "worng"
+  },
+  "Which syntax correctly creates a variable that is bound to a tuple?": {
+    "My_tuple tup(2, 'apple', 3.5) %D": "worng",
+    "My_tuple [2, 'apple', 3.5].tuple() %D": "worng",
+    "My_tuple = (2, 'apple', 3.5)": "right",
+    "My_tuple = [2, 'apple', 3.5]": "worng"
+  },
+  "Elements surrounded by [] are _, {} are _, and () are _.": {
+    "Sets only; lists or dictionaries; tuples": "worng",
+    "Lists; sets only; tuples": "worng",
+    "Tuples; sets or lists; dictionaries": "worng",
+    "Lists; dictionaries or sets; tuples": "right"
+  },
+  "Which command will create a list from 10 down to 1? Example:10,9,8,7,6,5,4,3,2,1": {
+    "Reversed(list(range(1,11)))": "worng",
+    "List(reversed(range(1,10)))": "worng",
+    "List(range(10,1,-1))": "worng",
+    "List(reversed(range(1,11)))": "right"
+  },
+  "What is the correct syntax for calling an instance method on a class named Game?": {
+    "My_game = Game(self) self.my_game.roll_dice()": "worng",
+    "My_game = Game() self.my_game.roll_dice()": "worng",
+    "My_game = Game() my_game.roll_dice()": "right",
+    "My_game = Game(self) my_game.roll_dice(self)": "worng"
+  },
+  "What is the correct syntax for defining a class called Game?": {
+    "Def Game(): pass": "worng",
+    "Def Game: pass": "worng",
+    "Class Game: pass": "right",
+    "Class Game(): pass": "worng"
+  },
+  "What file is imported to use dates in python?": {
+    "Datetime": "right",
+    "Dateday": "worng",
+    "Daytime": "worng",
+    "Timedate": "worng"
+  },
+  "What does the // operator in Python 3 allow you to do?": {
+    "Perform integer division": "right",
+    "Perform operations on exponents": "worng",
+    "Find the remainder of a division operation": "worng",
+    "Perform floating point division": "worng"
+  },
+  "You encounter a FileNotFoundException while using just the filename in the open function. What might be the easiest solution?": {
+    "Make sure the file is on the system PATH": "worng",
+    "Create a symbolic link to allow better access to the file": "worng",
+    "Copy the file to the same directory as where the script is running from": "right",
+    "Add the path to the file to the PYTHONPATH environment variable": "worng"
+  },
+  "When would you use a while loop?": {
+    "When you want to minimize the use of strings in your code": "worng",
+    "When you want to run code in one file while code in another file is also running": "worng",
+    "When you want some code to continue running as long as some condition is true": "right",
+    "When you need to run two or more chunks of code at once within the same file": "worng"
+  },
+  "What is the correct syntax for adding a key called variety to the fruit_info dictionary that has a value of Red Delicious?": {
+    "Fruit_info['variety'] == 'Red Delicious'": "worng",
+    "Fruit_info['variety'] = 'Red Delicious'": "right",
+    "Red_delicious = fruit_info['variety']": "worng",
+    "Red_delicious == fruit_info['variety']": "worng"
+  },
+  "How does defaultdict work?": {
+    "Defaultdict will automatically create a dictionary for you that has keys which are the integers 0-10.": "worng",
+    "Defaultdict forces a dictionary to only accept keys that are of the types specified when you created the defaultdict (such as strings or integers).": "worng",
+    "If you try to read from a defaultdict with a nonexistent key, a new default key-value pair will be created for you instead of throwing a KeyError.": "right",
+    "Defaultdict stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.": "worng"
+  },
+  "Describe the functionality of a queue?": {
+    "A queue adds items to either end and removes items from either end.": "right",
+    "A queue adds items to the top and removes items from the top.": "worng",
+    "A queue adds items to the top, and removes items from anywhere in, a list.": "worng",
+    "A queue adds items to the top and removes items from anywhere in the queue.": "worng"
+  },
+  "What will happen if you use a while loop and forget to include logic that eventually causes the while loop to stop?": {
+    "Nothing will happen; your computer knows when to stop running the code in the while loop.": "worng",
+    "You will get a KeyError.": "worng",
+    "Your code will get stuck in an infinite loop.": "right",
+    "You will get a WhileLoopError.": "worng"
+  },
+  "How is comment created?": {
+    "-- This is a comment": "worng",
+    "# This is a comment": "right",
+    "/_ This is a comment _\\": "worng",
+    "// This is a comment": "worng"
+  },
+  "What is the correct way to call a function?": {
+    "Get_max_num([57, 99, 31, 18])": "right",
+    "Call.(get_max_num)": "worng",
+    "Def get_max_num([57, 99, 31, 18])": "worng",
+    "Call.get_max_num([57, 99, 31, 18])": "worng"
+  },
+  "What is the difference between class attributes and instance attributes?": {
+    "Instance attributes can be changed, but class attributes cannot be changed": "worng",
+    "Class attributes are shared by all instances of the class. Instance attributes may be unique to just that instance": "right",
+    "There is no difference between class attributes and instance attributes": "worng",
+    "Class attributes belong just to the class, not to instance of that class. Instance attributes are shared among all instances of a class": "worng"
+  },
+  "What does a generator return?": {
+    "None": "worng",
+    "An iterable object": "right",
+    "A linked list data structure from a non-empty list": "worng",
+    "All the keys of the given dictionary": "worng"
+  },
+  "What is the primary difference between lists and tuples?": {
+    "You can access a specific element in a list by indexing to its position, but you cannot access a specific element in a tuple unless you iterate through the tuple": "worng",
+    "Lists are mutable, meaning you can change the data that is inside them at any time. Tuples are immutable, meaning you cannot change the data that is inside them once you have created the tuple.": "right",
+    "Lists are immutable, meaning you cannot change the data that is inside them once you have created the list. Tuples are mutable, meaning you can change the data that is inside them at any time.": "worng",
+    "Lists can hold several data types inside them at once, but tuples can only hold the same data type if multiple elements are present.": "worng"
+  },
+  "What is a lambda function ?": {
+    "Any function that makes use of scientific or mathematical constants, often represented by Greek letters in academic writing": "worng",
+    "A function that get executed when decorators are used": "worng",
+    "Any function whose definition is contained within five lines of code or fewer": "worng",
+    "A small, anonymous function that can take any number of arguments but has only expression to evaluate": "right"
+  },
+  "What is the correct way to run all the doctests in a given file from the command line?": {
+    "Python3 -m doctest <_filename_>": "right",
+    "Python3 <_filename_>": "worng",
+    "Python3 <_filename_> rundoctests": "worng",
+    "Python3 doctest": "worng"
+  },
+  "Why would you use a virtual environment?": {
+    "Virtual environments create a ": "right",
+    "Teams with remote employees use virtual environments so they can share code, do code reviews, and collaborate remotely.": "worng",
+    "Virtual environments were common in Python 2 because they augmented missing features in the language. Virtual environments are not necessary in Python 3 due to advancements in the language.": "worng",
+    "Virtual environments are tied to your GitHub or Bitbucket account, allowing you to access any of your repos virtually from any machine.": "worng"
+  },
+  "Why is it considered good practice to open a file from within a Python script by using the with keyword?": {
+    "The with keyword lets you choose which application to open the file in.": "worng",
+    "The with keyword acts like a for loop, and lets you access each line in the file one by one.": "worng",
+    "There is no benefit to using the with keyword for opening a file in Python.": "worng",
+    "When you open a file using the with keyword in Python, Python will make sure the file gets closed, even if an exception or error is thrown.": "right"
+  },
+  "What is a base case in a recursive function?": {
+    "A base case is the condition that allows the algorithm to stop recursing. It is usually a problem that is small enough to solve directly.": "right",
+    "The base case is summary of the overall problem that needs to be solved.": "worng",
+    "The base case is passed in as an argument to a function whose body makes use of recursion.": "worng",
+    "The base case is similar to a base class, in that it can be inherited by another object.": "worng"
+  },
+  "Which statement accurately describes how items are added to and removed from a stack?": {
+    "A stacks adds items to one side and removes items from the other side.": "worng",
+    "A stacks adds items to the top and removes items from the top.": "right",
+    "A stacks adds items to the top and removes items from anywhere in the stack.": "worng",
+    "A stacks adds items to either end and removes items from either end.": "worng"
+  },
+  "What is the runtime complexity of adding an item to a stack and removing an item from a stack?": {
+    "Add items to a stack in O(1) time and remove items from a stack on O(n) time.": "worng",
+    "Add items to a stack in O(1) time and remove items from a stack in O(1) time.": "right",
+    "Add items to a stack in O(n) time and remove items from a stack on O(1) time.": "worng",
+    "Add items to a stack in O(n) time and remove items from a stack on O(n) time.": "worng"
+  },
+  "Why would you use mixin?": {
+    "You use a mixin to force a function to accept an argument at runtime even if the argument wasn't included in the function's definition.": "worng",
+    "You use a mixin to allow a decorator to accept keyword arguments.": "worng",
+    "You use a mixin to make sure that a class's attributes and methods don't interfere with global variables and functions.": "worng",
+    "If you have many classes that all need to have the same functionality, you'd use a mixin to define that functionality.": "right"
+  },
+  "What is the runtime complexity of searching for an item in a binary search tree?": {
+    "The runtime for searching in a binary search tree is O(1) because each node acts as a key, similar to a dictionary.": "worng",
+    "The runtime for searching in a binary search tree is O(n!) because every node must be compared to every other node.": "worng",
+    "The runtime for searching in a binary search tree is generally O(h), where h is the height of the tree.": "right",
+    "The runtime for searching in a binary search tree is O(n) because every node in the tree must be visited.": "worng"
+  },
+  "What would happen if you did not alter the state of the element that an algorithm is operating on recursively?": {
+    "You do not have to alter the state of the element the algorithm is recursing on.": "worng",
+    "You would eventually get a KeyError when the recursive portion of the code ran out of items to recurse on.": "right",
+    "You would get a RuntimeError: maximum recursion depth exceeded.": "worng",
+    "The function using recursion would return None.": "worng"
+  },
+  "When would you use a for loop?": {
+    "Only in some situations, as loops are used only for certain type of programming.": "worng",
+    "When you need to check every element in an iterable of known length.": "right",
+    "When you want to minimize the use of strings in your code.": "worng",
+    "When you want to run code in one file for a function in another file.": "worng"
+  },
+  "Why would you use a decorator?": {
+    "A decorator is similar to a class and should be used if you are doing functional programming instead of object oriented programming.": "worng",
+    "A decorator is a visual indicator to someone reading your code that a portion of your code is critical and should not be changed.": "worng",
+    "You use the decorator to alter the functionality of a function without having to modify the functions code.": "right",
+    "An import statement is preceded by a decorator, python knows to import the most recent version of whatever package or library is being imported.": "worng"
+  },
+  "Which of the following is TRUE About how numeric data would be organised in a binary Search tree?": {
+    "For any given Node in a binary Search Tree, the child node to the left is less than the value of the given node and the child node to its right is greater than the given node.": "right",
+    "Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees.": "worng",
+    "The top node of the binary search tree would be an arbitrary number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way.": "worng",
+    "The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node.": "worng"
+  },
+  "What is the correct syntax for creating a variable that is bound to a set?": {
+    "My_set = {0, 'apple', 3.5}": "right",
+    "My_set = to_set(0, 'apple', 3.5)": "worng",
+    "My_set = (0, 'apple', 3.5).to_set()": "worng",
+    "My_set = (0, 'apple', 3.5).set()": "worng"
+  },
+  "Describe the functionality of a deque.": {
+    "A deque adds items to one side and remove items from the other side.": "worng",
+    "A deque adds items to either or both sides, but only removes items from the top.": "worng",
+    "A deque adds items at either or both ends, and remove items at either or both ends.": "right",
+    "A deque adds items only to the top, but remove from either or both sides.": "worng"
+  },
+  "According to the PEP 8 coding style guidelines, how should constant values be named in Python?": {
+    "In camel case without using underscores to separate words -- e.g. maxValue = 255": "worng",
+    "In lowercase with underscores to separate words -- e.g. max_value = 255": "worng",
+    "In all caps with underscores separating words -- e.g. MAX_VALUE = 255": "right",
+    "In mixed case without using underscores to separate words -- e.g. MaxValue = 255": "worng"
+  },
+  "What is the proper way to define a function?": {
+    "Def getMaxNum(list_of_nums): # body of function goes here": "worng",
+    "Func get_max_num(list_of_nums): # body of function goes here": "worng",
+    "Func getMaxNum(list_of_nums): # body of function goes here": "worng",
+    "Def get_max_num(list_of_nums): # body of function goes here": "right"
+  },
+  "What does it mean for a function to have linear runtime?": {
+    "You did not use very many advanced computer programming concepts in your code.": "worng",
+    "The difficulty level your code is written at is not that high.": "worng",
+    "It will take your program less than half a second to run.": "worng",
+    "The amount of time it takes the function to complete grows linearly as the input size increases.": "right"
+  },
+  "What statement about the class methods is true?": {
+    "A class method is a regular function that belongs to a class, but it must return None.": "worng",
+    "A class method can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.": "right",
+    "A class method is similar to a regular function, but a class method doesn't take any arguments.": "worng",
+    "A class method hold all of the data for a particular class.": "worng"
+  },
+  "What is the purpose of the self keyword when defining or calling methods on an instance of an object?": {
+    "Self refers to the class that was inherited from to create the object using self.": "worng",
+    "There is no real purpose for the self method. It's just legacy computer science jargon that Python keeps to stay consistent with other programming languages.": "worng",
+    "Self means that no other arguments are required to be passed into the method.": "worng",
+    "Self refers to the instance whose method was called.": "right"
+  },
+  "What is the correct syntax for creating a variable that is bound to a dictionary?": {
+    "Fruit_info = {'fruit': 'apple', 'count': 2, 'price': 3.5}": "right",
+    "Fruit_info =('fruit': 'apple', 'count': 2,'price': 3.5 ).dict()": "worng",
+    "Fruit_info = ['fruit': 'apple', 'count': 2,'price': 3.5 ].dict()": "worng",
+    "Fruit_info = to_dict('fruit': 'apple', 'count': 2, 'price': 3.5)": "worng"
+  },
+  "What is meant by the phrase \"space complexity\"?": {
+    "How many microprocessors it would take to run your code in less than one second": "worng",
+    "How many lines of code are in your code file": "worng",
+    "The amount of space taken up in memory as a function of the input size": "right",
+    "How many copies of the code file could fit in 1 GB of memory": "worng"
+  },
+  "What does a class's __init__() method do?": {
+    "It makes classes aware of each other if more than one class is defined in a single code file.": "worng",
+    "It is included to preserve backwards compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.": "worng",
+    "It is a method that acts as a constructor and is called automatically whenever a new object is created from a class. It sets the initial state of a new object.": "right",
+    "It initializes any imports you may have included at the top of your file.": "worng"
+  },
+  "What value would be returned by this check for equality?                     5 != 6": {
+    "Yes": "worng",
+    "False": "worng",
+    "True": "right",
+    "None": "worng"
+  },
+  "What symbol(s) do you use to assess equality between two elements?": {
+    "&&": "worng",
+    "=": "worng",
+    "==": "right",
+    "||": "worng"
+  },
+  "What does calling namedtuple on a collection type return?": {
+    "A generic object class with iterable parameter fields": "worng",
+    "A generic object class with non-iterable named fields": "worng",
+    "A tuple subclass with non-iterable parameter fields": "worng",
+    "A tuple subclass with iterable named fields": "right"
+  },
+  "Suppose a Game class inherits from two parent classes: BoardGame and LogicGame. Which statement is true about the methods of an object instantiated from the Game class?": {
+    "When instantiating an object, the object doesn't inherit any of the parent class's methods.": "worng",
+    "When instantiating an object, the object will inherit the methods of whichever parent class has more methods.": "worng",
+    "When instantiating an object, the programmer must specify which parent class to inherit methods from.": "worng",
+    "An instance of the Game class will inherit whatever methods the BoardGame and LogicGame classes have.": "right"
+  },
+  "What is the definition of abstraction as applied to object-oriented Python?": {
+    "Abstraction means that a different style of code can be used, since many details are already known to the program behind the scenes.": "worng",
+    "Abstraction means the implementation is hidden from the user, and only the relevant data or information is shown.": "right",
+    "Abstraction means that the data and the functionality of a class are combined into one entity.": "worng",
+    "Abstraction means that a class can inherit from more than one parent class.": "worng"
+  },
+  "What is key difference between a set and a list?": {
+    "A set is an ordered collection unique items. A list is an unordered collection of non-unique items.": "worng",
+    "Elements can be retrieved from a list but they cannot be retrieved from a set.": "worng",
+    "A set is an ordered collection of non-unique items. A list is an unordered collection of unique items.": "worng",
+    "A set is an unordered collection unique items. A list is an ordered collection of non-unique items.": "right"
+  },
+  "What is runtime complexity of the list's built-in .append() method?": {
+    "O(1), also called constant time": "right",
+    "O(log n), also called logarithmic time": "worng",
+    "O(n^2), also called quadratic time": "worng",
+    "O(n), also called linear time": "worng"
+  },
+  "What is the algorithmic paradigm of quick sort?": {
+    "Backtracking": "worng",
+    "Dynamic programming": "worng",
+    "Decrease and conquer": "worng",
+    "Divide and conquer": "right"
+  },
+  "What happens when you use the built-in function all() on a list?": {
+    "The all() function returns a Boolean value that answers the question ": "worng",
+    "The all() function returns True if all the items in the list can be converted to strings. Otherwise, it returns False.": "worng",
+    "The all() function will return all the values in the list.": "worng",
+    "The all() function returns True if all items in the list evaluate to True. Otherwise, it returns False.": "right"
+  },
+  "Assuming the node is in a singly linked list, what is the runtime complexity of searching for a specific node within a singly linked list?": {
+    "The runtime is O(n) because in the worst case, the node you are searching for is the last node, and every node in the linked list must be visited.": "right",
+    "The runtime is O(nk), with n representing the number of nodes and k representing the amount of time it takes to access each node in memory.": "worng",
+    "The runtime cannot be determined unless you know how many nodes are in the singly linked list.": "worng",
+    "The runtime is O(1) because you can index directly to a node in a singly linked list.": "worng"
+  },
+  "When does a for loop stop iterating?": {
+    "When it encounters an infinite loop": "worng",
+    "When it encounters an if/else statement that contains a break keyword": "worng",
+    "When it has assessed each item in the iterable it is working on or a break keyword is encountered": "right",
+    "When the runtime for the loop exceeds O(n^2)": "worng"
+  },
+  "Which collection type is used to associate values with unique keys?": {
+    "Slot": "worng",
+    "Dictionary": "right",
+    "Queue": "worng",
+    "Sorted list": "worng"
+  },
+  "What is the term used to describe items that may be passed into a function?": {
+    "Arguments": "right",
+    "Paradigms": "worng",
+    "Attributes": "worng",
+    "Decorators": "worng"
+  },
+  "What is the purpose of the pass statement in Python?": {
+    "It is used to skip the yield statement of a generator and return a value of None.": "worng",
+    "It is a null operation used mainly as a placeholder in functions, classes, etc.": "right",
+    "It is used to pass control from one statement block to another.": "worng",
+    "It is used to skip the rest of a while or for loop and return to the start of the loop.": "worng"
+  },
+  "If you don't explicitly return a value from a function, what happens?": {
+    "The function will return a RuntimeError if you don't return a value.": "worng",
+    "If the return keyword is absent, the function will return None.": "right",
+    "If the return keyword is absent, the function will return True.": "worng",
+    "The function will enter an infinite loop because it won't know when to stop executing its code.": "worng"
+  },
+  "What does the built-in map() function do?": {
+    "It creates a path from multiple values in an iterable to a single value.": "worng",
+    "It applies a function to each item in an iterable and returns the value of that function.": "worng",
+    "It converts a complex value type into simpler value types.": "right",
+    "It creates a mapping between two different elements of different iterables.": "worng"
+  },
+  "What is the correct syntax for instantiating a new object of the type Game?": {
+    "My_game = class.Game()": "worng",
+    "My_game = class(Game)": "worng",
+    "My_game = Game()": "right",
+    "My_game = Game.create()": "worng"
+  },
+  "What built-in Python data type is best suited for implementing a queue?": {
+    "Dictionary": "worng",
+    "Set": "worng",
+    "None. You can only build a queue from scratch.": "worng",
+    "List": "right"
+  },
+  "What is the purpose of an if/else statement?": {
+    "It tells the computer which chunk of code to run if the instructions you coded are incorrect.": "worng",
+    "It runs one chunk of code if all the imports were successful, and another chunk of code if the imports were not successful.": "worng",
+    "It executes one chunk of code if a condition is true, but a different chunk of code if the condition is false.": "right",
+    "It tells the computer which chunk of code to run if the is enough memory to handle it, and which chunk of code to run if there is not enough memory to handle it.": "worng"
+  },
+  "Which statement does NOT describe the object-oriented programming concept of encapsulation?": {
+    "It protects the data from outside interference.": "worng",
+    "A parent class is encapsulated and no data from the parent class passes on to the child class.": "worng",
+    "It keeps data and the methods that can manipulate that data in one place.": "worng",
+    "It only allows the data to be changed by methods.": "right"
+  },
+  "What is an instance method?": {
+    "Instance methods can modify the state of an instance or the state of its parent class.": "right",
+    "Instance methods hold data related to the instance.": "worng",
+    "An instance method is any class method that doesn't take any arguments.": "worng",
+    "An instance method is a regular function that belongs to a class, but it must return None.": "worng"
+  },
+  "Which of these is NOT a characteristic of namedtuples?": {
+    "You can assign a name to each of the namedtuple members and refer to them that way, similarly to how you would access keys in dictionary.": "worng",
+    "Each member of a namedtuple object can be indexed to directly, just like in a regular tuple.": "worng",
+    "Namedtuples are just as memory efficient as regular tuples.": "worng",
+    "No import is needed to use namedtuples because they are available in the standard library.": "right"
+  },
+  "What is the purpose of the \"self\" keyword when defining or calling instance methods?": {
+    "Self means that no other arguments are required to be passed into the method.": "worng",
+    "There is no real purpose for the self method; it's just historic computer science jargon that Python keeps to stay consistent with other programming languages.": "worng",
+    "Self refers to the instance whose method was called.": "right",
+    "Self refers to the class that was inherited from to create the object using self.": "worng"
+  },
+  "What built-in Python data type is commonly used to represent a stack?": {
+    "Set": "worng",
+    "List": "right",
+    "None": "worng",
+    "Dictionary": "worng",
+    "You can only build a stack from scratch.": "worng"
+  },
+  "What is the correct syntax for defining a class called Game, if it inherits from a parent class called LogicGame?": {
+    "Class Game(LogicGame): pass": "right",
+    "Def Game(LogicGame): pass": "worng",
+    "Def Game.LogicGame(): pass": "worng",
+    "Class Game.LogicGame(): pass": "worng"
+  },
+  "What is the runtime of accessing a value in a dictionary by using its key?": {
+    "O(n), also called linear time.": "worng",
+    "O(log n), also called logarithmic time.": "worng",
+    "O(n^2), also called quadratic time.": "worng",
+    "O(1), also called constant time.": "right"
+  },
+  "What is one of the most common use of Python's sys library?": {
+    "To capture command-line arguments given at a file's runtime": "right",
+    "To connect various systems, such as connecting a web front end, an API service, a database, and a mobile app": "worng",
+    "To take a snapshot of all the packages and libraries in your virtual environment": "worng",
+    "To scan the health of your Python ecosystem while inside a virtual environment": "worng"
+  },
+  "What built-in list method would you use to remove items from a list?": {
+    ".delete() method": "worng",
+    "Pop(my_list)": "worng",
+    "Del(my_list)": "worng",
+    ".pop() method": "right"
+  },
+  "What are attributes?": {
+    "Attributes are long-form version of an if/else statement, used when testing for equality between objects.": "worng",
+    "Attributes are a way to hold data or describe a state for a class or an instance of a class.": "right",
+    "Attributes are strings that describe characteristics of a class.": "worng",
+    "Function arguments are called ": "worng"
+  },
+  "What statement about static methods is true?": {
+    "Static methods are called static because they always return None.": "worng",
+    "Static methods can be bound to either a class or an instance of a class.": "worng",
+    "Static methods serve mostly as utility methods or helper methods, since they can't access or modify a class's state.": "right",
+    "Static methods can access and modify the state of a class or an instance of a class.": "worng"
+  },
+  "What data structure does a binary tree degenerate to if it isn't balanced properly?": {
+    "Linked list": "right",
+    "Queue": "worng",
+    "Set": "worng",
+    "OrderedDict": "worng"
+  },
+  "What happens when you use the build-in function any() on a list?": {
+    "The any() function will randomly return any item from the list.": "worng",
+    "The any() function returns True if any item in the list evaluates to True. Otherwise, it returns False.": "right",
+    "The any() function takes as arguments the list to check inside, and the item to check for. If ": "worng",
+    "The any() function returns a Boolean value that answers the question ": "worng"
+  },
+  "What is an abstract class?": {
+    "An abstract class is the name for any class from which you can instantiate an object.": "worng",
+    "Abstract classes must be redefined any time an object is instantiated from them.": "worng",
+    "Abstract classes must inherit from concrete classes.": "worng",
+    "An abstract class exists only so that other ": "right"
+  },
+  "The starting value of an algorithm used to generate a range of numbers is called the _________.": {
+    "Integer": "worng",
+    "Different": "worng",
+    "Write": "worng",
+    "Seed": "right"
+  },
+  "The class ____ is the base of the classes designed to handle exceptions.": {
+    "Class": "worng",
+    "Exception": "right",
+    "Logic_error": "worng",
+    "Runtime_error": "worng"
+  },
+  "A variable's ________ is the part of a program in which the variable may be accessed.": {
+    "Scope": "worng",
+    "Global": "worng",
+    "Argument": "worng",
+    "Local": "right"
+  },
+  "You usually use the for loop with ____ loops.": {
+    "Indefinite": "worng",
+    "Definite": "right",
+    "Inner": "worng",
+    "Outer": "worng"
+  },
+  "When a function is called by its name, then it is _____.": {
+    "Executed": "right",
+    "Modules": "worng",
+    "Radians": "worng",
+    "Parameter": "worng"
+  },
+  "The purpose of the __________ is to get the first input value for the validation of a loop.": {
+    "Type mismatch": "worng",
+    "Priming read": "right",
+    "Sensitive": "worng",
+    "Empty input": "worng"
+  },
+  "The _____ of a local variable is the function in which the variable is created": {
+    "Hierarchy": "worng",
+    "IPO": "worng",
+    "Def": "worng",
+    "Scope": "right"
+  },
+  "It is recommended that programmers avoid using ________ variables in a program whenever possible.": {
+    "Local": "worng",
+    "Global": "right",
+    "Reference": "worng",
+    "Parameter": "worng"
+  },
+  "If the start index is ________ the end index, the slicing expression will return an empty string.": {
+    "Equal to": "worng",
+    "Less than": "worng",
+    "Greater than": "right",
+    "Not equal to": "worng"
+  },
+  "An example of an attribute of an object might be _______.": {
+    "An inventory item": "worng",
+    "Items on a purchase order": "worng",
+    "\u200ba social security number": "right",
+    "A calendar": "worng"
+  },
+  "All objects within a(n) _____ share common attributes and methods.": {
+    "Catalog": "worng",
+    "Register": "worng",
+    "Index": "worng",
+    "Class": "right"
+  },
+  "A(n) ________ access file is also known as a direct access file.": {
+    "Sequential": "worng",
+    "Random": "right",
+    "Numbered": "worng",
+    "Text": "worng"
+  },
+  "A series of nested if statements can also be called a ____ if statement.": {
+    "Connected": "worng",
+    "Stacked": "worng",
+    "Cascading": "right",
+    "Trailed": "worng"
+  },
+  "The ________ design technique can be used to break down an algorithm into functions.": {
+    "Top-down": "right",
+    "Code simplification": "worng",
+    "Code refactoring": "worng",
+    "Hierarchical subtasking": "worng"
+  },
+  "A condition is a ________ expression": {
+    "Body of the loop": "worng",
+    "While and Do-While": "worng",
+    "Boolean": "right",
+    "All of the above": "worng"
+  },
+  "To append data to an existing file, you open it with the ____________ method.": {
+    "File.AppendAll": "worng",
+    "File.Append": "worng",
+    "File.OpenExistingText": "worng",
+    "File.AppendText": "right"
+  },
+  "The process of ____ is used to create an object from a class.": {
+    "Class": "worng",
+    "Constructor": "right",
+    "User-defined functions": "worng",
+    "In-built functions": "worng"
+  },
+  "A loop controlled by the user is a type of ____ loop.": {
+    "Definite": "worng",
+    "Indefinite": "worng",
+    "Incrementing": "right",
+    "Counter Controlled": "worng"
+  },
+  "The function header begins with the keyword ____ followed by the name of the function.": {
+    "Input": "worng",
+    "Local variable": "worng",
+    "Def": "right",
+    "Return": "worng"
+  },
+  "Python comes with ________ functions that have been already prewritten for the programmer.": {
+    "Standard": "right",
+    "Library": "worng",
+    "Custom": "worng",
+    "Built-in": "worng"
+  },
+  "Which two dictionary objects return '0' on success and '-1'on failure?": {
+    "int PyDict_SetItem(PyObject *p, PyObject *key, PyObject *val)PyObject*": "right",
+    "PyDict_GetItemWithError(PyObject *p, PyObject *key)": "right",
+    "PyObject* PyDict_New()": "right",
+    "int PyDict_DelItemString(PyObject *p, const char *key)": "right"
+  },
+  "Which  option are the correct general socket methods?": {
+    "send()": "right",
+    "socket.gethostname()": "right",
+    "s.bind()": "worng",
+    "s.accept()": "worng"
+  },
+  "Which two interface objects cannot have child nodes?": {
+    "NodeList": "worng",
+    "ProcessingInstruction": "right",
+    "Node": "right",
+    "Element": "worng",
+    "Comment": "worng"
+  },
+  "Which statement about Python 3.4.2 is/are false?": {
+    "It is an object-oriented language.": "worng",
+    "It is not an interpreted language.": "right",
+    "It is an interactive language.": "worng",
+    "It is not a case-sensitive language.": "right"
+  },
+  "This question is based on the graphic shown below.       In the given image, which of the following line numbers in the Python code will result in a compilation error?": {
+    "Line number 6": "worng",
+    "Line number 10": "worng",
+    "Line number 14": "worng",
+    "Line number 15": "right",
+    "Line number 16": "worng"
+  },
+  "Which  statement is correct?": {
+    "'str' 'ing'": "right",
+    "'str'.strip() + 'ing'": "right",
+    "'str'.strip() 'ing'": "worng",
+    "'str' + 'ing'": "right"
+  },
+  "In relation to the socket module in PythonoNetwork programming. which option is the  correct parameters of the socket() function?": {
+    "E socket_family": "worng",
+    "[3 port": "worng",
+    "E socket_type": "right",
+    "[2 protocol": "worng"
+  },
+  "Which tuples are not used in the AF_INET6 address family?": {
+    "sockaddr": "right",
+    "host": "worng",
+    "groups": "worng",
+    "port": "worng",
+    "pid": "worng"
+  },
+  "Which modules are used with the FTP protocol in Python?": {
+    "ftplib": "right",
+    "smtplib": "worng",
+    "urllib": "right",
+    "Httplib": "worng"
+  },
+  "In relation to the socket() function in Python, which of the following constants represent the socket  types?    1. SOCK_DGRAM    2. SOCK_RDM    3. SOCK_RAW    4. SOCK_SEQPACKET": {
+    "All options 1. 2. 3. and 4.  ": "right",
+    " Only options 1. 2. and 3.": "worng",
+    "Only options 1. 2. and 4.": "worng",
+    "Only options 2. 3. and 4.": "worng"
+  },
+  "Output of the following Python language code?  import threading  def p_c(num):  print('[}'.format(num \u2018 num \u2018 num))  def p_s(num):  print('[}'.format(num \u2019 num))  if _name_ = '_main_':  t1 = threading.Thread(target=p_s. args=l10.))  t2 = threading.Thread(target=p_c, args=(10,))  t1.start()  t2.start0  11.join0  t2.join()  prinl('1')": {
+    "100 100    1 ": "worng",
+    "1000 1000    1": "worng",
+    " 100 1000    1   ": "right"
+  },
+  "Choose the correct output of the Python 3.4 code that is given in the image?": {
+    "One 0.0": "worng",
+    "-Oxff  ": "worng",
+    "Two 0.0": "worng",
+    "-Oxff ": "worng",
+    " Two 0.0  -0x2a  ": "right"
+  },
+  "Output of the following Python code   class Son:  def __init_(self. n):  self\u200cin = n  print(self.n)  def sayh(self):  print(self.n)  p = Son('0') p-sayho": {
+    "o": "worng",
+    " o 0  ": "right",
+    "Code will compile. but will not give any output.": "worng",
+    "Code will give a compilation error.": "worng"
+  },
+  " Choose the correct output of the given Python code.": {
+    "[36.0, 37.0, 40.0, 45.0, 52.0, 61.0, 72.0, 85.0,100.0] 266.5 ": "worng",
+    " [36.0, 40.0, 52.0, 72.0, 100.0,136.0,180.0, 232.0] 266.5": "right",
+    " [36.0, 37.0. 40.0. 52.0, 61.0. 85.0.1090. 132.0.169.0] 216.5": "worng",
+    " [36.0, 40.0, 52.0, 72.0, 100.0,136.0,180.0, 232.0] 216.5": "worng"
+  },
+  "Output of the following Python code?  lis1 =[2. 1. 3, 5]  lisZ = [6, 4, 3]  lis1.extend[lis2)  print (end=')  for i in range(0, len(lis1)):  print(end=' ')  lisl.clear()  print (end=')  for i in range(2. len(lis1)):  print(lisl[i]+1. end=' ')": {
+    "2 13 5 5 4 3 ": "right",
+    "4 2 61012 8 6": "right",
+    " 3 2 4 5 7 5 4   ": "right",
+    "Code will not print any output": "worng",
+    "None of the above.": "worng"
+  },
+  "Output of the following Python code?  class Ba(object):  def _init_(se|f, x):  self\u200cix = x+2  class De(Ba):  def _init_(self. x. y):  Bax = x\u20182  self.y = y+2  def printXY(self):  print(Ba.x+2, self.y\u20182)  d = De(10\u20192, 20+2)  d.printXYO": {
+    "36 42": "worng",
+    "38 44": "worng",
+    "40 46": "worng",
+    "42 48": "right"
+  },
+  "Output of the following Python code : class Ba(object):    pass  class De(Ba):    pass  print(issubclass(De. Ba))  print(issubclass(Ba, De))  d = 090  b = 880  print(isinstance(b, De))  print(isinstanceld. 88))": {
+    "False True  True  False ": "worng",
+    " False False  True  True": "worng",
+    "True False  False  True": "right",
+    "True True  False  False": "worng"
+  },
+  "Which expression in Python 3.4 will give an error?": {
+    "0 >>> import unicodedata  >>> unicodedata.name('/\u2018) ": "worng",
+    "0 >>> import unicodedata  >>> unicodedate.bidirectional(\u2018\\u0660')": "worng",
+    ">>> import unicodedata  >>> unicodedata.decimal(9)     ": "right",
+    ">>> import unicodedata  >>> unicodedatacategoryM)": "worng"
+  },
+  "Which option is not a method of xmlparser objects?": {
+    "Error-Handler": "right",
+    "CurrentBytelndex": "worng",
+    "GetBase": "worng",
+    "AttlistDeclHandler": "worng"
+  },
+  "Output of the following Python code?  c = {'A':1, 'B':2}  print(c.get('A'))  print(c.get('C'))  print(c.get('C'.'0'))": {
+    "\n\n\n\n\n\n0 O 1\n\n\n\n\n\nO O\n\n\n\n\n\n\nO 1                        None  0 \n\n\n\n\n\n\n\n\nNote: This Question is unanswered, help us to find answer for this one\n\nNext Question\nNext Question\nCheck Answer\n\n\n\n \n\n\n\n\n\nMore Python MCQ Questions\n\n\nWhich option is not a method of xmlparser objects?\n\n\n\n\nWhich expression in Python 3.4 will give an error?\n\n\n\n\nOutput of the following Python code : class Ba(object):    pass  class De(Ba):    pass  print(issubclass(De. Ba))  print(issubclass(Ba, De))  d = 090  b = 880  print(isinstance(b, De))  print(isinstanceld. 88))\n\n\n\n\nOutput of the following Python code?  class Ba(object):  def _init_(se|f, x):  self\u200cix = x+2  class De(Ba):  def _init_(self. x. y):  Bax = x\u20182  self.y = y+2  def printXY(self):  print(Ba.x+2, self.y\u20182)  d = De(10\u20192, 20+2)  d.printXYO\n\n\n\n\nOutput of the following Python code?  lis1 =[2. 1. 3, 5]  lisZ = [6, 4, 3]  lis1.extend[lis2)  print (end=')  for i in range(0, len(lis1)):  print(end=' ')  lisl.clear()  print (end=')  for i in range(2. len(lis1)):  print(lisl[i]+1. end=' ')\n\n\n\n\nWhich is a valid class declaration?\n\n\n\n\nWhat function is used to list the contents of a directory or a folder?\n\n\n\n\nWhat will be the value of the element a[0] after executing this set of commands?  a=[1,2,3] b=a b[0]=11  \n\n\n\n\nwhat would be an answer of the code below:  a = len('aa')  switch a:      case 1:           print 2          break      case 2:           print 1          break      default:          print 0\n\n\n\n\nWhat is the basic difference between theses two operations in 're' module: match() and search()?\n\n\n\n\n": "worng",
+    "undefined": "undefined",
+    "O O": "worng",
+    "O 1                        None  0 ": "right",
+    "\n\nNote: This Question is unanswered, help us to find answer for this one\n\nNext Question\nNext Question\nCheck Answer\n\n\n\n \n\n\n\n\n\nMore Python MCQ Questions\n\n\nWhich option is not a method of xmlparser objects?\n\n\n\n\nWhich expression in Python 3.4 will give an error?\n\n\n\n\nOutput of the following Python code : class Ba(object):    pass  class De(Ba):    pass  print(issubclass(De. Ba))  print(issubclass(Ba, De))  d = 090  b = 880  print(isinstance(b, De))  print(isinstanceld. 88))\n\n\n\n\nOutput of the following Python code?  class Ba(object):  def _init_(se|f, x):  self\u200cix = x+2  class De(Ba):  def _init_(self. x. y):  Bax = x\u20182  self.y = y+2  def printXY(self):  print(Ba.x+2, self.y\u20182)  d = De(10\u20192, 20+2)  d.printXYO\n\n\n\n\nOutput of the following Python code?  lis1 =[2. 1. 3, 5]  lisZ = [6, 4, 3]  lis1.extend[lis2)  print (end=')  for i in range(0, len(lis1)):  print(end=' ')  lisl.clear()  print (end=')  for i in range(2. len(lis1)):  print(lisl[i]+1. end=' ')\n\n\n\n\nWhich is a valid class declaration?\n\n\n\n\nWhat function is used to list the contents of a directory or a folder?\n\n\n\n\nWhat will be the value of the element a[0] after executing this set of commands?  a=[1,2,3] b=a b[0]=11  \n\n\n\n\nwhat would be an answer of the code below:  a = len('aa')  switch a:      case 1:           print 2          break      case 2:           print 1          break      default:          print 0\n\n\n\n\nWhat is the basic difference between theses two operations in 're' module: match() and search()?\n\n\n\n": "worng"
+  },
+  "Otput of the following expression in Python 3.4 shell?  '-6.34'.zfill(7)": {
+    " '-6.34'  ": "worng",
+    "'-6.3400'": "worng",
+    " '-006.34\u2018  ": "right",
+    "-06.340\u2018": "worng"
+  },
+  "What will be the correct output of the following Python language code?  from datetime import date  class Sn:  def __init_(self. n. a):  self.n = n  self\u200cia = a  @classmethod  def fBY(cl, n, y):  return cl(n. 2018 - y+1)  @staticmethod  def sA(a):  return a > 28  sn1 = Sn(": {
+    "42 False": "worng",
+    "45 True": "worng",
+    "45 False": "right",
+    "46 True": "worng",
+    "44 False": "worng"
+  },
+  "Output of the following Python code?  n1 = 90  n2 =18  x=n1-n2  X: x >> 3  print(x)": {
+    "8": "worng",
+    "9": "right",
+    "12": "worng"
+  },
+  " What will be the output of the Python code that is given in the image?": {
+    "OneTwoThreeFourPythons5\u00a0": "worng",
+    "TwoThreeFourPythons": "worng",
+    "Two Python5": "right",
+    "Four Python5": "worng",
+    " Three Python5": "worng"
+  },
+  "Output of the following Python code?  from functools import \u2018  def add(a, b, c):  return 1000'a +10\u2018b + c  add_part = partia|(add, c=2, b=1)  print(add_part(3))": {
+    "3120\u00a0": "worng",
+    "3102\u00a0": "worng",
+    "3012\u00a0": "right",
+    "0312": "worng"
+  },
+  " ln Python 3.4.2, what will be the output of the code given in the image?": {
+    "0 gm spr 918.0 Python is a powerful programming language.\u00a0\u00a0": "worng",
+    "0 spr gm p23.0 Python is a powerful programming language.\u00a0\u00a0": "worng",
+    "0 gm spr p22.0 Python is a powerful programming language.": "worng",
+    "0 spr gm g21.0 Python is a powerful programming language.\u00a0": "right"
+  },
+  "The file formats created by the \u2018dbm.ndbm\u2019 module and the 'dbm.gnu' module are always compatible  with each other.": {
+    "True": "worng",
+    "False\u00a0": "right"
+  },
+  "Output of the Python code given in the image?": {
+    "JammyPython 3.4.2 # 1sieraRPython 3.4.2 # 2sieraSPython 3.4.2 # 3siera\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0JammyPython 3.4.2 # 1JohnPPython 3.4.2 # 2JohnQPython 3.4.2 # 3John": "worng",
+    "JammyPython 3.4.2 # 1sieraPPython 3.4.2 # 2JohnQPython 3.4.2 # 3JohnJammyPython 3.4.2 # 1JohnRPython 3.4.2 # 2sieraSPython 3.4.2 # 3siera\u00a0": "worng",
+    "JammyPython 3.4.2 # 1sieraPPython 3.4.2 # 2sieraQPython 3.4.2 # 3sieraJammyPython 3.4.2 # 1JohnRPython 3.4.2 # 2JohnSPython 3.4.2 # 3John\u00a0 \u00a0": "right",
+    "JammyPython 3.4.2 # 1sieraRPython 3.4.2 # 2JohnSPython 3.4.2 # 3JohnJammyPython 3.4.2 # 1JohnPPython 3.4.2 # 2sieraQPython 3.4.2 # 3siera": "worng"
+  },
+  "Output of the following Python code:  try :  \ta = 3  \tif a < 4 :      \tb = a/(a-3)  \tprint (b)  except(ZeroDivisionError, NameError):  \tprint ('1')": {
+    "1.0": "worng",
+    "0": "worng",
+    "1\u00a0": "right",
+    "Code will give a compilation error.": "worng"
+  },
+  "Output of the following function in Python 3.4.2 shell? float('-Infinity')": {
+    "0 ": "worng",
+    "1 ": "worng",
+    "Infinity ": "worng",
+    "-inf ": "right",
+    "ValueError:could not convert string to float": "worng"
+  },
+  "In Python 3.4, a conventional pluggable event loop model is provided by which library modules?": {
+    "Selectors\u00a0": "worng",
+    "Ensurepip\u00a0": "worng",
+    "Asyncio\u00a0": "right",
+    "enum": "worng"
+  },
+  "Output of the following line of code in Python 3.4.2?  >>>print (0xD + 0xB + 0xC)": {
+    "0xD + 0xB + 0xC0xD0xB0xC": "worng",
+    "2236\u00a0": "right",
+    "0130110121": "worng",
+    "Error": "worng"
+  },
+  "In Python 3.4.2, how many exception statements can you write in a 'try' block?": {
+    "only one exception": "worng",
+    "two exceptions": "worng",
+    "three exceptions": "worng",
+    "multiple exceptions": "right"
+  },
+  "In relation to the socket low-level networking interface in Python, which of the following exceptions is  raised for the address-related errors?": {
+    "socket.gaierror\u00a0": "right",
+    "socketerror": "worng",
+    "socket.timeout": "worng"
+  },
+  "Which Python 3.4.2 shell expressions will produce the below-given output?  56.25": {
+    "\u00a0>>>7.5^2\u00a0": "worng",
+    ">>>7.5#2": "worng",
+    ">>>7.5**2\u00a0": "right",
+    ">>>7.5 ! 2": "worng"
+  },
+  "This question is based on the graphic shown below. Output of the given Python code?": {
+    "8\u00a0": "worng",
+    "10\u00a0": "right",
+    "12": "worng",
+    "18": "worng"
+  },
+  "Output of the following Python code?  try:  \ta=10  \tprint (a-9)  \traise NameError('0')  except NameError as e:      \tprint ('1')      \tprint (e)  finally:      \tprint ('0')": {
+    "0110\u00a0\u00a0": "worng",
+    "1001": "worng",
+    "1010": "worng",
+    "1100": "right"
+  },
+  "Output of the following Python code?  def recur_factorial(n):  if n == 1:  return 1  else:  return n'recur_factorial(n-1)  num = 4  if num < O:  print('1') elif num = O: print('0') else: p=41+(recur_factorial(num)) p=P>>2 printlp)": {
+    "12\u00a0": "worng",
+    "14\u00a0": "worng",
+    "16\u00a0": "right",
+    "18": "worng"
+  },
+  "Output of the following Python code?  def hello():    print('0')    return('1')  def hello2():    print('0')  hello() * 2  hello2()": {
+    "00": "right",
+    "\u00a0 010": "worng",
+    "\u00a0 10\u00a0 0": "worng",
+    "01": "worng"
+  },
+  "Output of the following Python code?  def p_ft(x):    for i in range(1, x + 1):  \tif x % i == 0:    \td=6/2+i    print(d+9)  n = 42  p_ft(n)": {
+    "52.0": "worng",
+    "54.0": "right",
+    "56.0": "worng",
+    "58.0": "worng"
+  },
+  "Output of the following Python code?  lst = [3, 1, 2, 5, 4, 3, 8]  del lst[2 : 5]  print (end='')  for i in range(0, len(lst)):  \tprint(lst[i]+1, end=' ')  print('\\r')  lst.pop(2)  print (end='')  for i in range(0, len(lst)):  \tprint(lst[i]+2, end=' ')": {
+    "2 1 2 45 3 8": "worng",
+    "4 2 4 95 3 10": "right",
+    "4 1 4 95 4 10": "worng",
+    "2 1 2 64 2 8": "worng"
+  },
+  "Analyse the given Python code and answer the question that follows.  def att_d(fun):  fun.data = 3  return fun  @att_d  def xyz (x. y):  return x + y\u20182  print(xyz(2, 23))  print(xyz.data)  What will be the correct output of the above Python code?": {
+    "425": "worng",
+    "443": "worng",
+    "\u00a0465": "worng",
+    "483\u00a0\u00a0": "right"
+  },
+  "Find the output of Python code and choose the correct answer from the given options.  m = 7  tor = 1  if m < 0:     print('0')  elif m == 0:     print('1')  else:  \tfor i in range(1,m + 1):     \ttor = tor*i  \tprint(tor)": {
+    "5260": "worng",
+    "4842": "worng",
+    "5040\u00a0": "right",
+    "4920": "worng",
+    "": "worng"
+  },
+  "Output of the following Python code?  lstx = range(1, 11)  print(lstx)  lst1_x5 = lstx[1 : 5]  print (lst1_x5)  lst5_x = lstx[5 : 8]  print (lst5_x)  lst1_y = lstx[1 : ]  print (lst1_y)  lst_x5 = lstx[: 5]  print (lst_x5)  lst1_8_2 = lstx[1 : 8 : 2]  print (lst1_8_2)  lst_rev = lstx[ : : -1]  print (lst_rev)  lst_rev_9_5_2 = lstx[9 : 4 : -2]  print (lst_rev_9_5_2)": {
+    "range(1, 10)range(2, 4)range(6, 8)range(2, 10)range(1, 5)range(2, 7, 3)range(11, 0, -1)range(10, 5, -2)": "worng",
+    "range(1, 11)range(2, 5)range(6, 8)range(2, 11)range(1, 5)range(2, 9, 2)range(10, 0, -1)range(10, 5, -2)": "worng",
+    "range(1, 11)range(2, 6)range(6, 9)range(2, 11)range(1, 6)range(2, 9, 2)range(10, 0, -1)range(10, 5, -2)\u00a0\u00a0": "right",
+    "No output will be displayed.": "worng"
+  },
+  "Output of the following Python code?  def abc():  \ty = 2018  \tif (y % 4) == 0:     \tif (y % 100) == 0:         \tif (y % 400) == 0:             \tprint('0')         \telse:             \tprint('1')     \telse:         \tprint('0')  \telse:     \tprint('1')  abc()he following Python code?": {
+    "0\u00a0": "worng",
+    "1\u00a0": "right",
+    "01": "worng",
+    "10": "worng"
+  },
+  "This question is based on the graphic shown below.  Choose the correct output of the given Python 3.4 code.": {
+    "Hello ajusI am goodHello angeeHow are you?val : 30": "worng",
+    "Hello ajusI am goodHello angeeHow are you?val : 25": "worng",
+    "Hello ajusI am goodHow are you?val :30\u00a0": "right",
+    "Hello ajusI am goodHow are you?val : 25": "worng"
+  },
+  "Output of the following Python code from the given options.  class St:  \tstm = 'Y' stm = 'X' def __init__(self, r): self.r = r def setdd(self, dd): self.dd = dd def getdd(self): return self.dd a = St(101) a.setdd('Y, UP') a.setdd('X') print(a.getdd()) '>m the given options.": {
+    "X\u00a0": "right",
+    "Y, UP": "worng",
+    "XY, UP": "worng",
+    "Code will give a compilation error.": "worng"
+  },
+  "Choose the correct answer from the given options.  class D:  \tdef __init__(self, l, c):      \tself.l = l      \tself.c = c     \t   \tdef b(self):      \tb = '1' * 2      \treturn b  if __name__ == '__main__':  \td = D(4, '0')  \tb = d.b()  \tprint(b)": {
+    "10": "worng",
+    "01": "worng",
+    "11": "right",
+    "00": "worng"
+  },
+  "Output of the following Python code?  def abc(n):     if n <= 1:     \treturn n     else:     \treturn(abc(n-1) + abc(n-2))     \tprint('1')  nterms = 13  if nterms <= 0:     print('0')  else:     for i in range(nterms):     \tx=abc(i)     print(x+11)": {
+    "0": "worng",
+    "1": "worng",
+    "155\u00a0": "right",
+    "177": "worng",
+    "Code will give a compilation error.": "worng"
+  },
+  "Output of the following Python code?  class X(object):  \tdef __init__(self,a):      \tself.num = a  \tdef dbup(self):      \tself.num *= 2  class Y(X):  \tdef __init__(self,a):      \tX.__init__(self, a)  \tdef tpup(self):      \tself.num*= 3  obj = Y(4)  print(obj.num*2/1)  obj.dbup()  print(obj.num*3/2)  obj.tpup()  print(obj.num/2*3)": {
+    "\u00a06.012.034.0": "worng",
+    "8.012.036.0\u00a0\u00a0": "right",
+    "8.012.034.0": "worng",
+    "6.012.036.0": "worng"
+  },
+  "Following exceptions is raised when the sequence subscript is out of range?": {
+    "exception IndexError  ": "right",
+    "exception EOFError": "worng",
+    "exception Overf\u200clowError": "worng",
+    "exception UnboundLocalError    ": "worng"
+  },
+  "Output of the following function in Python 3.4 shell? float('1e-003')": {
+    "0.01": "worng",
+    "0.003 ": "worng",
+    "0.001": "right",
+    "0.03": "worng"
+  },
+  "Given shell expressions in Python 3.4.2 will give an error?": {
+    ">>>'hi';  ": "worng",
+    ">>>'hello';  ": "worng",
+    ">>>Good morning; ": "right",
+    ">>>''Good evening'';": "worng"
+  },
+  "Output of the following Python language code?  import bisect  ct = [1, 3, 4, 4, 4, 6, 7]  c2 = [1, 3, 4. 4, 4. 6. 7]  c3 = [1. 3, 4. 4. 4. 6, 7]  blsectlnsort(c1. 5)  bisectinsort_left(c2, 5)  bisectinsort_right(c3, 5. 0. 4)  for l in range(O, 7):  print(c3[i], end=' ')": {
+    "1 3 4 4 5 4 6\u00a0": "right",
+    "1 3 4 4 4 5 6\u00a0": "worng",
+    "13 4 4 5 6 7": "worng",
+    "1 3 4 4 5 7 6": "worng"
+  },
+  "Which option is not a server socket method?": {
+    "bind()": "worng",
+    "listen()": "worng",
+    "connect()": "right",
+    "accept()": "worng"
+  },
+  "Which port numbers is used for theTelnet protocol in Python?": {
+    "20 ": "worng",
+    "23 ": "right",
+    "25": "worng",
+    "70": "worng"
+  },
+  "Which port numbers is used for the FTP protocol in Python?": {
+    "20": "worng",
+    "23 ": "right",
+    "25": "worng",
+    "70": "worng"
+  },
+  "Output of the following Python code?  class St:  \tstm = 'B' stm = 'A' def __init__(self, r): self.r = r a = St(101) b = St(102) print(a.stm) print(b.stm) print(a.r) print(St.stm)": {
+    "AA102A": "worng",
+    "BB102B": "worng",
+    "BB101B": "worng",
+    "AA101A": "right"
+  },
+  "Whichoption does not contain duplicate elements?": {
+    "Lists ": "worng",
+    "Sets ": "right",
+    "Tuples": "worng",
+    "Strings": "worng",
+    "Both options a and b  ": "worng",
+    " Both options b and c": "worng",
+    "Both options c and d ": "worng"
+  },
+  "hoose the correct answer from the given options.  def vm(x. y):  If x > y:  greater = x  else:  greater = y  while(True):  if((greater 9-6 x == 0) and (greater % y == 0)):  vm = greater  break  greater += 1  return vm  numi = 64  num2 = 24  print(vm(num1. num2\u00bb": {
+    "190\u00a0": "worng",
+    "192\u00a0": "right",
+    "194": "worng",
+    "196": "worng"
+  },
+  "Output of the following Python code?  def part1(n):  y=1  For i in range(0. n):  For j in range(0. H1):  H1'  Print(y)  n = 5  part1(n)": {
+    "64\u00a0": "worng",
+    "65\u00a0": "right",
+    "66": "worng",
+    "67": "worng"
+  },
+  "ln Python language, which of the following information is contained by a thread in the Thread Control  Block (TCB)?    1. Stack pointer  2. Program counter  3. Thread state  4. Parent process Pointer": {
+    "All options 1. 2. 3. and 4.": "right",
+    "Only options 1. 2. and 3.": "worng",
+    "\u00a0Only options 2, 3. and 4": "worng",
+    "Only options 2 and 3.": "worng"
+  },
+  "Analyse the given Python language code and answer the question that follows.  import collections    fd = collections.defaultdict(lambda : '0')    fdi'a'] = 1    fd['b\u2018] = 2    print (fd['a']+0)    print (fd['c\u2018])    print (fd[\u2018b']+0)    print (fd['d'])    What will be the correct output of the above given code?": {
+    "1Key not found2": "worng",
+    "Key not found\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a00.000 1+0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a002+00\u00a0": "worng",
+    "1O2O\u00a0": "right",
+    "Code will give a compilation error.": "worng"
+  },
+  "Correct answer from the given options.  List = [1. 2. 3. 1. 2. 1. 2. 3. 2. 1]    print(sum(List)+List.count(1)+len(List)+List.index(2)+List.index(2.2))": {
+    "33\u00a0": "worng",
+    "35\u00a0": "worng",
+    "37": "worng",
+    "39\u00a0": "right"
+  },
+  "Output of the following Python code?  List = [5, 12, 3, 4, 2, 16, 2, 2, 2, 11]  print(sum(List)+List.count(2)+min(List)+max(List)+List.pop())  del List[0]  del List[6]  print(List.pop(0)+len(List)+List.index(2)+List.index(2,2))": {
+    "6218": "worng",
+    "7218": "worng",
+    "8222": "worng",
+    "9222": "right"
+  },
+  "Correct output from the given options.  def comF(x, y):  \tif x > y:      \tsm = y  \telse:      \tsm = x  \tfor i in range(1, sm+1):      \tif((x % i == 0) and (y % i == 0)):          \tcf = i  \treturn cf  num1 = 84  num2 = 64  print(comF(num1, num2))": {
+    "4\u00a0": "right",
+    "6": "worng",
+    "2": "worng",
+    "8": "worng"
+  },
+  "Output of the following Python code?  class Son(object):  \tdef __init__(self, name):      \tself.name = name  \tdef gN(self):      \treturn self.name  \tdef sE(self):      \treturn False  class Ply(Son):  \tdef sE(self):      \treturn True  mp = Son('1')  print(mp.gN(), mp.sE())  mp = Ply('0')  print(mp.gN(), mp.sE())": {
+    "False0 True\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0": "right",
+    "\u00a0True1 False": "right",
+    "True0 False": "worng",
+    "False1 True": "worng"
+  },
+  "Correct answer from the given options.  from string import Template  Student = [(\u2018X',24), ('Y',32), ('2',20)]  t = Template('$rn\u2018)  for i in Student:  print (t.substitute(n = i[0], m = i[1]\u20183-1))": {
+    "597195O 715995\u00a0": "worng",
+    "\u00a0957159\u00a0": "worng",
+    "719559\u00a0\u00a0": "right",
+    "Code will give a compilation error.": "worng"
+  },
+  "Which of the following values of the 'timeout\u2019 argument of the acquireo function represents an unbounded wait?": {
+    "0 ": "worng",
+    "1 ": "worng",
+    " -1": "right",
+    "-2": "worng"
+  },
+  "During the execution of the below-given Python/C API function, what will happen when no exception has been raised?  int PyErr_ExceptionMatches(PyObject *exc)": {
+    "It will return NULL.\u00a0\u00a0": "worng",
+    "A memory access violation will occur.": "right",
+    "It will clear the error indicator.": "worng",
+    "It will call ": "worng"
+  },
+  "A lambda function in Python can take __________.": {
+    " only one argument": "worng",
+    "only two arguments": "worng",
+    "only three arguments": "worng",
+    "any number of arguments ": "right"
+  },
+  "Otput of the following Python code?  num1 = 10  num2 = 14  num3 = 12  if (num1 >= num2) and (num1 >= num3):     lg = num1+4  elif (num2 >= num1) and (num2 >= num3):     lg = num2+5  else:     lg = num3+3  print(lg*3)": {
+    "45": "worng",
+    "57\u00a0": "right",
+    "42": "worng",
+    "59": "worng"
+  },
+  "Which two of the following shell expressions in Python 3.4.2 will give syntax error?    10 * (1/0);  2 + char *3;  while True print('Python');  print('4') + print('4');  while False; print('Python');      What will be the output of the below-given code in Python 3.4.2 shell?  >>>str = 'example123' >>>str[::-1]": {
+    "'example12'": "worng",
+    "'3'\u00a0": "worng",
+    "321elpmaxe'\u00a0\u00a0": "right",
+    "\u00a0'xample123\u2019": "worng"
+  },
+  "While working in Python 3.4, sockets are by default created in the _______ mode.": {
+    "Non-blocking ": "worng",
+    "Blocking ": "right",
+    "Timeout": "worng"
+  },
+  "Output of the following Python language code?  from collections import OrderedDict  od = OrderedDict()  od['a'] = 1  od['b'] = 2  od['c'] = 3  od['d'] = 4  for key, value in od.items():": {
+    "undefined": "undefined",
+    "1010101001010101a 3b 4d 5c 6": "worng",
+    "10101010010101a 1+2b 2+2d 3+2c 4+2": "worng",
+    "10101010010101a 1+2b 2+2d 4+2c 3+2": "worng"
+  },
+  "Which option is a correct syntax of the 'AttlistDeclHandler' method?": {
+    "AttlistDeclHandler(elname, attname, base, required)  ": "worng",
+    "AttlistDeclHandler(elname, attname, base, default, systemId) ": "worng",
+    "AttlistDeclHandler(elname, attname, type, base)": "worng",
+    "AttlistDeclHandler(elname, attname, type, default, required)": "right"
+  },
+  "What will be returned by the following function?  threading.enumerate()": {
+    "\u00a0It will return the number of currently alive Thread objects.": "worng",
+    "It will return a list of all Thread objects.": "worng",
+    "It will return a list of currently alive Thread objects.": "right",
+    "It will return a list of Thread objects that are not alive.": "worng"
+  },
+  "Output of the following Python code?  import sys  rList = ['a', 0, 2]  for bn in rList:": {
+    "undefined": "undefined",
+    "a02result 2 is 2.5": "worng",
+    "Code will give a compilation error.": "right"
+  },
+  "Output of the following Python code?  def part1():  \tlow = 365  \tup = 372  \tfor num in range(low, up + 1):     \torder = len(str(num))     \ts = 0     \ttemp = num     \twhile temp > 0:         \tdigit = temp % 10         \ts += digit ** order         \ttemp //= 10           \tif num == s:         \tprint(num)  part1()": {
+    "365366": "worng",
+    "368369": "worng",
+    "369370": "worng",
+    "370371": "right"
+  },
+  "Choose the correct answer from the given options.  def print_f(x):     y=0     for i in range(1, x + 1):     \tif x % i == 0:          \ty=y+i+1     print(y)  num = 32  print_f(num)": {
+    "63": "worng",
+    "66": "worng",
+    "69\u00a0": "right",
+    "72": "worng"
+  },
+  "Which shell expression will give the result as an integer value?  1. >>> (100 - 4 x 5) / (20 - 2 x 5)  2. >>> 7.0 / 4  3. >>> 5 / 4  4. >>> 2 x 4 / 2  5. >>> 5 - 2": {
+    "Line number 1\u00a0": "worng",
+    "Line number 2": "worng",
+    "Line number 5\u00a0": "right",
+    "Lines number 3 and 5\u00a0\u00a0": "worng"
+  },
+  "Correct answer from the given options.  double = lambda x: x * 2  mt = [1, 5, 4, 6, 8, 11, 3, 12]  ns = list(filter(lambda x: (x%2 == 0) , mt))  print(double(6))  print(ns)": {
+    "12[0, 4, 6, 8, 12]": "worng",
+    "12[4, 6, 8, 10, 12]": "worng",
+    "12[4, 6, 8, 12]\u00a0": "right",
+    "Code will give a compilation error.": "worng"
+  },
+  " This question is based on the graphic shown below.   Which option will be the correct output of the given Python code?": {
+    "5120.125b'ANGEE'[(1.0, -8.0), (-15.625, 27.0), (74.08800000000001, 15.625)]\u00a0": "worng",
+    "5120.125b'ANGEE'[(1.0, 4.0), (6.25, 9.0), (17.64, 6.25)]\u00a0": "right",
+    "b'ANGEE'[(1.0, 4.0), (6.25, 9.0), (17.64, 6.25)]5120.125": "worng",
+    "b'ANGEE'[(1.0, -8.0), (-15.625, 27.0), (74.08800000000001, 15.625)]5120.125": "worng"
+  },
+  "Output of the following Python code?  print (5/2)  print (-5/2)  print (5.0/2)  print (-5.0/2)": {
+    "222.52.5": "worng",
+    "2-22.5-2.5": "worng",
+    "2.5-2.52.5\u00a0-2.5\u00a0": "right",
+    "Code will give a compilation error.": "worng"
+  },
+  "Output of the following Python code.  import collections  c1 = { 'a' : 1, 'b' : 2 }  c2 = { 'b' : 3, 'c' : 4 }  c3 = { 'f' : 5 }  ch = collections.ChainMap(c1, c2)  #print (ch.maps)  ch1 = ch.new_child(c3)  #print (ch1.maps)  print (ch1['b'])  ch1.maps = reversed(ch1.maps)  print (ch1['b'])": {
+    "23\u00a0": "right",
+    "22": "worng",
+    "33": "worng",
+    "32": "worng"
+  },
+  "Output of the following Python code?  def ps(a,b):    s = a + b    return (s, a)  s, a = ps(0,4)  a=a+4  s1 = 1  i = 1  while i <= a:     s1 = s1 + i     i = i+1  print(s1)": {
+    "9": "worng",
+    "10": "worng",
+    "11\u00a0": "right",
+    "14": "worng"
+  },
+  "Output of the following Python code?  class Son(object):  \tdef __init__(self, n):      \tself.n = n      \t   \tdef gN(self):      \treturn self.n  \t   \tdef sE(self):      \treturn False  class Ploy(Son):  \tdef __init__(self, n, eid):      \tsuper(Ploy, self).__init__(n)      \tself.empID = eid      \t   \tdef sE(self):      \treturn True      \t   \tdef gID(self):      \treturn self.empID  emp = Ploy(\"1\", \"0\")  print(emp.gN(), emp.sE(), emp.gID())": {
+    "0 True 1": "worng",
+    "1 False 0": "worng",
+    "1 True 0\u00a0": "right",
+    "0 False 1": "worng"
+  },
+  "This question is based on the graphic shown below.  What will be the output of the given Python code?": {
+    "HiHelloHi\u00a0": "worng",
+    "Hi\u00a0 \u00a0HiHello\u00a0\u00a0": "worng",
+    "HiHiHi\u00a0\u00a0": "right",
+    "HelloHelloHello": "worng"
+  },
+  "Output of the following Python code?  class Error(Exception):  ''0...'  pass  class ValueTooSmallError(Error):  '.'1uu'  pass  class ValueTooLargeError(Error):  m2'...  pass  number = 10  while True:  try:  i_num =10  if i_num < number:  raise ValueTooSmallError  elif i_num > number:  raise ValueTooLargeError  break  except ValueTooSmallError:  print('1')  printi)  except ValueTooLargeError:  print('1')  printi)  print('0')": {
+    "o\u00a0": "right",
+    "1": "worng",
+    "2": "worng",
+    "Code will give a compilation error.": "worng"
+  },
+  "Correct answer from the given options.  class ErrorInCode(Exception):   \tdef __init__(self, data):       \tself.data = data   \tdef __str__(self):      \treturn repr(self.data)  try:  \traise ErrorInCode(1000)  except ErrorInCode as ae:  \tprint ('0'ae.data)  finally:  \tprint ('1')": {
+    "00 1000": "worng",
+    "1": "worng",
+    "10001": "right"
+  },
+  "Output of the following Python code?  import math  a = 3.4536  print ('Result = ',end='')  print (math.trunc(a)+math.ceil(a)+math.floor(a))": {
+    "Result = 8": "worng",
+    "Result = 9": "worng",
+    "Result = 10": "right",
+    "Result = 12": "worng"
+  },
+  "Correct answer from the options given below.  tp1 = (Python )  m = 5  for i in range(int(m-1)):": {
+    "undefined": "undefined",
+    "('Python',)('Python',)('Python',)('Python',)('Python',)": "worng",
+    "('Python')('Python')('Python')('Python')": "worng",
+    "(('Python',),)((('Python',),),)(((('Python',),),),)((((('Python',),),),),)": "right"
+  },
+  "Output of the following Python code?  a = 1  def f():  \tprint (a+2)  def g():  \ta = 2  \tprint (a+1)  def h():  \tglobal a  \ta = 3  \tprint (a+3)  print (a+4)  f()  print (a+2)  g()  print (a+1)  h()  print (a+2)": {
+    "\u00a03265533": "worng",
+    "5333265": "right",
+    "5332652": "worng",
+    "Code will give a compilation error": "worng"
+  },
+  "Output of the following Python code from the given options.  set1 = set()  set2 = set()  for i in range(2, 6):  \tset1.add(i)  for i in range(4, 7):  \tset2.add(i)  print('Set1 = ', set1)  print('Set2 = ', set2)  set3 = set1 | set2  set4 = set1 & set2  print(set4)  if set3 > set4:  \tprint('0')  elif set3 < set4:  \tprint('2')  else :  \tprint('1')  if set4 < set3:  \tprint('0')  set5 = set3 - set4  print(set5)  if set4.isdisjoint(set5):  \tprint('1')  set5.clear()  print(set5)": {
+    "Set1 = {2, 3, 4, 5}Set2 = {4, 5, 6}{4, 5}00{2, 3, 6}1set()": "right",
+    "Set1 = {2, 3, 4, 5, 6}Set2 = {4, 5, 6, 7}{4, 5}00{2, 3, 6}1set()": "worng",
+    "Set1 = {2, 3, 4, 5}Set2 = {4, 5, 6}{4, 5}10{2, 3, 6}0set()": "worng",
+    "Set1 = {2, 3, 4, 5, 6}Set2 = {4, 5, 6, 7}{4, 5}1{2, 3, 6}10set()": "worng"
+  },
+  "Upon creation of the 'dumbdbm' database, files with which of the given extensions are created?": {
+    "dat": "right",
+    "dbm": "worng",
+    "bin": "worng",
+    "dir": "right"
+  },
+  "Output of the following Python code?  value = [2, 3, 4, 5, 6]  cd = 0  try:  \tcd = value[3]  except IndexError:  \tprint('0', end = '') except: print('1', end = '') finally: print('0', end = '') cd = 10 try: cd = cd/0 except ZeroDivisionError: print('1', end = '') finally: print('0')": {
+    "001": "worng",
+    "110": "worng",
+    "100": "worng",
+    "010\u00a0": "right"
+  },
+  "Output of the following Python code.  def req(str):  \tp=2  \tstr = str.split()  \tstr2 = []  \tfor i in str:      \tif i not in str2:          \tstr2.append(i)          \t   \tfor i in range(0, len(str2)):      \tp=str.count(str2[i])+p  \tprint(p)     \t   def main():  \tstr =str ='apple mango apple orange orange apple guava mango mango' req(str) if __name__=='__main__': main()'>": {
+    "10": "worng",
+    "11\u00a0": "right",
+    "12": "worng",
+    "14": "worng"
+  },
+  "Output of the following Python code?  lis = [11, 22, 33]  lis1 = [14, 5, 6]  lis2= lis + lis1  print (end='')  for i in range(0,len(lis2)):       \tprint (lis2[i]*1, end=' ')  print (\"\\r\")  lis3 = lis * 2  print (end='')  for i in range(0,len(lis3)):       \tprint (lis3[i]+1, end=' ')": {
+    "11 22 33 14 5 612 23 34 12 23 34": "right",
+    "11 22 33 14 5 611 22 33 11 22 33": "worng",
+    "11 22 33 14 5 614 5 6 12 23 34": "worng",
+    "No output will be displayed.": "worng"
+  },
+  "Correct answer from the given options.  class St:  \tstm = stm = 'B' def __init__(self, n, r): self.n = n self.r = r a = St('D', 3) print (a.stm) St.stm = 'D' b = St('A', 4) print (a.stm) print (b.stm)": {
+    "BDD": "right",
+    "BDA": "worng",
+    "DDB": "worng",
+    "DAD": "worng"
+  },
+  "Output of the following Python language code?  def ps(a,b = 2):    return a + b  a=8  s1 = 1  i = 1  while i <= a:     s1 = s1 + i *2     i = i+1  print(ps(a=1) + ps(a=1, b=3)+s1)": {
+    "60": "worng",
+    "80\u00a0": "right",
+    "74": "worng",
+    "90": "worng",
+    "Code will give a compilation error.": "worng"
+  },
+  "Output of the given Python code?  tuple1 = (0 ,1, 2, 3)  print(tuple1[1:])  print(tuple1[::-1])  print(tuple1[2:4])": {
+    "\u00a0(0, 1, 2, 3)(3, 2, 1, 0)(3)": "worng",
+    "(0, 1, 2, 3)(3)(2, 3)": "worng",
+    "(1, 2, 3)(3, 2, 1, 0)(2, 3)\u00a0": "right",
+    "No output will be displayed.": "worng"
+  },
+  "While working with MySQL database in Python, which statement is/are correct about the fetchone() method?  1. It is used for fetching the next row of a query result set.  2. It is used for returning the number of rows that were affected by an execute() method.  3. It is used for fetching only the first or the last row of a query result set.": {
+    "Only option 1.\u00a0": "right",
+    "Only option 2.": "worng",
+    "Only option 3": "worng",
+    "Only options 2 and 3.": "worng"
+  },
+  "Analyse the given Python code and answer the question that follows.  def prt2(n):  \ty=0  \tk = 2*n - 2  \tfor i in range(0, n):      \tfor j in range(0, k):          \tprint(end=' ')      \tk = k - 2      \tfor j in range(0, i+1):          \ty=y+k  \treturn(y)  def prt3(m):  \tif m > 1:     \tfor i in range(2,m):         \tif (m % 3) == 0:              \tprint('failure')              \tbreak         \telse:             \tprint('success')  \telse:         \tprint('failure')        n = 5  m=prt2(n)  k=prt3(m-3)  How many times the word 'success' will be printed in the output, when the above code is executed?": {
+    "2": "worng",
+    "3": "worng",
+    "4": "worng",
+    "5\u00a0": "right"
+  },
+  "This question is based on the graphic shown below.  What will be the correct output of the given Python 3.4.2 code?": {
+    "No exceptionNo exceptionNo exception\u00a0": "right",
+    "No exceptionNo exception": "worng",
+    "No exception": "worng",
+    "division by zero!No exception": "worng",
+    "division by zero!": "worng"
+  },
+  "Which databas can be used with Python?  1. MySQL  2. Oracle  3. Maria DB  4. Microsoft SQL Server": {
+    "All options 1, 2, 3, and 4": "right",
+    "Only options 1 and 4.": "worng",
+    "Only options 1, 2, and 4.": "worng",
+    "Only options 2, 3, and 4.": "worng"
+  },
+  "In Python, while developing a program, if you know the place where the code is to be written, but at a later stages, then which control statements will you use?": {
+    "Pass statement\u00a0": "right",
+    "Break statement": "worng",
+    "Continue statement": "worng",
+    "Either a or c": "worng"
+  },
+  "Correct answer from the given options.  import multiprocessing  def enr(conn, msgs):  \tfor msg in msgs:      \tconn.send(msg)      \tprint('{}'.format(msg))  \tconn.close()  def cer(conn):  \twhile 1:      \tmsg = conn.recv()      \tif msg == 'Hi':          \tbreak      \tprint('{}'.format(msg))  if __name__ == '__main__':  \tmsgs = ['hello', 'hey', 'hru?', 'Hi']  \tparent_conn, child_conn = multiprocessing.Pipe()  \tp1 = multiprocessing.Process(target=enr, args=(parent_conn,msgs))  \tp2 = multiprocessing.Process(target=cer, args=(child_conn,))  \tp1.start()  \tp2.start()  \tp1.join()  \tp2.join()": {
+    "helloheyhru?helloHihru?": "worng",
+    "helloheyhru?helloheyhru?Hi": "worng",
+    "helloheyhru?HihelloheyHru?\u00a0": "right",
+    "Code will give a compilation error.": "worng",
+    "": "worng"
+  },
+  "Output of the following Python language code?  import multiprocessing  result = []  def s_p(mp):  \tglobal result  \tfor num in mp:      \tresult.append(num * num+1)  \tprint('{}'.format(result))  if __name__ == '__main__':  \tmp = [1,2,3,4]  \tp1 = multiprocessing.Process(target=s_p, args=(mp,))  \tp1.start()  \tp1.join()  \tprint('{}'.format(result))": {
+    "[2, 5, 10, 17] []": "right",
+    "[2, 5, 10, 17]": "worng",
+    "[1, 2, 3, 4, 2, 5, 10, 17]": "worng",
+    "[1, 2, 3, 4, 2, 5, 10, 17] []": "worng"
+  },
+  "In Python, which option is the correct exception that is raised when the next() method of an iterator does not point to any object?": {
+    "SystemExit": "worng",
+    "StandardError": "worng",
+    "StopIteration ": "right",
+    "None of the above.": "worng"
+  },
+  "Output of the python code given in Figure 1 of the image and choose the correct answer from   the options given in Figure 2 of the same image.": {
+    "(i)\u00a0": "worng",
+    "(ii)": "worng",
+    "(iii)\u00a0": "right"
+  },
+  "  The Python code given as Figure1 in the image was supposed to give the output that is shown as  Figure2. However. it has some errors. Choose the correct lines number that contain errors.": {
+    "Line 1 and 3\u00a0": "worng",
+    "Line 11. 12. and 13\u00a0\u00a0": "worng",
+    "Line 21. 22, and 23": "worng",
+    "Line 4.5.10. and 14\u00a0": "right"
+  },
+  "This question is based on the graphic shown below.  Analyse the Python code given in Figure 1 of the image and choose the correct answer from the options given in Figure 2 of the same image.": {
+    "(i)": "worng",
+    "(ii)": "worng",
+    "(iii)": "worng",
+    "(iv)\u00a0": "right"
+  },
+  "In which mode of files, the 'tell()' function returns an opaque number that gives the current position of the file object?": {
+    "binary mode": "worng",
+    "text mode\u00a0": "right",
+    "both binary and text modes": "worng"
+  },
+  "This question is based on the graphic shown below.  If the id's of 'a1', 'a2' and 'a3' in the given Python code are 3012123901, 3012123902 and 3012123903 respectively, then what will be the output of the code?": {
+    "3012123901 3012123901 3012123901ajus angee\u00a0\u00a0": "worng",
+    "3012123901 3012123902 3012123901ajus angeeajus angee\u00a0": "worng",
+    "ajus angeeajus angee": "right",
+    "ajus angee": "worng"
+  },
+  " This question is based on the graphic shown below.  Consider the Python code in Figure 1 of the given image and choose its correct output from Figure 2.": {
+    "[-1, 435, 1123.5, 5678.2]\u00a0": "worng",
+    "[-1, 1123.5, 5678.2]\u00a0": "worng",
+    "[-1, 1, 5678.2]": "worng",
+    "[-1, 1, 1123.5, 5678.2]\u00a0\u00a0": "right"
+  },
+  "Correct answer from the given options.  ast = [2, 1, 3, 5, 3, 8]  ast.sort()  print (end='')  for i in range(0, len(ast)):  \tprint(ast[i]*2, end=' ')  print('\\r')  ast.reverse()  print (end='')  for i in range(1, len(ast)):  \tprint(ast[i]+3, end=' ')": {
+    "2 4 6 6 10 168 6 6 5 4": "right",
+    "2 4 6 6 10 1611 8 6 6 5 4": "worng",
+    "1 2 3 3 5 811 8 6 6 5 4": "worng",
+    "2 4 6 6 10 168 6 6 5 4 2": "worng"
+  },
+  "Output of the following program?  def country(*abc):    if len(abc) == 1:  \titem = abc[0]  \tdef f(obj):    \treturn obj[item]    else:  \tdef f(obj):    \treturn tuple(obj[item] for item in abc)    return f  selection = []  selection = country(slice(2, None))('AUSTRALIA') print (selection)": {
+    "AU": "worng",
+    "USTARLIA": "worng",
+    "STRALIA\u00a0": "right",
+    "ALIA": "worng"
+  },
+  "Output of the following program?  i = [12, 9, 14]  k = [7, 16, 11]  for j in i[:]:     for m in k[:]:    \tif(j%m == 0):       \tj = j // 2       \tm = m / 2       \tprint (j, m)    \telse:       \tj = j + m       \tm = m - j       \tprint (j, m)": {
+    "19 -1235 -1946 -3616 -98 819 -87 3.021 -734 23": "worng",
+    "19 -1219 -1235 -1946 -3516 -98 8": "worng",
+    "19 -87 3.573 -7.534 2335 -1947 -3516 -198 -8.019 -8.57 3.523 -734 23": "worng",
+    "19 -1235 -1946 -3516 -98 8.019 -87 3.523 -724 -22\u00a0\u00a0": "right"
+  },
+  "In relation to the exceptions in Python, which of the given exceptions is raised when an identifier is NOT found in the global or local namespace?": {
+    "LookupError": "worng",
+    "IndexError": "worng",
+    "KeyError": "worng",
+    "NameError ": "right"
+  },
+  "When does the string method: isalnum() return true?": {
+    "When the string contains at least one character and all the characters in it are alpha-numeric. ": "right",
+    "When the string is empty.": "worng",
+    "When the string contains alphabetical characters along with at least one special character.": "worng",
+    "When the string contains numeric characters along with at least one special character.": "worng"
+  },
+  "Which  Python/C API functions will NOT always return NULL?": {
+    "PyObject* PyErr_Format(PyObject *exception, const char *format, ...)  ": "worng",
+    "PyObject* PyErr_SetFromErrno(PyObject *type) ": "worng",
+    "PyObject* PyErr_SetFromErrnoWithFilename(PyObject *type, const char *filename) ": "worng",
+    "PyObject* PyErr_SetFromWindowsErr(int ierr)  ": "worng",
+    "PyObject* PyErr_SetExcFromWindowsErrWithFilename(PyObject *type, int ierr, const char *filename)": "worng",
+    "PyObject* PyErr_NewException(char *name, PyObject *base, PyObject *dict)": "right"
+  },
+  "Which line of code results in a compilation error?  1. c1 = { 'A' : 'B', 'C' : 19 }  2.  c2 = { 'ID' , 47 }  3.  sequ = ('A', 'C', 'D')  4.  c1.update(c2)  5.  print (str(c1))  6.  ct = dict.fromkeys(sequ,5)  7.  print (str(ct))": {
+    "Line number 1\u00a0": "right",
+    "Line number 2": "worng",
+    "Line number 4": "worng",
+    "Line number 6": "worng"
+  },
+  "This question is based on the graphic shown below.  What will be the correct output of the given Python code?": {
+    "Dasyunr12\u00a0": "worng",
+    "Rnuysad12\u00a0": "worng",
+    "dasyonr6": "worng",
+    "rnoysadI6\u00a0": "right"
+  },
+  "Output of the following Python code?  def f():  \tprint (s)  \ts = 'Me too.'  \tprint (s)  s = 'Hi'  f()  print (s)": {
+    "HiMe Too.": "worng",
+    "HiHiCode will give a compilation error.": "right"
+  },
+  "Correct output of the following Python code?  import bisect  # initializing list  li = [1, 3, 4, 4, 4, 6, 7]  print ('Output = ', end='')  print (bisect.bisect(li, 4)+bisect.bisect_left(li, 4)+bisect.bisect_right(li, 4, 0, 4))": {
+    "Output = 10": "worng",
+    "Output = 11": "right",
+    "Output = 12": "worng",
+    "Output = 13": "worng"
+  },
+  "Output of the following Python code?  try:  x = 11  Hx>8z  y = x/(X-3)  print (y)  exceptaeroDivisionError, NameError):  print ('1')": {
+    "0\u00a0": "worng",
+    "1\u00a0": "worng",
+    "0.675": "worng",
+    "1.375": "right"
+  },
+  "Output of the following Python code?  x = 5.2  x **= 3  print(x)": {
+    "125": "worng",
+    "140.608\u00a0": "right",
+    "45": "worng",
+    "15.602": "worng"
+  },
+  "This question is based on the graphic shown below.  Choose the correct output of the given Python code.": {
+    "5 2": "worng",
+    "8 2": "right",
+    "5 3": "worng",
+    "8 3": "worng"
+  },
+  "Consider the Python 3.4.2 code that is given in the image. Choose the correct line(s) number from the  following options that will not give an output as 'None'.": {
+    "Line number 9": "worng",
+    "Line number 11": "right",
+    "Line number 13": "worng"
+  },
+  "This question is based on the graphic shown below.  The Python code given in Figure 1 of the image was supposed to give the output that is given in Figure 2, but lines number 14 and 24 are coded incorrectly. Choose the correct lines from the following options that will replace both the lines to obtain the desired output.": {
+    "Line 14: a -= 1Line 24: while e>=1": "worng",
+    "Line 14: a += 1Line 24: while d>=1": "worng",
+    "Line 14: a += 1Line 24: while e>=1:": "right",
+    "Line 14: a -= 1Line 24: while d>=1:": "worng"
+  },
+  "In relation to the exceptions in Python, which of the given exceptions is raised when a generated error code does not fall into any category?": {
+    "NotImplementedError": "worng",
+    "TypeError": "worng",
+    "RuntimeError\u00a0": "right",
+    "SystemError\u00a0": "worng"
+  },
+  "Correct answer from the given options.  n1 = 1.5  n2 = 6.3  s = float(n1) + float(n2)  print('{0}'.format(s))  s //= 3  print(s)": {
+    "7.823": "worng",
+    "4 7.810.8": "worng",
+    "7.89.0\u00a0\u00a0": "right",
+    "7.82.0\u00a0": "worng"
+  },
+  "Output of the following Python language code?  def square(n):  return (n\u2018n+1)  if _name_ = '_main__':  mt = [1,2,3,4,5,0]  rt = []  for num in mt:  rt.append(square(num\u20182)+1\u20184)  printlrt)": {
+    "[8. 20. 41. 68.104.4]\u00a0": "right",
+    "[8, 20,40. 68,104, 0]": "right",
+    "[9, 21, 41.69.1023. 5]": "worng",
+    "[9. 21. 40. 69.105. 0]": "worng"
+  },
+  " What would be the output of the given Python code. when executed?": {
+    "\u00a0output: [5. 4, 3, [11. 22, 31. 41]]output: [5. 4, 3. [11. 22. 31. 41]]\u00a0\u00a0": "worng",
+    "\u00a0output: [11.22.31.41[5.4. 31]output: [11.22.31.41 [5.4.31]": "worng",
+    "output: [5. 4. 3]output\u201c [11. 22, 31. 41]": "worng",
+    "output: [11. 22. 31. 41]output: [5. 4. 3]\u00a0\u00a0": "right"
+  },
+  "Analyse the given Python code and answer the question that follows.  import math  a = math.pi/6  b = 3  c = 4  print (math.tan(a))  print ('result = ', end='')  print (math.hypot(b,c))  What will be the correct output of the above Python code?": {
+    "4773502691896257result = 4.0": "worng",
+    "5773502691896257result = 5.0": "right",
+    "6773502691896257result = 6.0": "worng",
+    "7773502691896257result = 7.0": "worng"
+  },
+  "This question is based on the graphic shown below. Choose the correct output of the given Python code.": {
+    "5 2": "worng",
+    "8 2": "right",
+    "5 3": "worng",
+    "8 3": "worng"
+  },
+  "In Python 3.4.2, which symbol is used for writing a comment?": {
+    "// ": "worng",
+    "\\\\ ": "worng",
+    "@ ": "worng",
+    "# ": "right",
+    "u": "worng"
+  },
+  "The items() method in Python is used for returning the list with all dictionary keys and values.": {
+    "True ": "right",
+    "False": "worng"
+  },
+  "Analyse the given Python code and choose the correct output from the given options.  pdata = 50  try:  \tpdata = pdata/0  except ZeroDivisionError:  \tprint('0 ', end = '') else: print('1', end = '') try: pdata = pdata/5 except: print('1', end = '') else: print('0', end = '')": {
+    "1": "worng",
+    "0\u00a0": "right",
+    "0": "worng"
+  },
+  "Output of the following Python code?    def KToFiTemp):  assert (Temp >= 0),'Colder than absolute zero!'return ((Temp-273)\u20181.8)+32  print KToF(273)  print int(KToF(505.78))  print KToF(-5)": {
+    "\u00a032.0451Colder than absolute zero!\u00a0\u00a0": "worng",
+    "32451.0Colder than absolute zero!": "worng",
+    "\n\n\n\n\n\nCode will give a compilation error.\u00a0\u00a0\n\nNote: This Question is unanswered, help us to find answer for this one\n\nCheck Answer\n\n\n\n\nPrev Question\nPrev\nabc\n\n\n\n\n\n\nabc\nNext Question\nNext\n\n\n\n\n": "worng",
+    "undefined": "undefined"
+  },
+  "Which of these answers will create a list that looks like this: ['2','2','2']?": {
+    "theList = [2] * 3 0.0": "right",
+    "theList = [": "right",
+    "theList = [3] * ": "worng"
+  },
+  "Which is the best possible way of getting the local ip address using stdlib of python?   ": {
+    "import socket socket.gethostbyname(socket.gethostname())": "right",
+    "s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) s.connect((\"gmail.com\",80)) print(s.getsockname()[0])": "worng",
+    "import socket print([ip for ip in socket.gethostbyname_ex(socket.gethostname())[2] if not ip.startswith(\"127.\")][:1])": "worng",
+    "None of the above": "worng"
+  },
+  "How can a list of dictionaries be sorted by the values of the dictionaries?": {
+    "from operator import itemgetter sortedlist = sorted(a_list_of_dicts, key = itemgetter('name'))": "right",
+    "import operator sortedlist = a_list_of_dicts.sort(key = operator.itemgetter('name'))": "worng",
+    "def mykey(adictionary): return adictionary['name'] sortedlist = sorted(a_list_of_dicts, key=mykey)": "worng",
+    "sortedlist = a_list_of_dicts.sort(lambda x,y : cmp(x['name'], y['name']))": "worng"
+  },
+  "Output of the following? t=(1,2,4,3,5) print(t[1:3])": {
+    "(1, 4)": "worng",
+    "(1, 4, 3)": "worng",
+    "(2, 4)": "right",
+    "(2, 4, 3)": "worng"
+  },
+  "Output of following code? def val1(param): return param def val2(param): return param * 2 def val3(param): return param + 5 result = val1(val2(val3(1))) print(result)": {
+    "8": "worng",
+    "12": "right",
+    "10": "worng",
+    "6": "worng"
+  },
+  "Output of the below code snippet? x = [] y = x y.append(10) z = 5 w = z z = z - 1 print(y) print(x) print(z) print(w)": {
+    "[10] [] [4] [5]": "worng",
+    "[10] [10] [4] [5]": "right",
+    "[10] [[10]] [5] [5]": "worng",
+    "[10] [None] [5] [4]": "worng"
+  },
+  "": {
+    "Locked": "worng",
+    "Owning thread": "worng",
+    "Recursion level": "worng",
+    "Unlocked": "worng",
+    "All of the above": "right"
+  },
+  "Which snippet will return the list of all occurances of 'b' in a = ['a','b','c','b'] ?    ": {
+    "b = [item for item in a if a == 'b'][0]": "worng",
+    "b = [item for item in a if a[] == 'b']": "worng",
+    "b = [item for item in a if 'b' in a]": "right",
+    "b = [item for item in a if item == 'b']": "worng"
+  },
+  "Output of the following? my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] new_list = list(filter(lambda x: (x%2 == 0) , my_list)) print(new_list)  ": {
+    "[1, 3, 5, 6, 9]": "worng",
+    "[1, 5, 7, 9, 10]": "worng",
+    "[2, 4, 6, 8, 10]": "right",
+    "[0, 4, 6, 8, 10]": "worng"
+  },
+  "Output of the code below? s = 'messha' for i in range(len(s)): print(i)  ": {
+    "m e s s h a": "worng",
+    "0 1 2 3 4 5": "right",
+    "6": "worng",
+    "5": "worng"
+  },
+  "Output of following code? items = set() items.add('google') items.add('apple') items.add('microsoft') print(items)": {
+    "set(['google', 'apple', 'microsoft'])": "right",
+    "set['google', 'apple', 'microsoft']": "worng",
+    "set('google', 'apple', 'microsoft')": "worng",
+    "set{'google', 'apple', 'microsoft'}": "worng"
+  },
+  "What command is used to get the hostname of the computer the Python script is running on?    ": {
+    "print hostname()": "worng",
+    "import socket print gethostname()": "worng",
+    "print socket.gethostname()": "worng",
+    "import socket print socket.gethostname()": "right"
+  },
+  "Regarding the code below, what's correct statement ? class Book: def __init__(self, isbn): self.isbn = isbn isbn = 'test' book = Book(12345)  ": {
+    "book.isbn will contain the value 12345.": "right",
+    "book.isbn will contain the value 'test'.": "worng",
+    "This program won't run the Book class expects a string instead of integer.": "worng",
+    "None of the above is correct.": "worng"
+  },
+  "Whic statement is true regarding __slots__ in Python?    ": {
+    "__slots__ can be useful when many small object creations are needed, with predefined structures and with memory limitations.": "worng",
+    "__slots__ is an optimized dynamic structure.": "right",
+    "__slots__ is a memory optimization tool.": "right",
+    "__slots__ breaks multiple inheritance.": "worng"
+  },
+  "Suppose we have a User class, how do we make a new User object?    ": {
+    "a = new User()": "worng",
+    "User a = new User()": "worng",
+    "User.new(Object)": "worng",
+    "a = User()": "right"
+  },
+  "Output of the following code be: def a(): print 'a executed' return [] def b(x=a()): x.append(5) x.append(1) print x b() b() b()  ": {
+    "a executed [1] a executed [1, 1] a executed [1, 1, 1]": "worng",
+    "a executed [5, 1] [5, 1, 5, 1] [5, 1, 5, 1, 5, 1]": "worng",
+    "a executed [5, 1] [5, 1] [5, 1]": "worng",
+    "a executed [5, 1] a executed [5, 1] a executed [5, 1]": "right",
+    "a executed [5, 1] a executed [5, 1, 5, 1] a executed [5, 1, 5, 1, 5, 1]": "worng"
+  },
+  "Regarding Unicode in Python 3, which of the following is incorrect ?": {
+    "The `str` type contains Unicode characters, meaning any string created using \"unicode rocks!\", 'unicode rocks!', or the triple-quoted string syntax is stored as Unicode.": "worng",
+    "One can create a string using the `decode()` method of `bytes` type, and it will use by default 'latin_1' encoding.": "right",
+    "Python 3 supports using Unicode characters in identifiers.": "worng",
+    "One can create a byte representation from a string by using the `encode()` method, and it will use by default 'utf-8' encoding.": "worng"
+  },
+  "Which statement is correct about assertions in Python?": {
+    "Asserts are used to control program flow.": "worng",
+    "The \"assert\" statements are removed when the compilation is optimized.": "right",
+    "Asserts should be used to test conditions that should never happen.": "right",
+    "Asserts are used to define custom exceptions that are to be caught.": "worng"
+  },
+  "Suppose a database table row has to be represented, and a field needs to be accessed via its field name or field index; which of the following data types suits this purpose best?": {
+    "dict": "worng",
+    "OrderedDict": "worng",
+    "list": "worng",
+    "namedtuple": "right"
+  },
+  "How to get access to _b in outside of class a?": {
+    "a.__b_": "worng",
+    "a._a__b": "worng",
+    "b.__a": "worng",
+    "None of the above": "right"
+  },
+  "Consider the Python function: def secret_function(sPath): import os for sChild in os.listdir(sPath): sChildPath = os.path.join(sPath,sChild) if os.path.isdir(sChildPath): secret_function(sChildPath) else: print(sChildPath) What would be the most correct statement to describe above function?": {
+    "This function takes the name of a directory and prints out the absolute paths for the files and sub-directories.": "worng",
+    "This function takes the name of a directory and prints out the paths files within that directory as well as any files contained in contained directories.": "right",
+    "This function takes the name of a directory and prints out the paths for the files and sub-directories.": "worng",
+    "This function will get stuck in the recursive calls and will eventually throw a runtime error.": "worng"
+  },
+  "Regarding Thread Synchronization Primitives in Python, which of the following is incorrect ?": {
+    "Mutual Exclusion Lock (`threading.Lock`) are used to synchronize threads so that only one thread can make modifications to shared data at any given time. Only one thread can successfully `acquire()` the lock at any given time.": "worng",
+    "Reentrant Mutex Lock (`threading.RLock`) are similar to a normal mutex lock except that it can be reacquired multiple times by the same thread.": "worng",
+    "Semaphores (`threading.Semaphore`) are counter-based synchronization primitive, `acquire()/release()` increments or decrements a internal counter, and like locks, cannot be called in any order and by any thread.": "right",
+    "Event Objects (`threading.Event`) can be used to have one or more threads wait for something to occur. Setting an event will unblock all waiting threads simultaneously (if any).": "worng"
+  },
+  "Which option in sqllite.connect() method avoids OperationalError telling that the database file is locked?": {
+    "check_same_thread": "right",
+    "check_thread": "worng",
+    "check_diff_thread": "worng",
+    "check_same_threads": "worng"
+  },
+  "From the following which is not a good recommendation for Threading in Python?": {
+    "Use multitasking module": "worng",
+    "use Queue.Queue": "right",
+    "Use an event model, such as Twisted": "worng",
+    "Use the threading module": "worng"
+  },
+  "Which statement is incorrect regarding Concurrency in Python?": {
+    "A Thread can be defined by subclassing the `threading.Thread` and overriding the method `run()`": "worng",
+    "A Thread instance is launched when the method `begin()` from `threading.Thread` is called.": "right",
+    "Once you start a Thread, it runs independently, and one can use `join()` to wait for a thread to exit": "worng",
+    "Threads share all of the data in your program, and access to shared variables may cause so called Race Conditions, which can be resolved with synchronization primitives such as Mutex Locks.": "worng"
+  },
+  "Considering this Python 2.x snippet, while(True): try: doWork() except TypeError: print 'Type error' except Exception: print 'General exception' except GeneratorExit, KeyboardInterrupt: print 'Existing exception' which of the following is correct to say?": {
+    "If doWork() raise a TypeError, then the program will print 'General exception', as TypeError is subclass of Exception.": "worng",
+    "If the user tries to exit the program by entering Ctrl + C from the keyboard, the program won't stop as KeyboardInterrupt is being handled and not re-raised.": "worng",
+    "KeyboardInterrupt is the instance name for the exception class GeneratorExit. Therefore KeyboardInterrupt is never handled on this code.": "right",
+    "No matter what exception happens, the program will not stop and will print 'General exception' in the console, as Exception is the first base class in the Python exception hierarchy.": "worng"
+  },
+  "Which is true regarding urlopen function from the standard module urllib in Python 2?": {
+    "Open a network object denoted by a URL for reading, but it cannot be used to open local files.": "worng",
+    "If the connection cannot be made the LookupError exception is raised.": "right",
+    "If the connection is successful, this function returns the content of the object as string.": "worng",
+    "When opening HTTPS URLs, it does not attempt to validate the server certificate.": "worng"
+  },
+  "Which statement is incorrect regarding Python language?": {
+    "Python is an interpreted language. That means that, unlike languages like C and its variants, Python does not need to be compiled before it is run.": "worng",
+    "Python is dynamically typed, this means that you don't need to state the types of variables when you declare them or anything like that.": "worng",
+    "Python is well suited to object orientated programming in that it allows the definition of classes along with composition and inheritance.": "worng",
+    "In Python, functions are not objects. This means that they cannot be assigned to variables, returned from other functions and passed into functions.": "right"
+  },
+  "Which is false regarding urlretrieve function from the standard module urllib in Python 2?": {
+    "It copies a network object denoted by a URL to a local file, if necessary.": "worng",
+    "If the target URL points to a local file, or a valid cached copy of the object exists, the object is not copied.": "worng",
+    "It returns a tuple (filename, headers, filesize) where filename is the local file name under which the object can be found.": "right",
+    "It's possible to define a custom path for the local file, where the object will be saved.": "worng"
+  },
+  "Regarding Secure hashes and message digests in Python 3 using standard module hashlib, which of the following is true ?": {
+    "hashlib.sha224(b\"test\") will return the sha224 hash (as string) of the value \"test\".": "worng",
+    "`hexdigest()` function will return a hexadecimal string representation of the underlying hash algorithm.": "right",
+    "Feeding string objects into update() is supported, as hashes work on both bytes and strings.": "worng"
+  },
+  "Which is incorrect to say about CPython's garbage collection mechanism ?": {
+    "Python maintains a count of the number of references to each object in memory. If a reference count goes to zero then the associated object is no longer live and the memory allocated to that object can be freed up for something else.": "worng",
+    "The garbage collector periodically looks for \"reference cycles\" and cleans them up. An example would be if you have two objects o1 and o2 such that o1.x == o2 and o2.x == o1. If o1 and o2 are not referenced by anything else then they shouldn't be live. But each of them has a reference count of 1.": "worng",
+    "The garbage collector is a deterministic process, so that heuristics are never used to improve performance of garbage collection.": "right",
+    "All of the above are correct.": "worng"
+  },
+  "Which is NOT correct regarding unittest in Python 3?": {
+    "Each test case must be defined inside a class that inherits from unittest.TestCase": "worng",
+    "@unittest.skip is a decorator designed to disable the specific test unit from running.": "worng",
+    "setUp() from unittest.TestCase can be overridden and is called immediately before calling the test method.": "worng",
+    "tearDown() from unittest.TestCase is called only once per class, immediately before the first test method.": "right"
+  },
+  "In Python 3, which is correct regarding data types Lists, Tuples, Dictionaries and Sets ?": {
+    "`add()` from a Dictionary object will add a new key-value pair to the end of the collection.": "worng",
+    "If `a_set` is a Set instance, then `a_set.difference(a_set)` will always return an empty Set object.": "right",
+    "To add a new object to the end of a Tuple, one can use the method `append()`.": "worng",
+    "List objects do not have a `pop()` method as this is typical of Stack data type.": "worng"
+  },
+  "In Python 3, which is incorrect regarding data structures ?": {
+    "Lists are ordered collections that can hold arbitrary objects and can expand dynamically as new items are added.": "worng",
+    "Tuples are ordered collections that can hold arbitrary objects, but are immutable.": "worng",
+    "A set is an unordered collection of unique values and support standard Set operations such as union, intersection, and difference.": "worng",
+    "A Dictionary is an unordered set of key-value pairs, but becomes essentially immutable once a key already exists.": "right"
+  },
+  "Considering Python 2.5, what will be the output of following code? fp = None with open('file.data', 'r') as fp: cont = f.read() print fp.closed": {
+    "True": "right",
+    "False": "worng",
+    "None": "worng",
+    "It raises AttributeError: object has no attribute 'closed'": "worng"
+  },
+  "Which statement regarding tuple and list is wrong?": {
+    "Lists are mutable while tuples are immutable, and cannot be modified once created.": "worng",
+    "Tuples are hashable and can be used as dictionary keys, lists are not.": "worng",
+    "Tuples usually contain a heterogeneous sequence of elements that are accessed via unpacking, but not indexing.": "right",
+    "Elements of lists are usually homogeneous and are accessed by iterating over the list.": "worng"
+  },
+  "Which can be used to check if a value is an int? The value is a = 10": {
+    "type(a) is int": "worng",
+    "isinstance(a, int)": "right",
+    "issubclass(type(a), int)": "worng",
+    "All of these": "worng"
+  },
+  "Which method is used to get the name of a thread?": {
+    "getName()": "right",
+    "getthread()": "worng",
+    "getThread()": "worng",
+    "get_id()": "worng"
+  },
+  "Which is the correct way to print a list called theList in reverse order?": {
+    "for i in reversed(theList): print i": "right",
+    "for i in theList[:-1]: print i": "worng",
+    "for i in theList.reversed: print i": "worng",
+    "for i in reversed(theList)[-1:]: print i": "worng"
+  },
+  "Output of following code? var1 = lambda var: var * 2 ret = lambda var: var * 2 result = 3 result = var1(result) result = ret(result) result = var1(result) print(result)": {
+    "12": "worng",
+    "6": "worng",
+    "24": "right",
+    "36": "worng"
+  },
+  "What is the type of each element in sys.argv ?": {
+    "array": "worng",
+    "string": "right",
+    "tuple": "worng",
+    "list": "worng"
+  },
+  "An object can contain?": {
+    "variables": "worng",
+    "methods": "worng",
+    "functions": "worng",
+    "variables and methods": "right"
+  },
+  "Which is the best way to convert a Python time.struct_time object into a datetime object?": {
+    "structTime = time.localtime() datetime.datetime(*structTime[:6]) datetime.datetime(2009, 11, 8, 20, 32, 35)": "worng",
+    "datetime.fromtimestamp(mktime(struct))": "right",
+    "A time.struct_time object cannot be converted into a datetime object.": "worng",
+    "datetime.fromtimestamp(struct)": "worng"
+  },
+  "What is the type of x? x = 10.0//5": {
+    "int": "worng",
+    "float": "right",
+    "long": "worng",
+    "number": "worng"
+  },
+  "In Python, a string literal is enclosed in _____?": {
+    "parentheses": "worng",
+    "brackets": "worng",
+    "single-quotes": "right",
+    "double-quotes": "right"
+  },
+  "What gets printed on the console for the following Python 2.x code? A0 = dict(zip(('a','b','c','d','e'),(1,2,3,4,5))) A1 = range(5) A2 = sorted([i for i in A1 if i in A0]) A3 = sorted([A0[s] for s in A0]) A4 = [i for i in A1 if i in A3] A5 = {i:i*i for i in A1} A6 = [[i,i*i] for i in A1] print A6": {
+    "[[0, 0], [1, 1], [2, 4], [3, 9], [4, 16]]": "right",
+    "[{0: 0, 1: 1, 2: 4, 3: 9, 4: 16}]": "worng",
+    "[[1, 2, 3, 4, 9, 16]]": "worng",
+    "[[0, 0], [1, 1], [2, 2], [3, 3], [4, 4]]": "worng"
+  },
+  "_____ measures how full the hash table is?": {
+    "Load factor": "right",
+    "Threshold": "worng",
+    "Dump": "worng",
+    "Tuple": "worng"
+  },
+  "How to convert a json string to Python object?": {
+    "simplejson.load()": "worng",
+    "json.load()": "worng",
+    "json.dumps()": "worng",
+    "json.loads()": "right"
+  },
+  "Which answer will catch an exception, but do nothing with it?": {
+    "doSomething()": "worng",
+    "try: doSomething()": "worng",
+    "try: doSomething() except:": "worng",
+    "try: doSomething() except: pass": "right"
+  },
+  "Which can be used to create a directory?": {
+    "os.make_dir()": "worng",
+    "os.create_dir()": "worng",
+    "os.mkdir()": "right",
+    "All of the above": "worng"
+  },
+  "Which is the correct way to change the current working directory in Python?": {
+    "import os os.chdir(\"/path/to/change/to\")": "right",
+    "os.chdir(\"/path/to/change/to\")": "worng",
+    "chdir(\"/path/to/change/to\")": "worng",
+    "import os os.cd(\"/path/to/change/to\")": "worng"
+  },
+  "Correct way to increment the value of the variable 'i' by 1?": {
+    "i += 1": "right",
+    "i++": "worng",
+    "++i": "worng",
+    "inc(i)": "worng"
+  },
+  "Which will remove duplicate elements from a list (O(n)), whilst preserving order?": {
+    "mylist = [x for i,x in enumerate(mylist) if x not in mylist[i+1:]]": "right",
+    "mylist = reduce(lambda x, y: x if y in x else x + [y], mylist, [])": "worng",
+    "seen = set() seen_add = seen.add mylist = [ x for x in mylist if x not in seen and not seen_add(x)]": "worng",
+    "mylist = [x for i,x in enumerate(mylist) if x not in mylist[:i]]": "worng"
+  },
+  "Which function immediately terminates the program?": {
+    "sys.stop()": "worng",
+    "sys.close()": "worng",
+    "sys.exit()": "right",
+    "sys.terminate()": "worng"
+  },
+  "What will the following code do? somelist[:] = [tup for tup in somelist if determine(tup)]": {
+    "It will remove duplicates and put them into a new list with the same name.": "worng",
+    "It will reorder the list depending on occurrence(s).": "worng",
+    "It will remove duplicates from the list.": "right",
+    "It will double the occurrences in the list.": "worng"
+  },
+  "Which exception raised for an error that doesn\u2019t fall in any of the categories?": {
+    "SyntaxError": "worng",
+    "RuntimeError": "right",
+    "SystemError": "worng",
+    "CodeError": "worng"
+  },
+  "Output of the following code? def name(X, Y, Z, **opt): if opt.get('number') == 'Y': return Y res = name(1, 2, 3, action = 'sum', number = 'Y') print 'Result: %d' % res": {
+    "Result: 1": "worng",
+    "Result: 2": "right",
+    "Result: 3": "worng",
+    "Result: 0": "worng"
+  },
+  "What gets printed in the code below ? def f(x, l=[]): for i in range(x): l.append(i * i) return l f(2) f(3, [3, 2, 1]) print f(3)": {
+    "[0, 1, 4]": "worng",
+    "[0, 1, 0, 1, 4]": "right",
+    "[0, 1, 0]": "worng",
+    "[3, 2, 1, 0, 1, 4]": "worng"
+  },
+  "Which will be the output of the below code snippet? class foo: def normal_call(self): print('normal_call') def call(self): print('first_call') self.call = self.normal_call y = foo() y.call() y.call() y.call()": {
+    "first_call normal_call normal_call": "right",
+    "first_call first_call first_call": "worng",
+    "normal_call normal_call normal_call": "worng",
+    "first_call normal_call first_call": "worng"
+  },
+  "Consider the following Python code: test = 1/2 What is the value of 'test' in Python 2.7 and 3.5, respectively ?": {
+    "0 and 1": "worng",
+    "0 and 0.5": "right",
+    "0.5 and 0": "worng",
+    "1 and 0": "worng"
+  },
+  "Which is the correct way to determine a variable's type in Python?": {
+    "type(variable_name)": "right",
+    "dir(variable_name)": "worng",
+    "var(variable_name)": "worng",
+    "typevar(variable_name)": "worng"
+  },
+  "Which will be the output of the below code snippet? def foo(x=[]): x.append(1) print(x) foo() foo() foo()": {
+    "[1, 1] [1, 1] [1, 1]": "worng",
+    "[1, 1, 1] [1, 1, 1] [1, 1, 1]": "worng",
+    "[1] [1] [1]": "worng",
+    "[1] [1, 1] [1, 1, 1]": "right"
+  },
+  "Output of following code snippet? def f(x): return x % 2 != 0 and x % 3 != 0 result=filter(f, range(1, 20)) print result": {
+    "[1, 3, 7, 10, 13, 16, 19]": "worng",
+    "[1, 6, 9, 11, 15, 17, 19]": "worng",
+    "[1, 5, 7, 11, 13, 17, 19]": "right",
+    "[1, 4, 7, 12, 15, 17, 19]": "worng"
+  },
+  "Output of following code? d = lambda p: p * 2 t = lambda p: p * 3 x = 2 x = d(x) x = t(x) x = d(x) print x": {
+    "7": "worng",
+    "12": "worng",
+    "24": "right",
+    "36": "worng",
+    "48": "worng"
+  },
+  "What is the method to retrieve the list of all active thread objects?": {
+    "activethreads()": "worng",
+    "getThreads()": "worng",
+    "enumerate()": "right",
+    "threads()": "worng"
+  },
+  "Output of following code? import threading k = 10 x = 0 m = threading.Lock() def foo(): global x for i in xrange(k): with m: x += 1 def bar(): global x for i in xrange(k): with m: x -= 1 t1 = threading.Thread(target=foo) t2 = threading.Thread(target=bar) t1.start() t2.start() t1.join() t2.join() print x": {
+    "It will raise an exception.": "right",
+    "1": "worng",
+    "It will randomly print a different value on every run.": "worng"
+  },
+  "Which one is reentrant lock type?": {
+    "RLock": "right",
+    "UnLock": "worng",
+    "Lock": "worng",
+    "Condition": "worng"
+  },
+  "Output of following code? def f2(n, result): if n == 0: return 0 else: return f2(n - 1, n + result) print(f2(2, 0))": {
+    "0": "right",
+    "1": "worng",
+    "2": "worng",
+    "3": "worng"
+  },
+  "The __ function can be used to check if a file f exists?": {
+    "os.path.isFile(f)": "worng",
+    "os.path.exists(f)": "worng",
+    "os.path.isfile(f)": "right",
+    "os.isFile(f)": "worng"
+  },
+  "On a Unix-like system, what does Python's sleep.time() function block?": {
+    "The thread.": "right",
+    "The process.": "worng",
+    "Nothing.": "worng",
+    "It always blocks both.": "worng"
+  },
+  "sys.path is initialized from which of the following locations ?": {
+    "The directory containing the input script .": "worng",
+    "PYTHONPATH enviroment variable.": "worng",
+    "The installation-dependent default.": "worng",
+    "All of the above": "right"
+  },
+  "The side option of the pack manager may be _____?": {
+    "LEFT": "worng",
+    "RIGHT": "worng",
+    "BOTTOM": "worng",
+    "TOP": "worng",
+    "All of the above": "right"
+  },
+  "How to get JSON to load into an OrderedDict in python?": {
+    "By simply using json.loads(D) where D is Ordered dictionary": "worng",
+    "By specifying the object_pairs_hook argument to JSONDecoder": "right",
+    "Ordered dictionary is not supported yet": "worng",
+    "By simply using json.dumps(D) where D is Ordered dictionary": "worng"
+  },
+  "Which method is used to convert raw json objects to Json in python?": {
+    "json.dumps()": "worng",
+    "JSONEncoder().encode()": "worng",
+    "json.loads()": "right",
+    "json.default()": "worng"
+  },
+  "Invoking the ___ method converts raw byte data to a string?": {
+    "encode()": "worng",
+    "decode()": "right",
+    "convertString()": "worng",
+    "toString()": "worng"
+  },
+  "The output of executing string.ascii_letters can also be achieved by ____?": {
+    "string.letters.ascii": "worng",
+    "string.ascii_lowercase+string.ascii_upercase": "right",
+    "string.ascii.letters": "worng"
+  },
+  "Output of following code? print '\\x48\\x49!'": {
+    "HI!": "right",
+    "48 49!": "worng",
+    "4849!": "worng",
+    "\\x48\\x49!": "worng",
+    "4849": "worng"
+  },
+  "What is the default encoding in the string function encode()?": {
+    "ascii": "right",
+    "utf-8": "worng",
+    "wtf-8": "worng",
+    "cesu-8": "worng"
+  },
+  "Output of the below code snippet? x = 10 def foo(): print(x) x = x - 1 foo() print(x)": {
+    "10 11": "worng",
+    "10 9": "worng",
+    "UnboundLocalError: local variable 'x' referenced before assignment": "right",
+    "9 9": "worng"
+  },
+  "What will be the following code output? import math res = math.pow(4, 3) def addition(x, y): return (x+y) def subtract(x, y): return (x-y) def multiply(x, y): return (x*y) def divide(x, y): return (x%y) import mathExample print mathExample.res": {
+    "64.0": "right",
+    "43": "worng",
+    "4.0": "worng",
+    "3.0": "worng"
+  },
+  "Which environment variable for Python is an alternative module search path?": {
+    "PYTHONCASEOK": "worng",
+    "PYTHONHOME": "right",
+    "PYTHONSEARCH": "worng",
+    "PYTHONURL": "worng"
+  },
+  "Considering the following code snippet:- def test (a, b, c): pass Which of the following is a true statement?": {
+    "It defines a function that will automatically pass to other function the three parameters it receives.": "worng",
+    "It defines a function that essentially does nothing.": "right",
+    "It defines an empty class.": "worng",
+    "It's a native Python function that tests if any of the parameters evaluates to `True`.": "worng"
+  },
+  "Output of following code? counter = 1 def count(): global counter t = (1, 2, 3) for i, v in enumerate(t): counter += i + v count() print counter": {
+    "9": "worng",
+    "10": "right",
+    "11": "worng",
+    "12": "worng",
+    "13": "worng"
+  },
+  "Correct way to add a new element to a list?": {
+    "list.add(1)": "worng",
+    "list.addValue(1)": "worng",
+    "list.append(1)": "right",
+    "list.addItem(1)": "worng"
+  },
+  "A hashing function ____?": {
+    "stores an element in the hash table": "worng",
+    "maps a key to an index in the hash table": "right",
+    "different index in the hash table": "worng"
+  },
+  "Output if following code executed? a1 = 0 b2 = 1 c3 = 2 def fru_box(): a1 = b2 + c3 print((a1, '\\t', b2, '\\t', c3)) return fru_box()": {
+    "(1, '\\t', 2, '\\t', 3)": "worng",
+    "(2, '\\t', 1, '\\t', 3)": "worng",
+    "(1, '\\t', 3, '\\t', 2)": "worng",
+    "(3, '\\t', 1, '\\t', 2)": "right"
+  },
+  "Which code snippet below will not return True?": {
+    "1 in [1,0]": "worng",
+    "1 in [1,0] == True": "right",
+    "(1 in [1,0]) == True": "worng",
+    "1 in [1, 2, 3]": "worng"
+  },
+  "Output of following code? from functools import * def add(a, b, c): return 50*a + 5*b + c res = partial(add, c=2, b=1) print(res(2))": {
+    "140": "worng",
+    "150": "worng",
+    "107": "right",
+    "250": "worng"
+  },
+  "Which will return the size of a file?": {
+    "import os size = os.stat('somefile.txt') size.st_size": "right",
+    "import os size = os.path.getsize('somefile.txt')": "right",
+    "import os size = os.filesize('somefile.txt')": "worng",
+    "import os size = os.fileprop('somefile.txt') size.filesize": "worng"
+  },
+  "Output of following code? nums = list() i = 3 while (i < 9): nums.append(i) i = i+2 print(nums)": {
+    "[3, 5, 9]": "worng",
+    "[3, 2, 7]": "worng",
+    "[3, 9, 7]": "worng",
+    "[3, 5, 7]": "right"
+  },
+  "Which is the correct way to empty a list, using theList as an example?": {
+    "del theList[] = []": "worng",
+    "theList = []": "worng",
+    "del theList[:]": "right",
+    "del theList[]": "worng"
+  },
+  "orig = { '1' : 1, '2' : 2 } a_copy = orig.copy() orig['1'] = 5 sum = orig['1'] + a_copy['1'] print sum What will be printed in the above Python code?": {
+    "6": "right",
+    "1": "worng",
+    "2": "worng",
+    "10": "worng",
+    "None": "worng"
+  },
+  "Output of following code? def addItem(l): l += [0] mylist = [1, 2, 3, 4, 5] addItem(mylist) print len(mylist)": {
+    "12345": "worng",
+    "1234": "worng",
+    "01234": "worng",
+    "6": "right"
+  },
+  "What is the return value of trunc()?": {
+    "tuple": "worng",
+    "float": "worng",
+    "int": "right",
+    "bool": "worng"
+  },
+  "What function do you use to read a string?": {
+    "input(\"Enter a string\")": "right",
+    "eval(input(\"Enter a string\"))": "worng",
+    "enter(\"Enter a string\")": "worng",
+    "print(enter(\"Enter a string\"))": "worng"
+  },
+  "In the following code, what will be printed ? class parent: def __init__(self, param): self.v1 = param class child(parent): def __init__(self, param): self.v2 = param obj = child(5) print '%d %d' % (obj.v1, obj.v2)": {
+    "AttributeError will be raised.": "right",
+    "None None": "worng",
+    "None 5": "worng",
+    "5 None": "worng",
+    "5 5": "worng"
+  },
+  "Which statement would create an instance of Firm class correctly?": {
+    "Firm = Firm('client', 2000)": "worng",
+    "Firm = Firm()": "worng",
+    "Firm = Firm('server', 2000)": "worng",
+    "None of the above": "right"
+  },
+  "Check whether an object x is an instance of class A, use _____.?": {
+    "x.instance(A)": "worng",
+    "A.instance(x)": "worng",
+    "isinstance(x, A)": "right",
+    "instance(A, x)": "worng"
+  },
+  "Consider the code, and choose the correct statement: class A: def __init__(self, i = 0): self.i = i class B(A): def __init__(self, j = 0): self.j = j def main(): b = B() print(b.i) print(b.j) main()": {
+    "Class B inherits A, but the data field i in A is not inherited.": "right",
+    "Class B inherits A and automatically inherits all data fields in A.": "worng",
+    "When you create an object B, you have to pass an integer such as B(5).": "worng",
+    "The data field j cannot be accessed by object b.": "worng"
+  },
+  "Which of the following statements are true?": {
+    "open a file for reading, if the file does not exist, an error occurs.": "right",
+    "open a file for writing, if the file does not exist, an error occurs.": "worng",
+    "open a file for reading, if the file does not exist, the program will open an empty file.": "worng",
+    "open a file for writing, if the file does not exist, a new file is created.": "right",
+    "open a file for writing, if the file exists, the existing file is overwritten with the new file.": "right"
+  },
+  "What is the output of 'Dummy Text is my text'.strip('Te') -": {
+    "'Dummy Text is my text'": "worng",
+    "'Dummy xt is my xt'": "worng",
+    "'Dummy xt is my text'": "worng",
+    "None of these": "right"
+  },
+  "Which is incorrect regarding modules in Python?": {
+    "Each module can only be imported once per interpreter session. And If you change a module the interpreter will automatically reload it for you.": "right",
+    "The interpreter searches for a module first at the directory of the top-level file, i.e. the file being executed.": "worng",
+    "`dir(__builtins__)` will return a list of all built-in functions, exceptions, and other objects.": "worng",
+    "It's possible to put several modules into a Package. A directory of Python code is said to be a package.": "worng"
+  },
+  "What is the result of the following code: listOne = [1, 3, 5] listTwo = [2, 4, 6] listNew = listOne + listTwo print listNew": {
+    "[3, 7, 11]": "worng",
+    "[1, 2, 3, 4, 5, 6]": "right",
+    "[1, 3, 5, 2, 4, 6]": "worng",
+    "[ [1, 3, 5], [2, 4, 6] ]": "worng"
+  },
+  "Which of the following are the characteristics of the __init__.py file?": {
+    "__init__.py can be an empty file, but it can also execute initialization code for the package or set the __all__ variable.": "right",
+    "The __init__.py files are used to override the classes' initializations globally.": "right",
+    "The __init__.py files are required to make Python treat the directories as if they contain packages.": "right",
+    "The __init__.py files are used to define the classes' basic initializations.": "right"
+  },
+  "Output of the below code snippet? squares = [] for x in range(5): squares.append(lambda: x**2) x = 8 for i in range(5): print(squares[i]())": {
+    "1 4 9 16 25": "worng",
+    "64 64 64 64 64": "right",
+    "UnboundLocalError: local variable 'x' referenced before assignment": "worng",
+    "64 4 9 16 25": "worng"
+  },
+  "Which piece of code best describes the way to parse data from JSON file?": {
+    "import json from pprint import pprint with open('data.json') as data_file: data = json.load(data_file) pprint(data)": "right",
+    "import json from pprint import pprint json_data=open('json_data') data = json.load(json_data) pprint(data)": "worng",
+    "data = [] with codecs.open('d:\\output.txt','rU','utf-8') as f: for line in f: data.append(json.loads(line))": "worng",
+    "None of the above": "worng"
+  },
+  "Output of following code? x, y = 15, 45 res = x if x < y else y print(res)": {
+    "45": "worng",
+    "1": "worng",
+    "Error": "worng",
+    "15": "right"
+  },
+  "Which function do you use to read data using binary input?": {
+    "write": "worng",
+    "output": "worng",
+    "dump": "right",
+    "send": "worng"
+  },
+  "Which will be returned by readlines() method?": {
+    "str": "worng",
+    "a list of lines": "right",
+    "a list of single characters": "worng",
+    "a list of integers": "worng"
+  },
+  "Which built-in Python function can be used to get the length of a list, tuple, string, dictionary or other object?": {
+    "lengthof()": "worng",
+    "length()": "worng",
+    "len()": "right",
+    "sizeof()": "worng"
+  },
+  "Which is correct about getting a free port number?": {
+    "use sock.getsockname() to get a free port number": "worng",
+    "Do not bind to a specific port, or bind to port 0, e.g. sock.bind(('', 0))": "right",
+    "Directly use a desired port number in bind function, e.g. sock.bind(('', port_number))": "worng",
+    "We cannot get a free port number": "worng"
+  },
+  "Output of following code? class Example: def __init__(self, i = 2, j = 3): self.i = i self.j = j def __str__(self): return'Example' def __eq__(self, other): return self.i * self.j == other.i * other.j def main(): x = Example(1, 2) y = Example(2, 1) print(x == y) main()": {
+    "False": "worng",
+    "2": "worng",
+    "True": "right",
+    "1": "worng"
+  },
+  "Python programming language was designed by___ ?": {
+    "Guid vano": "worng",
+    "Guido van Rossum": "right",
+    "David": "worng",
+    "Centrum Wiskunde": "worng"
+  },
+  "Which is floor division ?": {
+    "%": "worng",
+    "&": "worng",
+    "//": "right",
+    "#": "worng"
+  },
+  "Which code is valid to convert a buffer buf to JSON object?": {
+    "A. buf.toJSON()": "right",
+    "B. buf.json()": "worng",
+    "C. buf.covertToJson()": "worng",
+    "D. buf.jsonify()": "worng"
+  },
+  "How to hide status bar in ios app with Swift?": {
+    "We need to change info.plist file to hide status bar": "right",
+    "We need override prefersStatusBarHidden() function on the view controller to return true": "right",
+    "We need set UIApplication.sharedApplication().statusBarHidden=true; with viewWillAppear() function overriding": "right",
+    "There is no way to hide it with swift, we need to combine Objective C functions": "worng"
+  },
+  "Which operator is overloaded by invert() ?": {
+    "#": "worng",
+    "^": "worng",
+    "~": "right",
+    "@": "worng"
+  },
+  "Which of these is not a Python datatype?": {
+    "int": "worng",
+    "float": "worng",
+    "long": "worng",
+    "decimal": "right"
+  },
+  "Which data types is not supported in python ?": {
+    "List": "worng",
+    "Generics": "right",
+    "Numbers": "worng",
+    "Tuple": "worng"
+  },
+  "If x = '10' (as a string), which of the following is the correct way to typecast it to an integer?": {
+    "x = 10": "worng",
+    "makeint(x)": "worng",
+    "x.int()": "worng",
+    "int(x)": "right"
+  },
+  "Which statement is true regarding the __all__ module level variable?": {
+    "It is a list of strings defining all symbols in a module.": "worng",
+    "It is a dictionary defining all functions in a module.": "worng",
+    "It is a list of strings defining what symbols in a module will be exported when from  import * is used on the module.": "worng",
+    "It is a dictionary defining what functions in a module will be exported when from  import * is used on the module.": "right"
+  },
+  "Which statement is true regarding lists and arrays in Python?": {
+    "Lists use more space than arrays.": "right",
+    "Arrays can only hold homogeneous data.": "right",
+    "Arrays can hold heterogeneous data, but it uses less memory.": "worng",
+    "Appending items to lists is slower than appending items to arrays.": "worng"
+  },
+  "Which  statement is/are correct about range() and xrange()?": {
+    "range() is faster when iterating over the same sequence multiple times.": "right",
+    "xrange() is faster when iterating over the same sequence multiple times.": "worng",
+    "xrange() supports slices and list methods.": "worng",
+    "range() returns a list, while xrange() returns an xrange object.": "right"
+  },
+  "What is the best way to check if a list is empty? x = []": {
+    "if not len(x):": "worng",
+    "if not x:": "right",
+    "if x == []:": "worng",
+    "if len(x) == 0:": "worng"
+  },
+  "For the list 'thelist = [1, 2, 3, 4, 5]', how could the last two elements of the list (4, 5) be selected using slices?": {
+    "thelist[3:]": "right",
+    "thelist[3,4]": "worng",
+    "thelist[3:4]": "worng",
+    "thelist[-2]": "worng"
+  },
+  "Which code snippet can be used to get the multiples of 2 from the list a = [1, 2, 3, 4, 5, 6, 7, 8, 9] ?": {
+    "b = filter(lambda x: x % 2 == 0, a)": "worng",
+    "b = [x for x in a if x % 2 == 0]": "worng",
+    "def filterfunc(x): return x % 2 == 0 b = filter(filterfunc, a)": "worng",
+    "All of these": "right"
+  },
+  "What function is used to find the absolute path of a file?": {
+    "import os os.path.abspath(\"mydir/myfile.txt\")": "right",
+    "abspath(\"mydir/myfile.txt\")": "worng",
+    "import os os.path.(\"mydir/myfile.txt\")": "worng",
+    "import os (\"mydir/myfile.txt\").os.path.abspath": "worng"
+  },
+  "What is the correct way to open the file 'test.txt' and append the text 'foo' to it?": {
+    "with open(\"test.txt\", \"r\") as myfile: myfile.write(\"foo\")": "worng",
+    "with open(\"test.txt\", \"w\") as myfile: write(\"foo\")": "worng",
+    "open(\"test.txt\") as myfile: myfile.write(\"foo\")": "worng",
+    "with open(\"test.txt\", \"a\") as myfile: myfile.write(\"foo\")": "right"
+  },
+  "Which function prints all of the current properties and values of any kind of object?": {
+    "dir(someObject)": "worng",
+    "someObject.__dict__": "worng",
+    "from pprint import pprint pprint (vars(someObject))": "right",
+    "import inspect inspect.getobjectinfo(someObject)": "worng"
+  },
+  "To make numbers be of a specific length, zeroes are padded to the left. Which of the following is the best way to pad a string with zeroes to the left, to make its length 5? The string is: num = '123'": {
+    "print num.zfill(3)": "worng",
+    "print 'd' % num": "worng",
+    "print num.zfill(5)": "right"
+  },
+  "Which is the proper way to declare custom exceptions in modern Python?": {
+    "class MyException(Exception): pass": "right",
+    "class MyException(): pass": "worng",
+    "class MyException(Error): pass": "worng",
+    "class MyException: pass": "worng"
+  },
+  "Which is the best way of checking if a string could be represented as a number?": {
+    "def is_number(s): try: float(s) return True except ValueError: return False": "right",
+    "import re check_regexp = re.compile(\"^\\d*\\.?\\d*$\")": "worng",
+    "def isNumber(token): for char in token: if not char in string.digits: return False return True": "worng",
+    "import re check_replace = lambda x: x.replace('.','',1).isdigit()": "worng"
+  },
+  "Divide by zero is a very common error. Which of the following handles this exception?": {
+    "DivideByZeroError": "worng",
+    "DivisionZeroError": "worng",
+    "ZeroDivisionError": "right",
+    "DivisionError": "worng"
+  },
+  "Which option is correct regarding the difference between __repr__ and __str__?": {
+    "The goal of __repr__ is to be unambigous and __str__ is to be readable.": "right",
+    "__repr__ and __str have no difference and are same everytime.": "worng",
+    "__repr__ prints the data the object holds and __str__ prints the name of object.": "worng",
+    "None of these.": "worng"
+  },
+  "Read the following code snippet: >>> o1 = C() >>> o1.lst = [1,2,3] >>> o3 = copy.deepcopy(o1) >>> o1.lst.append(17) What will be the output of '>>> o3.lst' and '>>> o1.lst'?": {
+    "[1, 2, 3] and [1, 2, 3, 17]": "right",
+    "[1, 2, 3, 17] and [1, 2, 3, 17]": "worng",
+    "[1, 2, 3] and [1, 2, 3]": "worng",
+    "None of these": "worng"
+  },
+  "Read the following statements: Statement 1: By default, a print statement adds a linefeed to the end of its output. Statement 2: The linefeed can be eliminated by adding a trailing comma to the statement. Which of the following is correct?": {
+    "Statement 1 is true, but statement 2 is false.": "worng",
+    "Statement 1 is false, but statement 2 is true.": "worng",
+    "Both statements are true.": "right",
+    "Both statements are false.": "worng"
+  },
+  "Which will close a list in Python?": {
+    "new_list = old_list[:]": "right",
+    "new_list = list(old_list)": "right",
+    "import copy\nnew_list = copy.copy(old_list)": "right",
+    "import copy\nnew_list = copy.deepcopy(old_list)": "right"
+  },
+  "Which statement about the 'has_key()' dictionary method and the 'in' operator are true? d = {'a': 1, 'b': 2} 'a' in d d.has_key('a')": {
+    "The 'in' operator follows the PEP (Python Enhancement Proposals) recommendations more.": "right",
+    "The 'has_key()' dictionary method follows the PEP (Python Enhancement Proposals) recommendations more.": "worng",
+    "'in' has better performance.": "right",
+    "'has_key()' has better performance": "worng"
+  },
+  "Which statement is correct?": {
+    "'str' 'ing'": "right",
+    "'str'.strip() + 'ing'": "right",
+    "'str'.strip() 'ing'": "worng",
+    "'str' + 'ing'": "right"
+  },
+  "Which is the correct way to get the size of a list in Python?": {
+    "list.length()": "worng",
+    "len(list)": "right",
+    "sizeof(list)": "worng",
+    "list.size()": "worng"
+  },
+  "Which code snippet would work as the best switch-case equivalent?": {
+    "def switch(x): return { 'a': 1, 'b': 2, }[x]": "worng",
+    "case_dict = { 'a': 1, 'b': 2, } def switch(x): return case_dict[x]": "worng",
+    "case_dict = { 'a': 1, 'b': 2, } def switch(x): return case_dict.get(x, 0)": "right",
+    "case_dict = { 'a': 1, 'b': 2, } def switch(x): return case_dict[x], 0": "worng"
+  },
+  "Read the following statements:  Statement 1: The new-style class int already supports Bitwise, so there is no need to implement it again in derived classes.  Statement 2: With new-style classes, data values can be referred to directly with \u2018myself\u2019.  Which of the following is correct?": {
+    "Statement 1 is true, but statement 2 is false.": "right",
+    "Statement 2 is true, but statement 1 is false.": "worng",
+    "Both statement are true.": "worng",
+    "Both statement are false.": "worng"
+  },
+  "Which type is correct for instances of user-defined classes?": {
+    "Types.Instance": "worng",
+    "Types, insType": "worng",
+    "Types.InstanceType": "right",
+    "Types.TypeInstance": "worng"
+  },
+  "Python 2.3+ includes a standard module that implements a set datatype. Which of the following statements is true about the set datatype?": {
+    "A set is an unordered collection of hashable objects.": "worng",
+    "No object can occur in a set more than once.": "worng",
+    "A set resembles a dict that has only keys but no values.": "worng",
+    "Sets utilize bitwise and Boolean syntax to perform basic set-theoretic operations.": "worng",
+    "All of these.": "right"
+  }
+}
